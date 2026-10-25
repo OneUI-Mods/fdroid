@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1792907083000,
+    "timestamp": 1792908053000,
     "version": 20002,
     "name": "OneUI Mods",
     "icon": "oneui-mods.png",
@@ -34,7 +34,12 @@
       "webSite": "https://github.com/OneUI-Mods/DarkAppTools",
       "added": 1792906981000,
       "packageName": "dev.ryuya.darkapps",
-      "lastUpdated": 1792906981000
+      "lastUpdated": 1792906981000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_HgS7uOmmNDIdBFTLhdK1vdpNtCvEf2kFGKJICK4XV-M=.png"
+        }
+      }
     },
     {
       "allowedAPKSigningKeys": [
@@ -58,7 +63,12 @@
       "webSite": "https://github.com/OneUI-Mods/galaxy-adaptive-statusbar",
       "added": 1792906981000,
       "packageName": "dev.ryuya.galaxybar",
-      "lastUpdated": 1792906981000
+      "lastUpdated": 1792906981000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_zGc2b6jJjb6kTb-A9MVDEJ3bAH-gtl1dd2eUWBoeUr4=.png"
+        }
+      }
     },
     {
       "allowedAPKSigningKeys": [
@@ -82,7 +92,12 @@
       "webSite": "https://github.com/OneUI-Mods/GalaxyCameraTools",
       "added": 1792906982000,
       "packageName": "dev.ryuya.galaxycamera",
-      "lastUpdated": 1792906982000
+      "lastUpdated": 1792906982000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_QkqZlzpAwgugV3lRPhRPgFDWi0NmTrJH2kjWdzasinc=.png"
+        }
+      }
     },
     {
       "allowedAPKSigningKeys": [
@@ -106,7 +121,12 @@
       "webSite": "https://github.com/OneUI-Mods/GalaxyCaptureTools",
       "added": 1792906982000,
       "packageName": "dev.ryuya.galaxycapture",
-      "lastUpdated": 1792906982000
+      "lastUpdated": 1792906982000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_Z8DNL2JI4HJdXffOmffbF69-hqRQxbUSSWXvRaC9_lE=.png"
+        }
+      }
     },
     {
       "allowedAPKSigningKeys": [
@@ -130,7 +150,12 @@
       "webSite": "https://github.com/OneUI-Mods/galaxy-reload",
       "added": 1792906982000,
       "packageName": "dev.ryuya.galaxyreload",
-      "lastUpdated": 1792906982000
+      "lastUpdated": 1792906982000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_6U1bq3uHoCD6PEKmcIr1BNiaFX18qAyAfProsYqTGrg=.png"
+        }
+      }
     },
     {
       "allowedAPKSigningKeys": [
@@ -154,7 +179,12 @@
       "webSite": "https://github.com/OneUI-Mods/galaxy-service-panel",
       "added": 1792906983000,
       "packageName": "dev.ryuya.galaxyservicepanel",
-      "lastUpdated": 1792906983000
+      "lastUpdated": 1792906983000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_T5I1iIlSMknK86TXVsnAZvgXY7ZnG2BivFzPT28O2co=.png"
+        }
+      }
     },
     {
       "allowedAPKSigningKeys": [
@@ -227,7 +257,12 @@
       "webSite": "https://github.com/OneUI-Mods/galaxy-update-guard",
       "added": 1792906983000,
       "packageName": "dev.ryuya.galaxyupdateguard",
-      "lastUpdated": 1792906983000
+      "lastUpdated": 1792906983000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_yXSl46TNduE_5uXUL2yC-9ySUlh8OVkmhBTWYUd7n9Q=.png"
+        }
+      }
     },
     {
       "allowedAPKSigningKeys": [
@@ -251,7 +286,12 @@
       "webSite": "https://github.com/OneUI-Mods/OneUIHomeTweaks",
       "added": 1792906983000,
       "packageName": "dev.ryuya.oneuihometweaks",
-      "lastUpdated": 1792906983000
+      "lastUpdated": 1792906983000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_DckKW9rdUOxDn4ciTeWOXTBrT7wZEFS3O4AiyGKK180=.png"
+        }
+      }
     },
     {
       "allowedAPKSigningKeys": [
@@ -275,7 +315,12 @@
       "webSite": "https://github.com/OneUI-Mods/OneUIModsManager",
       "added": 1792906983000,
       "packageName": "dev.ryuya.oneuimods",
-      "lastUpdated": 1792906983000
+      "lastUpdated": 1792906983000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_2P84kkyL99iie950SpnJM2fBQTwQA_2Y0rpHOw_n5ew=.png"
+        }
+      }
     },
     {
       "allowedAPKSigningKeys": [
@@ -296,7 +341,12 @@
       "webSite": "https://github.com/OneUI-Mods/sim-pilot",
       "added": 1792906984000,
       "packageName": "dev.simpilot",
-      "lastUpdated": 1792906984000
+      "lastUpdated": 1792906984000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_0pemBuLpytcqz6g3m9xdJeYti9T4U013sHMgt_eQ_2A=.png"
+        }
+      }
     },
     {
       "allowedAPKSigningKeys": [
@@ -320,7 +370,12 @@
       "webSite": "https://github.com/OneUI-Mods/SleepStore",
       "added": 1792906984000,
       "packageName": "dev.ryuya.sleepstore",
-      "lastUpdated": 1792906984000
+      "lastUpdated": 1792906984000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_Uz-MvsFLYdk3UDUDM8cvc4RuOjIL_tYWCVXIBczLz9Q=.png"
+        }
+      }
     },
     {
       "allowedAPKSigningKeys": [
@@ -344,7 +399,12 @@
       "webSite": "https://github.com/OneUI-Mods/tail-adb",
       "added": 1792906985000,
       "packageName": "net.ryuya_dev.tailadb",
-      "lastUpdated": 1792906985000
+      "lastUpdated": 1792906985000,
+      "localized": {
+        "en-US": {
+          "icon": "icon__3nL9ubgDQIP03GwcOTU9Z_eceUcT2bEq41SxS4n25c=.png"
+        }
+      }
     }
   ],
   "packages": {
