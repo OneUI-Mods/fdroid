@@ -1,0 +1,34 @@
+Categories:
+- System
+License: MIT
+AuthorName: OneUI Mods
+WebSite: https://github.com/OneUI-Mods/OneUIHomeTweaks
+SourceCode: https://github.com/OneUI-Mods/OneUIHomeTweaks
+IssueTracker: https://github.com/OneUI-Mods/OneUIHomeTweaks/issues
+Name: One UI Home Tweaks
+Summary: Customize One UI Home and the quick panel
+Description: <p>Adjust supported One UI Home folder behavior, quick panel controls
+  and developer animation settings. Requires root, a libxposed API 102 compatible
+  framework and supported Samsung system components. Keep the source README at hand
+  for supported firmware and reload instructions.</p>
+CurrentVersion: 0.18.0
+CurrentVersionCode: 28
+AllowedAPKSigningKeys:
+- 7938e1850451b95c45c8f138a768c9da7c5d9db7fb61a883ac8dc724077ddb03
+RequiresRoot: true
+AntiFeatures:
+- NonFreeDep
+RepoType: git
+Repo: https://github.com/OneUI-Mods/OneUIHomeTweaks.git
+MaintainerNotes: Source build recipe draft. Not yet built with the F-Droid build server
+  or verified reproducible. Please retain the developer signature only after a successful
+  reproducibility check.
+Builds:
+- versionName: 0.18.0
+  versionCode: 28
+  commit: d5b1c35c98938ee43ee837b6f53ac926e9bb5e8d
+  subdir: app
+  gradle:
+  - 'yes'
+AutoUpdateMode: None
+UpdateCheckMode: Tags

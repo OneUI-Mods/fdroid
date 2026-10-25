@@ -1,0 +1,30 @@
+Categories:
+- System
+License: MIT
+AuthorName: OneUI Mods
+WebSite: https://github.com/OneUI-Mods/sim-pilot
+SourceCode: https://github.com/OneUI-Mods/sim-pilot
+IssueTracker: https://github.com/OneUI-Mods/sim-pilot/issues
+Name: SIM Pilot
+Summary: Manage dual-SIM data switching
+Description: <p>Manage supported dual-SIM data switching through Shizuku or Shizuku
+  Plus. Requires compatible device telephony services and explicit Shizuku permission.
+  No root is needed when Shizuku is available through wireless debugging.</p>
+CurrentVersion: 1.10.0
+CurrentVersionCode: 19
+AllowedAPKSigningKeys:
+- 18014a67e709e973c8723ec4a6cd5ed079cb1fd29436f2c0fbd657f46e3c010b
+RepoType: git
+Repo: https://github.com/OneUI-Mods/sim-pilot.git
+MaintainerNotes: Source build recipe draft. Not yet built with the F-Droid build server
+  or verified reproducible. Please retain the developer signature only after a successful
+  reproducibility check.
+Builds:
+- versionName: 1.10.0
+  versionCode: 19
+  commit: e72de55c7c6a90f3b1538dc72aaab5edbe4dead6
+  subdir: app
+  gradle:
+  - 'yes'
+AutoUpdateMode: None
+UpdateCheckMode: Tags

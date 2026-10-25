@@ -1,0 +1,33 @@
+Categories:
+- System
+License: MIT
+AuthorName: OneUI Mods
+WebSite: https://github.com/OneUI-Mods/galaxy-reload
+SourceCode: https://github.com/OneUI-Mods/galaxy-reload
+IssueTracker: https://github.com/OneUI-Mods/galaxy-reload/issues
+Name: Galaxy Reload
+Summary: Reload SystemUI on supported Galaxy devices
+Description: <p>User-initiated SystemUI reload helper for supported Galaxy devices.
+  Requires root. Its unlock-state handling is only available when the device is already
+  authenticated; it does not disable screen-lock credentials.</p>
+CurrentVersion: 0.2.0-experimental
+CurrentVersionCode: 2
+AllowedAPKSigningKeys:
+- 52a22de1aed8b3c3d34c02f8fe0f0206eaee25081def64d8182ca5930cbf85fb
+RequiresRoot: true
+AntiFeatures:
+- NonFreeDep
+RepoType: git
+Repo: https://github.com/OneUI-Mods/galaxy-reload.git
+MaintainerNotes: Source build recipe draft. Not yet built with the F-Droid build server
+  or verified reproducible. Please retain the developer signature only after a successful
+  reproducibility check.
+Builds:
+- versionName: 0.2.0-experimental
+  versionCode: 2
+  commit: 82c87115ecc7b4e62192d1ea2cf82d93ab02fd6a
+  subdir: app
+  gradle:
+  - 'yes'
+AutoUpdateMode: None
+UpdateCheckMode: Tags

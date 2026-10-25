@@ -1,0 +1,34 @@
+Categories:
+- System
+License: MIT
+AuthorName: OneUI Mods
+WebSite: https://github.com/OneUI-Mods/galaxy-adaptive-statusbar
+SourceCode: https://github.com/OneUI-Mods/galaxy-adaptive-statusbar
+IssueTracker: https://github.com/OneUI-Mods/galaxy-adaptive-statusbar/issues
+Name: Galaxy Adaptive Bar
+Summary: Adapt status bar colors to the background
+Description: <p>Adjusts clock text and status icons to the background on supported
+  Galaxy firmware, with configurable fades, app transition tracking and privacy indicator
+  motion. Requires root and a libxposed API 102 compatible framework. Android 16 and
+  17 support is firmware specific.</p>
+CurrentVersion: 0.6.19-experimental
+CurrentVersionCode: 40
+AllowedAPKSigningKeys:
+- aaecd6957a8e72d09462e04204b04b23c4f3bd3d9534fc62c4eb2ba29596265d
+RequiresRoot: true
+AntiFeatures:
+- NonFreeDep
+RepoType: git
+Repo: https://github.com/OneUI-Mods/galaxy-adaptive-statusbar.git
+MaintainerNotes: Source build recipe draft. Not yet built with the F-Droid build server
+  or verified reproducible. Please retain the developer signature only after a successful
+  reproducibility check.
+Builds:
+- versionName: 0.6.19-experimental
+  versionCode: 40
+  commit: 23b48261ffe2f0822258da94d09a30e79ae11b56
+  subdir: app
+  gradle:
+  - 'yes'
+AutoUpdateMode: None
+UpdateCheckMode: Tags

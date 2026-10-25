@@ -1,0 +1,33 @@
+Categories:
+- System
+License: MIT
+AuthorName: OneUI Mods
+WebSite: https://github.com/OneUI-Mods/OneUIModsManager
+SourceCode: https://github.com/OneUI-Mods/OneUIModsManager
+IssueTracker: https://github.com/OneUI-Mods/OneUIModsManager/issues
+Name: OneUI Mods Manager
+Summary: Manage and update apps from OneUI Mods
+Description: <p>Browse OneUI Mods apps, compare installed versions with public GitHub
+  releases, choose whether to include experimental releases, and download verified
+  updates. Installation always uses the Android confirmation screen. GitHub downloads
+  are user initiated and bypass the official F-Droid build review.</p>
+CurrentVersion: 0.2.0-experimental
+CurrentVersionCode: 4
+AllowedAPKSigningKeys:
+- f37313a1ddbe006257653b4772e9a2f43f0ddd5c0bcbf6dfe0f71c2fbd9aad73
+AntiFeatures:
+- TetheredNet
+RepoType: git
+Repo: https://github.com/OneUI-Mods/OneUIModsManager.git
+MaintainerNotes: Source build recipe draft. Not yet built with the F-Droid build server
+  or verified reproducible. Please retain the developer signature only after a successful
+  reproducibility check.
+Builds:
+- versionName: 0.2.0-experimental
+  versionCode: 4
+  commit: d9391918d680daa375bfc464c36e9a8dd094e13c
+  subdir: app
+  gradle:
+  - 'yes'
+AutoUpdateMode: None
+UpdateCheckMode: Tags

@@ -1,0 +1,34 @@
+Categories:
+- System
+License: MIT
+AuthorName: OneUI Mods
+WebSite: https://github.com/OneUI-Mods/galaxy-service-panel
+SourceCode: https://github.com/OneUI-Mods/galaxy-service-panel
+IssueTracker: https://github.com/OneUI-Mods/galaxy-service-panel/issues
+Name: Galaxy Service Panel
+Summary: Improve the Samsung Service Mode layout
+Description: <p>Reformats supported Samsung Service Mode screens for readability while
+  retaining the original diagnostic data. Requires root and a libxposed API 102 compatible
+  framework. This unofficial module does not bundle or replace the proprietary Samsung
+  phone app.</p>
+CurrentVersion: 0.1.0-experimental
+CurrentVersionCode: 1
+AllowedAPKSigningKeys:
+- 4cda6775c402ba4cbc2591ffb3490b825d53a0aa7fafd98d67e85b337e8df0b0
+RequiresRoot: true
+AntiFeatures:
+- NonFreeDep
+RepoType: git
+Repo: https://github.com/OneUI-Mods/galaxy-service-panel.git
+MaintainerNotes: Source build recipe draft. Not yet built with the F-Droid build server
+  or verified reproducible. Please retain the developer signature only after a successful
+  reproducibility check.
+Builds:
+- versionName: 0.1.0-experimental
+  versionCode: 1
+  commit: 1442cc8ba72b2f9f0b00452d4647c8170ddc7764
+  subdir: app
+  gradle:
+  - 'yes'
+AutoUpdateMode: None
+UpdateCheckMode: Tags

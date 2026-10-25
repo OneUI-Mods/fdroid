@@ -1,0 +1,34 @@
+Categories:
+- System
+License: MIT
+AuthorName: OneUI Mods
+WebSite: https://github.com/OneUI-Mods/GalaxyCaptureTools
+SourceCode: https://github.com/OneUI-Mods/GalaxyCaptureTools
+IssueTracker: https://github.com/OneUI-Mods/GalaxyCaptureTools/issues
+Name: Galaxy Capture Tools
+Summary: Extend Galaxy recording and screenshots
+Description: <p>Adds optional recording rotation, app targeting, audio and capture
+  controls to supported Samsung and Android recording components. Requires root and
+  a libxposed API 102 compatible framework. Read the source README for supported firmware
+  and initial activation steps.</p>
+CurrentVersion: 0.3.5-experimental
+CurrentVersionCode: 19
+AllowedAPKSigningKeys:
+- 3c18719ba633ed0e891d8dca62053c849986156fd10410bd5f0115113ffa6075
+RequiresRoot: true
+AntiFeatures:
+- NonFreeDep
+RepoType: git
+Repo: https://github.com/OneUI-Mods/GalaxyCaptureTools.git
+MaintainerNotes: Source build recipe draft. Not yet built with the F-Droid build server
+  or verified reproducible. Please retain the developer signature only after a successful
+  reproducibility check.
+Builds:
+- versionName: 0.3.5-experimental
+  versionCode: 19
+  commit: 88262467a21a9478e0b81287f60a4c2ba0f3b9a6
+  subdir: app
+  gradle:
+  - 'yes'
+AutoUpdateMode: None
+UpdateCheckMode: Tags

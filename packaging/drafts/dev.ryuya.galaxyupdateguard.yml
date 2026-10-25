@@ -1,0 +1,33 @@
+Categories:
+- System
+License: MIT
+AuthorName: OneUI Mods
+WebSite: https://github.com/OneUI-Mods/galaxy-update-guard
+SourceCode: https://github.com/OneUI-Mods/galaxy-update-guard
+IssueTracker: https://github.com/OneUI-Mods/galaxy-update-guard/issues
+Name: Galaxy Update Guard
+Summary: Pause and restore Galaxy OS updates
+Description: <p>Disables supported Samsung OS update services and restores their previous
+  state. Requires root. Google Play system and application updates are outside its
+  scope. Restore the original state before uninstalling or clearing this app's data.</p>
+CurrentVersion: 0.1.0
+CurrentVersionCode: 1
+AllowedAPKSigningKeys:
+- 88f94ec7b259ffd2ee1b9eb72e291400fe740c14c7f2609220907e8f50b34262
+RequiresRoot: true
+AntiFeatures:
+- NonFreeDep
+RepoType: git
+Repo: https://github.com/OneUI-Mods/galaxy-update-guard.git
+MaintainerNotes: Source build recipe draft. Not yet built with the F-Droid build server
+  or verified reproducible. Please retain the developer signature only after a successful
+  reproducibility check.
+Builds:
+- versionName: 0.1.0
+  versionCode: 1
+  commit: ef195a70ec357bfd66d9a91a128117cbee58cded
+  subdir: app
+  gradle:
+  - 'yes'
+AutoUpdateMode: None
+UpdateCheckMode: Tags

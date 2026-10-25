@@ -1,0 +1,35 @@
+Categories:
+- System
+License: MIT
+AuthorName: OneUI Mods
+WebSite: https://github.com/OneUI-Mods/tail-adb
+SourceCode: https://github.com/OneUI-Mods/tail-adb
+IssueTracker: https://github.com/OneUI-Mods/tail-adb/issues
+Name: Tail ADB
+Summary: ADB access over your Tailscale network
+Description: <p>Provides an authorized ADB transport restricted to the device's Tailscale
+  interface, with per-peer shell and root permissions and network recovery. Requires
+  root and the separate Tailscale app. It uses the selected Tailscale account's network;
+  no Tailscale code is bundled.</p>
+CurrentVersion: 0.2.4
+CurrentVersionCode: 6
+AllowedAPKSigningKeys:
+- 429de1280138eb96207ea61c6c19a36d2a83404e4654ce52d14e1aba43abf980
+RequiresRoot: true
+AntiFeatures:
+- TetheredNet
+RepoType: git
+Repo: https://github.com/OneUI-Mods/tail-adb.git
+MaintainerNotes: Source build recipe draft. Not yet built with the F-Droid build server
+  or verified reproducible. Please retain the developer signature only after a successful
+  reproducibility check.
+Builds:
+- versionName: 0.2.4
+  versionCode: 6
+  commit: 5464653b05152b890af334ab7ddb71d6666ac9b4
+  subdir: app
+  gradle:
+  - 'yes'
+  ndk: 28.2.13676358
+AutoUpdateMode: None
+UpdateCheckMode: Tags
