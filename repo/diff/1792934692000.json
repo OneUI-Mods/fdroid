@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1792941889000
+    "timestamp": 1792947562000
   },
   "packages": {
     "dev.ryuya.galaxycapture": {
@@ -9,61 +9,29 @@
       },
       "versions": {
         "a56f2a5b88cb50ee4a7465cb3a7793e313aec5de0ac7d2c2370c06c96352f1ab": {
-          "added": 1792941886000,
-          "file": {
-            "name": "/dev.ryuya.galaxycapture_21.apk",
-            "sha256": "a56f2a5b88cb50ee4a7465cb3a7793e313aec5de0ac7d2c2370c06c96352f1ab",
-            "size": 10063418
-          },
-          "manifest": {
-            "versionName": "0.3.7-experimental",
-            "versionCode": 21,
-            "usesSdk": {
-              "minSdkVersion": 35,
-              "targetSdkVersion": 37
-            },
-            "signer": {
-              "sha256": [
-                "3c18719ba633ed0e891d8dca62053c849986156fd10410bd5f0115113ffa6075"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "dev.ryuya.galaxycapture.permission.CONFIG"
-              },
-              {
-                "name": "dev.ryuya.galaxycapture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeDep": {}
-          }
+          "added": 1792941886000
         }
       }
     },
     "dev.ryuya.homepodbridge": {
       "metadata": {
-        "lastUpdated": 1792941887000
+        "lastUpdated": 1792947560000
       },
       "versions": {
-        "4b2b774a62c628456cd67faf64de12c8e72502a176d0df1e2bf200d5cae077f7": {
-          "added": 1792941887000,
+        "e3d29befba6b4b3714bcdef43d40972abfd8d0be74a27ea82f0bc3d63bc991c3": {
+          "added": 1792947560000,
           "file": {
-            "name": "/dev.ryuya.homepodbridge_36.apk",
-            "sha256": "4b2b774a62c628456cd67faf64de12c8e72502a176d0df1e2bf200d5cae077f7",
-            "size": 16623767
+            "name": "/dev.ryuya.homepodbridge_37.apk",
+            "sha256": "e3d29befba6b4b3714bcdef43d40972abfd8d0be74a27ea82f0bc3d63bc991c3",
+            "size": 16631959
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "x86_64"
             ],
-            "versionName": "0.1.2-experimental",
-            "versionCode": 36,
+            "versionName": "0.1.3-experimental",
+            "versionCode": 37,
             "usesSdk": {
               "minSdkVersion": 36,
               "targetSdkVersion": 37
@@ -119,20 +87,20 @@
             "NonFreeDep": {}
           }
         },
-        "ae659677ec3fcd758e3e204914fc6002bd5714cb6f6d40a8716e19260bfdd3a2": {
-          "added": 1792934164000,
+        "4b2b774a62c628456cd67faf64de12c8e72502a176d0df1e2bf200d5cae077f7": {
+          "added": 1792941887000,
           "file": {
-            "name": "/dev.ryuya.homepodbridge_28.apk",
-            "sha256": "ae659677ec3fcd758e3e204914fc6002bd5714cb6f6d40a8716e19260bfdd3a2",
-            "size": 16578711
+            "name": "/dev.ryuya.homepodbridge_36.apk",
+            "sha256": "4b2b774a62c628456cd67faf64de12c8e72502a176d0df1e2bf200d5cae077f7",
+            "size": 16623767
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "x86_64"
             ],
-            "versionName": "0.1.1-experimental",
-            "versionCode": 28,
+            "versionName": "0.1.2-experimental",
+            "versionCode": 36,
             "usesSdk": {
               "minSdkVersion": 36,
               "targetSdkVersion": 37
