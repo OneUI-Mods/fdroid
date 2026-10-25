@@ -1,0 +1,19 @@
+Categories:
+- System
+License: MIT
+AuthorName: OneUI Mods
+WebSite: https://github.com/OneUI-Mods/galaxy-shutter-mute
+SourceCode: https://github.com/OneUI-Mods/galaxy-shutter-mute
+IssueTracker: https://github.com/OneUI-Mods/galaxy-shutter-mute/issues
+Name: Galaxy Shutter Mute
+Summary: Control the supported Galaxy shutter sound setting
+Description: <p>Changes the supported Galaxy camera shutter sound setting after its
+  required permission has been granted. Use Galaxy Shutter Mute Manager for installation
+  on recent Android versions. Samsung firmware and regional restrictions may limit
+  availability.</p>
+CurrentVersion: 1.1.0
+CurrentVersionCode: 2
+AllowedAPKSigningKeys:
+- 5fcf43c524c48708405bd61f78300a91a4e10ca0ceebfe130c650c7d679f2da5
+AntiFeatures:
+- NonFreeDep

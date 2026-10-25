@@ -1,0 +1,20 @@
+Categories:
+- System
+License: MIT
+AuthorName: OneUI Mods
+WebSite: https://github.com/OneUI-Mods/galaxy-shutter-mute-manager
+SourceCode: https://github.com/OneUI-Mods/galaxy-shutter-mute-manager
+IssueTracker: https://github.com/OneUI-Mods/galaxy-shutter-mute-manager/issues
+Name: Galaxy Shutter Mute Manager
+Summary: Set up Galaxy Shutter Mute through Shizuku
+Description: <p>Installs and grants the settings permission needed by Galaxy Shutter
+  Mute through Shizuku. The companion app is downloaded only after the user's explicit
+  action. Galaxy Shutter Mute remains a separate app. Support depends on Samsung firmware,
+  region and camera version.</p>
+CurrentVersion: 1.2.0
+CurrentVersionCode: 3
+AllowedAPKSigningKeys:
+- 5fcf43c524c48708405bd61f78300a91a4e10ca0ceebfe130c650c7d679f2da5
+AntiFeatures:
+- NonFreeDep
+- TetheredNet

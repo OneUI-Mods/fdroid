@@ -1,0 +1,16 @@
+Categories:
+- System
+License: MIT
+AuthorName: OneUI Mods
+WebSite: https://github.com/OneUI-Mods/sim-pilot
+SourceCode: https://github.com/OneUI-Mods/sim-pilot
+IssueTracker: https://github.com/OneUI-Mods/sim-pilot/issues
+Name: SIM Pilot
+Summary: Manage dual-SIM data switching
+Description: <p>Manage supported dual-SIM data switching through Shizuku or Shizuku
+  Plus. Requires compatible device telephony services and explicit Shizuku permission.
+  No root is needed when Shizuku is available through wireless debugging.</p>
+CurrentVersion: 1.10.0
+CurrentVersionCode: 19
+AllowedAPKSigningKeys:
+- 18014a67e709e973c8723ec4a6cd5ed079cb1fd29436f2c0fbd657f46e3c010b

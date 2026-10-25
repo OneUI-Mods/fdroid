@@ -1,0 +1,19 @@
+Categories:
+- System
+License: MIT
+AuthorName: OneUI Mods
+WebSite: https://github.com/OneUI-Mods/DarkAppTools
+SourceCode: https://github.com/OneUI-Mods/DarkAppTools
+IssueTracker: https://github.com/OneUI-Mods/DarkAppTools/issues
+Name: Dark App Tools
+Summary: Dark themes for supported apps
+Description: <p>Adds system, light and dark appearance options to supported versions
+  of SESAME and povo. Requires root and a libxposed API 102 compatible framework such
+  as Vector. The supported host apps are proprietary; they are not bundled.</p>
+CurrentVersion: 0.3.0-experimental
+CurrentVersionCode: 10
+AllowedAPKSigningKeys:
+- c2020a1338f2504d893b368edfb77b0ab76cedeb8016df42876439a1cc92acd6
+RequiresRoot: true
+AntiFeatures:
+- NonFreeDep

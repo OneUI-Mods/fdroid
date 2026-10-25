@@ -1,0 +1,19 @@
+Categories:
+- System
+License: MIT
+AuthorName: OneUI Mods
+WebSite: https://github.com/OneUI-Mods/SleepStore
+SourceCode: https://github.com/OneUI-Mods/SleepStore
+IssueTracker: https://github.com/OneUI-Mods/SleepStore/issues
+Name: SleepStore
+Summary: Show updates for deep-sleeping apps
+Description: <p>Helps supported app-store components include deep-sleeping apps in
+  their update listings. Requires root, a compatible Xposed framework and supported
+  store versions. It does not bundle the store apps.</p>
+CurrentVersion: 0.2.0
+CurrentVersionCode: 2
+AllowedAPKSigningKeys:
+- 9d1f5a2cea5340c434682221e355cbfc92f8a97cdf6994f782ff6d96660a90b6
+RequiresRoot: true
+AntiFeatures:
+- NonFreeDep
