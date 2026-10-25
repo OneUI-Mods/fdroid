@@ -35,4 +35,6 @@ The icon export renders original launcher vectors from each verified APK, using 
 
 Verification on 2026-10-25: all 14 official requests were confirmed on GitLab; the live repository was read with fdroidserver and its pinned index certificate. All 14 packages and the manager code-4 APK matched the verified release manifest. No device operation was performed. Existing release-tag SDK values are recorded individually in the submission records. Preparation refuses to overwrite already-submitted request history.
 
+A subsequent signed catalog refresh on the same day contains 15 apps and 19 APKs. It adds Galaxy Capture Tools 0.3.7 (code 21), keeps its codes 20 and 19, and preserves HomePod Bridge codes 28 and 23. Every indexed APK was rechecked against its recorded release and signing certificate, and every current author field is `ryuya0124`. This custom-repository refresh does not change the historical official-submission records or claim an additional official acceptance.
+
 When a new release is mirrored, previously published APKs are retained and their signatures, package/version and digest are rechecked against the recorded provenance. They remain available to clients holding an older signed index. Reusing a versionCode with different contents is rejected. The preferred version still comes from the latest current stable/preview candidates.

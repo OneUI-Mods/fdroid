@@ -16,8 +16,8 @@ Description: <p>Adds optional recording rotation, app targeting, audio and captu
   steps.</p>
 AllowedAPKSigningKeys:
 - 3c18719ba633ed0e891d8dca62053c849986156fd10410bd5f0115113ffa6075
-CurrentVersion: 0.3.6-experimental
-CurrentVersionCode: 20
+CurrentVersion: 0.3.7-experimental
+CurrentVersionCode: 21
 RequiresRoot: true
 AntiFeatures:
 - NonFreeDep
