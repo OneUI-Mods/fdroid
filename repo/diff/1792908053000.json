@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1792931033000
+    "timestamp": 1792934166000
   },
   "packages": {
     "dev.ryuya.darkapps": {
@@ -93,7 +93,7 @@
           "System"
         ],
         "issueTracker": "https://github.com/OneUI-Mods/HomePodBridge/issues",
-        "lastUpdated": 1792931031000,
+        "lastUpdated": 1792934164000,
         "license": "Apache-2.0",
         "sourceCode": "https://github.com/OneUI-Mods/HomePodBridge",
         "webSite": "https://github.com/OneUI-Mods/HomePodBridge",
@@ -118,6 +118,75 @@
         "preferredSigner": "90890d1b2de09cdfd17b2b20c7a6b069a9559f7bad345c17c6d969d336599b8c"
       },
       "versions": {
+        "ae659677ec3fcd758e3e204914fc6002bd5714cb6f6d40a8716e19260bfdd3a2": {
+          "added": 1792934164000,
+          "file": {
+            "name": "/dev.ryuya.homepodbridge_28.apk",
+            "sha256": "ae659677ec3fcd758e3e204914fc6002bd5714cb6f6d40a8716e19260bfdd3a2",
+            "size": 16578711
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "x86_64"
+            ],
+            "versionName": "0.1.1-experimental",
+            "versionCode": 28,
+            "usesSdk": {
+              "minSdkVersion": 36,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "90890d1b2de09cdfd17b2b20c7a6b069a9559f7bad345c17c6d969d336599b8c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_LOCAL_NETWORK"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "dev.ryuya.homepodbridge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        },
         "a44b7aa27a2bcef92c1bd81d27ce0896b508ed37cf5654c3ea03b1f3cd01d3c5": {
           "added": 1792931031000,
           "file": {

@@ -418,6 +418,19 @@
       {
         "schema": 1,
         "packageName": "dev.ryuya.homepodbridge",
+        "versionCode": 28,
+        "versionName": "0.1.1-experimental",
+        "apk": "HomePodBridge-0.1.1-experimental-release.apk",
+        "sha256": "ae659677ec3fcd758e3e204914fc6002bd5714cb6f6d40a8716e19260bfdd3a2",
+        "filename": "dev.ryuya.homepodbridge_28.apk",
+        "tag": "v0.1.1-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/HomePodBridge/releases/tag/v0.1.1-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/HomePodBridge/releases/download/v0.1.1-experimental/HomePodBridge-0.1.1-experimental-release.apk",
+        "preview": true
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.homepodbridge",
         "versionCode": 23,
         "versionName": "0.1.0-experimental",
         "apk": "HomePodBridge-0.1.0-experimental-release.apk",
