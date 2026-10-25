@@ -9,13 +9,15 @@ IssueTracker: https://github.com/OneUI-Mods/GalaxyCaptureTools/issues
 Name: Galaxy Capture Tools
 Summary: Extend Galaxy recording and screenshots
 Description: <p>Adds optional recording rotation, app targeting, audio and capture
-  controls to supported Samsung and Android recording components. Requires root and
-  a libxposed API 102 compatible framework. Read the source README for supported firmware
-  and initial activation steps.</p>
-CurrentVersion: 0.3.5-experimental
-CurrentVersionCode: 19
+  controls to supported Samsung and Android recording components. Call playback can
+  be included explicitly while preserving the selected app audio scope. Requires root
+  and a libxposed API 102 compatible framework. Call capture availability depends
+  on the audio route and app. Read the source README for supported firmware and activation
+  steps.</p>
 AllowedAPKSigningKeys:
 - 3c18719ba633ed0e891d8dca62053c849986156fd10410bd5f0115113ffa6075
+CurrentVersion: 0.3.6-experimental
+CurrentVersionCode: 20
 RequiresRoot: true
 AntiFeatures:
 - NonFreeDep
