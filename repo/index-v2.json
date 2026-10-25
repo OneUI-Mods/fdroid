@@ -14,7 +14,7 @@
       }
     },
     "address": "https://oneui-mods.github.io/fdroid/repo",
-    "timestamp": 1792908053000,
+    "timestamp": 1792909527000,
     "categories": {
       "System": {
         "name": {
@@ -35,7 +35,8 @@
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/DarkAppTools",
         "webSite": "https://github.com/OneUI-Mods/DarkAppTools",
-        "authorName": "OneUI Mods",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "name": {
           "en-US": "Dark App Tools"
         },
@@ -100,7 +101,8 @@
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/galaxy-adaptive-statusbar",
         "webSite": "https://github.com/OneUI-Mods/galaxy-adaptive-statusbar",
-        "authorName": "OneUI Mods",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "name": {
           "en-US": "Galaxy Adaptive Bar"
         },
@@ -165,7 +167,8 @@
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/GalaxyCameraTools",
         "webSite": "https://github.com/OneUI-Mods/GalaxyCameraTools",
-        "authorName": "OneUI Mods",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "name": {
           "en-US": "Galaxy Camera Tools"
         },
@@ -227,7 +230,8 @@
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/GalaxyCaptureTools",
         "webSite": "https://github.com/OneUI-Mods/GalaxyCaptureTools",
-        "authorName": "OneUI Mods",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "name": {
           "en-US": "Galaxy Capture Tools"
         },
@@ -295,7 +299,8 @@
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/galaxy-reload",
         "webSite": "https://github.com/OneUI-Mods/galaxy-reload",
-        "authorName": "OneUI Mods",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "name": {
           "en-US": "Galaxy Reload"
         },
@@ -357,7 +362,8 @@
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/galaxy-service-panel",
         "webSite": "https://github.com/OneUI-Mods/galaxy-service-panel",
-        "authorName": "OneUI Mods",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "name": {
           "en-US": "Galaxy Service Panel"
         },
@@ -419,7 +425,8 @@
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/galaxy-update-guard",
         "webSite": "https://github.com/OneUI-Mods/galaxy-update-guard",
-        "authorName": "OneUI Mods",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "name": {
           "en-US": "Galaxy Update Guard"
         },
@@ -481,7 +488,8 @@
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/OneUIHomeTweaks",
         "webSite": "https://github.com/OneUI-Mods/OneUIHomeTweaks",
-        "authorName": "OneUI Mods",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "name": {
           "en-US": "One UI Home Tweaks"
         },
@@ -543,7 +551,8 @@
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/OneUIModsManager",
         "webSite": "https://github.com/OneUI-Mods/OneUIModsManager",
-        "authorName": "OneUI Mods",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "name": {
           "en-US": "OneUI Mods Manager"
         },
@@ -620,7 +629,8 @@
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/SleepStore",
         "webSite": "https://github.com/OneUI-Mods/SleepStore",
-        "authorName": "OneUI Mods",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "name": {
           "en-US": "SleepStore"
         },
@@ -682,7 +692,8 @@
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/sim-pilot",
         "webSite": "https://github.com/OneUI-Mods/sim-pilot",
-        "authorName": "OneUI Mods",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "name": {
           "en-US": "SIM Pilot"
         },
@@ -780,7 +791,8 @@
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/galaxy-shutter-mute",
         "webSite": "https://github.com/OneUI-Mods/galaxy-shutter-mute",
-        "authorName": "OneUI Mods",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "name": {
           "en-US": "Galaxy Shutter Mute"
         },
@@ -844,7 +856,8 @@
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/galaxy-shutter-mute-manager",
         "webSite": "https://github.com/OneUI-Mods/galaxy-shutter-mute-manager",
-        "authorName": "OneUI Mods",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "name": {
           "en-US": "Galaxy Shutter Mute Manager"
         },
@@ -920,7 +933,8 @@
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/tail-adb",
         "webSite": "https://github.com/OneUI-Mods/tail-adb",
-        "authorName": "OneUI Mods",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "name": {
           "en-US": "Tail ADB"
         },

@@ -1,10 +1,12 @@
 {
   "repo": {
-    "timestamp": 1792908053000
+    "timestamp": 1792909527000
   },
   "packages": {
     "dev.ryuya.darkapps": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
           "en-US": "Dark themes for supported apps"
         },
@@ -29,6 +31,8 @@
     },
     "dev.ryuya.galaxybar": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
           "en-US": "Adapt status bar colors to the background"
         },
@@ -53,6 +57,8 @@
     },
     "dev.ryuya.galaxycamera": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
           "en-US": "Extend supported Samsung camera apps"
         },
@@ -77,6 +83,8 @@
     },
     "dev.ryuya.galaxycapture": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
           "en-US": "Extend Galaxy recording and screenshots"
         },
@@ -101,6 +109,8 @@
     },
     "dev.ryuya.galaxyreload": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
           "en-US": "Reload SystemUI on supported Galaxy devices"
         },
@@ -125,6 +135,8 @@
     },
     "dev.ryuya.galaxyservicepanel": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
           "en-US": "Improve the Samsung Service Mode layout"
         },
@@ -149,6 +161,8 @@
     },
     "dev.ryuya.galaxyupdateguard": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
           "en-US": "Pause and restore Galaxy OS updates"
         },
@@ -173,6 +187,8 @@
     },
     "dev.ryuya.oneuihometweaks": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
           "en-US": "Customize One UI Home and the quick panel"
         },
@@ -197,6 +213,8 @@
     },
     "dev.ryuya.oneuimods": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
           "en-US": "Manage and update apps from OneUI Mods"
         },
@@ -221,6 +239,8 @@
     },
     "dev.ryuya.sleepstore": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
           "en-US": "Show updates for deep-sleeping apps"
         },
@@ -245,6 +265,8 @@
     },
     "dev.simpilot": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
           "en-US": "Manage dual-SIM data switching"
         },
@@ -262,6 +284,8 @@
     },
     "net.ryuya.dev.galaxyshutter.mute": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
           "en-US": "Control the supported Galaxy shutter sound setting"
         },
@@ -279,6 +303,8 @@
     },
     "net.ryuya.dev.galaxyshutter.mute.manager": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
           "en-US": "Set up Galaxy Shutter Mute through Shizuku"
         },
@@ -297,6 +323,8 @@
     },
     "net.ryuya_dev.tailadb": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
           "en-US": "ADB access over your Tailscale network"
         },

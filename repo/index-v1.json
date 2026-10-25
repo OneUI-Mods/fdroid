@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1792908053000,
+    "timestamp": 1792909527000,
     "version": 20002,
     "name": "OneUI Mods",
     "icon": "oneui-mods.png",
@@ -19,7 +19,8 @@
       "antiFeatures": [
         "NonFreeDep"
       ],
-      "authorName": "OneUI Mods",
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
       "categories": [
         "System"
       ],
@@ -48,7 +49,8 @@
       "antiFeatures": [
         "NonFreeDep"
       ],
-      "authorName": "OneUI Mods",
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
       "categories": [
         "System"
       ],
@@ -77,7 +79,8 @@
       "antiFeatures": [
         "NonFreeDep"
       ],
-      "authorName": "OneUI Mods",
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
       "categories": [
         "System"
       ],
@@ -106,7 +109,8 @@
       "antiFeatures": [
         "NonFreeDep"
       ],
-      "authorName": "OneUI Mods",
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
       "categories": [
         "System"
       ],
@@ -135,7 +139,8 @@
       "antiFeatures": [
         "NonFreeDep"
       ],
-      "authorName": "OneUI Mods",
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
       "categories": [
         "System"
       ],
@@ -164,7 +169,8 @@
       "antiFeatures": [
         "NonFreeDep"
       ],
-      "authorName": "OneUI Mods",
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
       "categories": [
         "System"
       ],
@@ -193,7 +199,8 @@
       "antiFeatures": [
         "NonFreeDep"
       ],
-      "authorName": "OneUI Mods",
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
       "categories": [
         "System"
       ],
@@ -218,7 +225,8 @@
         "NonFreeDep",
         "TetheredNet"
       ],
-      "authorName": "OneUI Mods",
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
       "categories": [
         "System"
       ],
@@ -242,7 +250,8 @@
       "antiFeatures": [
         "NonFreeDep"
       ],
-      "authorName": "OneUI Mods",
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
       "categories": [
         "System"
       ],
@@ -271,7 +280,8 @@
       "antiFeatures": [
         "NonFreeDep"
       ],
-      "authorName": "OneUI Mods",
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
       "categories": [
         "System"
       ],
@@ -300,7 +310,8 @@
       "antiFeatures": [
         "TetheredNet"
       ],
-      "authorName": "OneUI Mods",
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
       "categories": [
         "System"
       ],
@@ -326,7 +337,8 @@
       "allowedAPKSigningKeys": [
         "18014a67e709e973c8723ec4a6cd5ed079cb1fd29436f2c0fbd657f46e3c010b"
       ],
-      "authorName": "OneUI Mods",
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
       "categories": [
         "System"
       ],
@@ -355,7 +367,8 @@
       "antiFeatures": [
         "NonFreeDep"
       ],
-      "authorName": "OneUI Mods",
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
       "categories": [
         "System"
       ],
@@ -384,7 +397,8 @@
       "antiFeatures": [
         "TetheredNet"
       ],
-      "authorName": "OneUI Mods",
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
       "categories": [
         "System"
       ],

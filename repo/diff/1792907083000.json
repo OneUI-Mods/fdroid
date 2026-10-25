@@ -1,10 +1,12 @@
 {
   "repo": {
-    "timestamp": 1792908053000
+    "timestamp": 1792909527000
   },
   "packages": {
     "dev.ryuya.darkapps": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "icon": {
           "en-US": {
             "name": "/dev.ryuya.darkapps/en-US/icon_HgS7uOmmNDIdBFTLhdK1vdpNtCvEf2kFGKJICK4XV-M=.png",
@@ -16,6 +18,8 @@
     },
     "dev.ryuya.galaxybar": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "icon": {
           "en-US": {
             "name": "/dev.ryuya.galaxybar/en-US/icon_zGc2b6jJjb6kTb-A9MVDEJ3bAH-gtl1dd2eUWBoeUr4=.png",
@@ -27,6 +31,8 @@
     },
     "dev.ryuya.galaxycamera": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "icon": {
           "en-US": {
             "name": "/dev.ryuya.galaxycamera/en-US/icon_QkqZlzpAwgugV3lRPhRPgFDWi0NmTrJH2kjWdzasinc=.png",
@@ -38,6 +44,8 @@
     },
     "dev.ryuya.galaxycapture": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "icon": {
           "en-US": {
             "name": "/dev.ryuya.galaxycapture/en-US/icon_Z8DNL2JI4HJdXffOmffbF69-hqRQxbUSSWXvRaC9_lE=.png",
@@ -49,6 +57,8 @@
     },
     "dev.ryuya.galaxyreload": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "icon": {
           "en-US": {
             "name": "/dev.ryuya.galaxyreload/en-US/icon_6U1bq3uHoCD6PEKmcIr1BNiaFX18qAyAfProsYqTGrg=.png",
@@ -60,6 +70,8 @@
     },
     "dev.ryuya.galaxyservicepanel": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "icon": {
           "en-US": {
             "name": "/dev.ryuya.galaxyservicepanel/en-US/icon_T5I1iIlSMknK86TXVsnAZvgXY7ZnG2BivFzPT28O2co=.png",
@@ -71,6 +83,8 @@
     },
     "dev.ryuya.galaxyupdateguard": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "icon": {
           "en-US": {
             "name": "/dev.ryuya.galaxyupdateguard/en-US/icon_yXSl46TNduE_5uXUL2yC-9ySUlh8OVkmhBTWYUd7n9Q=.png",
@@ -82,6 +96,8 @@
     },
     "dev.ryuya.oneuihometweaks": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "icon": {
           "en-US": {
             "name": "/dev.ryuya.oneuihometweaks/en-US/icon_DckKW9rdUOxDn4ciTeWOXTBrT7wZEFS3O4AiyGKK180=.png",
@@ -93,6 +109,8 @@
     },
     "dev.ryuya.oneuimods": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "icon": {
           "en-US": {
             "name": "/dev.ryuya.oneuimods/en-US/icon_2P84kkyL99iie950SpnJM2fBQTwQA_2Y0rpHOw_n5ew=.png",
@@ -104,6 +122,8 @@
     },
     "dev.ryuya.sleepstore": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "icon": {
           "en-US": {
             "name": "/dev.ryuya.sleepstore/en-US/icon_Uz-MvsFLYdk3UDUDM8cvc4RuOjIL_tYWCVXIBczLz9Q=.png",
@@ -115,6 +135,8 @@
     },
     "dev.simpilot": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "icon": {
           "en-US": {
             "name": "/dev.simpilot/en-US/icon_0pemBuLpytcqz6g3m9xdJeYti9T4U013sHMgt_eQ_2A=.png",
@@ -124,8 +146,22 @@
         }
       }
     },
+    "net.ryuya.dev.galaxyshutter.mute": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
+    "net.ryuya.dev.galaxyshutter.mute.manager": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
     "net.ryuya_dev.tailadb": {
       "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
         "icon": {
           "en-US": {
             "name": "/net.ryuya_dev.tailadb/en-US/icon__3nL9ubgDQIP03GwcOTU9Z_eceUcT2bEq41SxS4n25c=.png",

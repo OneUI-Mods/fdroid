@@ -1,0 +1,91 @@
+{
+  "repo": {
+    "timestamp": 1792909527000
+  },
+  "packages": {
+    "dev.ryuya.darkapps": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
+    "dev.ryuya.galaxybar": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
+    "dev.ryuya.galaxycamera": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
+    "dev.ryuya.galaxycapture": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
+    "dev.ryuya.galaxyreload": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
+    "dev.ryuya.galaxyservicepanel": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
+    "dev.ryuya.galaxyupdateguard": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
+    "dev.ryuya.oneuihometweaks": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
+    "dev.ryuya.oneuimods": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
+    "dev.ryuya.sleepstore": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
+    "dev.simpilot": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
+    "net.ryuya.dev.galaxyshutter.mute": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
+    "net.ryuya.dev.galaxyshutter.mute.manager": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    },
+    "net.ryuya_dev.tailadb": {
+      "metadata": {
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124"
+      }
+    }
+  }
+}
