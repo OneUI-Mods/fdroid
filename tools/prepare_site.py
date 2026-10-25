@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Validate signed F-Droid indexes and stage public files without private signing state."""
+
 import argparse
 import hashlib
 import json
@@ -18,7 +19,10 @@ def validate(work):
     common.config = {"jarsigner": str(java)}
     entry, _, _ = index.get_index_from_jar(str(repo / "entry.jar"), FINGERPRINT)
     data = (repo / "index-v2.json").read_bytes()
-    if len(data) != entry["index"]["size"] or hashlib.sha256(data).hexdigest() != entry["index"]["sha256"]:
+    if (
+        len(data) != entry["index"]["size"]
+        or hashlib.sha256(data).hexdigest() != entry["index"]["sha256"]
+    ):
         raise ValueError("Index does not match its signed entry")
     catalog = json.loads(data)
     manifest = json.loads((work / "verified-releases.json").read_text())
@@ -53,14 +57,23 @@ def main():
         if any(args.output.iterdir()):
             raise ValueError("Output must be empty to avoid publishing stale files")
     args.output.mkdir(parents=True, exist_ok=True)
-    shutil.copytree(args.work / "repo", args.output / "repo", ignore=shutil.ignore_patterns("status"))
+    shutil.copytree(
+        args.work / "repo",
+        args.output / "repo",
+        ignore=shutil.ignore_patterns("status"),
+    )
     forbidden = {"config.yml", "credentials.txt", "repository.p12", "keystore.p12"}
     for file in args.output.rglob("*"):
-        if file.is_symlink() or file.name in forbidden or file.suffix in {".keystore", ".p12", ".jks"}:
+        if (
+            file.is_symlink()
+            or file.name in forbidden
+            or file.suffix in {".keystore", ".p12", ".jks"}
+        ):
             raise ValueError("Private state in public output")
     (args.output / ".nojekyll").touch()
     (args.output / "verified-releases.json").write_text(
-        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
     source = Path(__file__).resolve().parent.parent / "docs" / "index.html"
     shutil.copyfile(source, args.output / "index.html")
     print(f"Validated signed index and staged {len(manifest)} apps for publication.")

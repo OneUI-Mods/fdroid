@@ -4,7 +4,7 @@ The manager's public `catalog/apps.json` is the app registry. Release versions, 
 
 ## Dependencies
 
-Use Python 3, fdroidserver 2.4.5, JDK 21, Android Build Tools 37.0.0 and authenticated `gh`. Keep Python dependencies in a private virtual environment. `tools/verify_apk.py` is shared MIT-licensed code from OneUIModsManager.
+Use Python 3, fdroidserver 2.4.5, CairoSVG 2.9.1, JDK 21, Android Build Tools 37.0.0 and authenticated `gh`. Keep Python dependencies in a private virtual environment. `tools/verify_apk.py` is shared MIT-licensed code from OneUIModsManager.
 
 ## Private state and signing
 
@@ -14,6 +14,7 @@ The repository signing key signs indexes only. Application APKs retain their ori
 
 ```sh
 python tools/sync_releases.py --work /private/path/fdroid --tools /path/to/sdk/build-tools/37.0.0
+python tools/render_icons.py --work /private/path/fdroid
 cd /private/path/fdroid
 fdroid update --pretty
 ```
@@ -29,3 +30,5 @@ Publish `site/` to this repository's `gh-pages` branch. GitHub Pages serves that
 ## Official F-Droid
 
 The custom repository mirrors developer-signed release APKs. Official inclusion requires separate source build review. Do not replace application certificates to simulate official compatibility. Developer signatures require reproducible builds accepted by F-Droid. Submission records and open packaging questions belong in `official-submissions.md`.
+
+The icon export renders original launcher vectors from each verified APK, using the selected Android SDK for framework colors. Apps without declared launcher artwork retain the client default. It never modifies the APK.

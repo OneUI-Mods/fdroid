@@ -8,7 +8,8 @@
     "versionName": "0.2.0-experimental",
     "versionCode": 4,
     "sourceCommit": "d9391918d680daa375bfc464c36e9a8dd094e13c",
-    "status": "prepared"
+    "status": "submitted; awaiting F-Droid review",
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4649"
   },
   {
     "repo": "DarkAppTools",
@@ -19,7 +20,8 @@
     "versionName": "0.3.0-experimental",
     "versionCode": 10,
     "sourceCommit": "dc4d04663546f3b437f138ba363456686d461086",
-    "status": "prepared"
+    "status": "submitted; awaiting F-Droid review",
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4650"
   },
   {
     "repo": "OneUIHomeTweaks",
@@ -30,7 +32,8 @@
     "versionName": "0.18.0",
     "versionCode": 28,
     "sourceCommit": "d5b1c35c98938ee43ee837b6f53ac926e9bb5e8d",
-    "status": "prepared"
+    "status": "submitted; awaiting F-Droid review",
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4651"
   },
   {
     "repo": "GalaxyCameraTools",
@@ -41,7 +44,8 @@
     "versionName": "0.1.3-experimental",
     "versionCode": 4,
     "sourceCommit": "ca7001045ec30bd609d9343e01f6c6f92e3a8f47",
-    "status": "prepared"
+    "status": "submitted; awaiting F-Droid review",
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4652"
   },
   {
     "repo": "sim-pilot",
@@ -52,7 +56,8 @@
     "versionName": "1.10.0",
     "versionCode": 19,
     "sourceCommit": "e72de55c7c6a90f3b1538dc72aaab5edbe4dead6",
-    "status": "prepared"
+    "status": "submitted; awaiting F-Droid review",
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4653"
   },
   {
     "repo": "tail-adb",
@@ -63,7 +68,8 @@
     "versionName": "0.2.4",
     "versionCode": 6,
     "sourceCommit": "5464653b05152b890af334ab7ddb71d6666ac9b4",
-    "status": "prepared"
+    "status": "submitted; awaiting F-Droid review",
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4654"
   },
   {
     "repo": "galaxy-update-guard",
@@ -74,7 +80,8 @@
     "versionName": "0.1.0",
     "versionCode": 1,
     "sourceCommit": "ef195a70ec357bfd66d9a91a128117cbee58cded",
-    "status": "prepared"
+    "status": "submitted; awaiting F-Droid review",
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4655"
   },
   {
     "repo": "galaxy-adaptive-statusbar",
@@ -85,7 +92,8 @@
     "versionName": "0.6.19-experimental",
     "versionCode": 40,
     "sourceCommit": "23b48261ffe2f0822258da94d09a30e79ae11b56",
-    "status": "prepared"
+    "status": "submitted; awaiting F-Droid review",
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4656"
   },
   {
     "repo": "galaxy-service-panel",
@@ -96,7 +104,8 @@
     "versionName": "0.1.0-experimental",
     "versionCode": 1,
     "sourceCommit": "1442cc8ba72b2f9f0b00452d4647c8170ddc7764",
-    "status": "prepared"
+    "status": "submitted; awaiting F-Droid review",
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4657"
   },
   {
     "repo": "galaxy-reload",
@@ -107,7 +116,8 @@
     "versionName": "0.2.0-experimental",
     "versionCode": 2,
     "sourceCommit": "82c87115ecc7b4e62192d1ea2cf82d93ab02fd6a",
-    "status": "prepared"
+    "status": "submitted; awaiting F-Droid review",
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4658"
   },
   {
     "repo": "GalaxyCaptureTools",
@@ -118,7 +128,8 @@
     "versionName": "0.3.5-experimental",
     "versionCode": 19,
     "sourceCommit": "88262467a21a9478e0b81287f60a4c2ba0f3b9a6",
-    "status": "prepared"
+    "status": "submitted; awaiting F-Droid review",
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4659"
   },
   {
     "repo": "SleepStore",
@@ -129,7 +140,8 @@
     "versionName": "0.2.0",
     "versionCode": 2,
     "sourceCommit": "00f540270b9731f7f47bf88e5d69ab07b6188cf4",
-    "status": "prepared"
+    "status": "submitted; awaiting F-Droid review",
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4660"
   },
   {
     "repo": "galaxy-shutter-mute-manager",
@@ -140,7 +152,8 @@
     "versionName": "1.2.0",
     "versionCode": 3,
     "sourceCommit": "842ec2a8cb6b60c5cab7de0a973ce794f23feb72",
-    "status": "prepared"
+    "status": "submitted; awaiting F-Droid review",
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4661"
   },
   {
     "repo": "galaxy-shutter-mute",
@@ -151,6 +164,7 @@
     "versionName": "1.1.0",
     "versionCode": 2,
     "sourceCommit": "2e2a2744d3afbcd15dc055f21ec7d7c6cb286f17",
-    "status": "prepared"
+    "status": "submitted; awaiting F-Droid review",
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4662"
   }
 ]

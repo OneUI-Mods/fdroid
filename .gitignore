@@ -6,3 +6,7 @@ config.yml
 *.jks
 *.keystore
 *.p12
+repo/
+archive/
+tmp/
+stats/
