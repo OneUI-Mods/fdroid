@@ -99,7 +99,8 @@ def sync_app(app, work, catalog, tools):
     metadata = {
         "Categories": ["System"],
         "License": "MIT",
-        "AuthorName": "OneUI Mods",
+        "AuthorName": "ryuya0124",
+        "AuthorWebSite": "https://github.com/ryuya0124",
         "WebSite": f"https://github.com/{repo}",
         "SourceCode": f"https://github.com/{repo}",
         "IssueTracker": f"https://github.com/{repo}/issues",

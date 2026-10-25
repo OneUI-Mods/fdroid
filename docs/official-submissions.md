@@ -21,7 +21,7 @@
 
 公式側のソースビルドと審査、既存署名を維持するための再現性確認は別途必要です。公開した[ビルド草案](../packaging/drafts/)は未検証であることを明記し、各タグのSDK・nativeビルド・APKダウンロードの同意などの確認点も申請本文へ記載しています。
 
-[全申請の一覧](https://gitlab.com/fdroid/rfp/-/work_items?author_username=ryuya1adgjmptw)・[送信本文](../submissions/)を確認できます。配布中の[専用リポジトリ](https://oneui-mods.github.io/fdroid/)ではGitHub版と同じ署名のrelease APKを使用します。
+[全申請の一覧](https://gitlab.com/fdroid/rfp/-/work_items?author_username=ryuya0124)・[送信本文](../submissions/)を確認できます。配布中の[専用リポジトリ](https://oneui-mods.github.io/fdroid/)ではGitHub版と同じ署名のrelease APKを使用します。
 
 参考：[公式掲載条件](https://f-droid.org/docs/Inclusion_Policy/)、[掲載申請手順](https://f-droid.org/docs/Submitting_to_F-Droid_Quick_Start_Guide/)、[署名と再現可能ビルド](https://f-droid.org/docs/Reproducible_Builds/)。
 

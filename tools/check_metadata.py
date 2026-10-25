@@ -20,6 +20,8 @@ def main():
         name = row["packageName"] + ".yml"
         info = yaml.safe_load((ROOT / "metadata" / name).read_text())
         draft = yaml.safe_load((ROOT / "packaging/drafts" / name).read_text())
+        if info["AuthorName"] != "ryuya0124" or draft["AuthorName"] != "ryuya0124":
+            raise ValueError("App author must match the upstream public identity")
         if not info["SourceCode"].startswith("https://github.com/OneUI-Mods/"):
             raise ValueError("Unexpected source repository")
         if not info["AllowedAPKSigningKeys"] or any(
