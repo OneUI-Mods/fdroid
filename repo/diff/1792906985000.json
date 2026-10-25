@@ -1,0 +1,244 @@
+{
+  "repo": {
+    "timestamp": 1792907083000
+  },
+  "packages": {
+    "dev.ryuya.darkapps": {
+      "metadata": {
+        "summary": {
+          "en-US": "Dark themes for supported apps"
+        },
+        "description": {
+          "en-US": "<p>Adds system, light and dark appearance options to supported versions of SESAME and povo. Requires root and a libxposed API 102 compatible framework such as Vector. The supported host apps are proprietary; they are not bundled.</p>"
+        }
+      },
+      "versions": {
+        "25fcba527d0198e5a687e954bbeae4cac9f7cb2dd4e78dc2c0796c887c99975d": {
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        }
+      }
+    },
+    "dev.ryuya.galaxybar": {
+      "metadata": {
+        "summary": {
+          "en-US": "Adapt status bar colors to the background"
+        },
+        "description": {
+          "en-US": "<p>Adjusts clock text and status icons to the background on supported Galaxy firmware, with configurable fades, app transition tracking and privacy indicator motion. Requires root and a libxposed API 102 compatible framework. Android 16 and 17 support is firmware specific.</p>"
+        }
+      },
+      "versions": {
+        "0968154871d3051925c7c52f42c72afc9cca760850f337ff6299b1c952c2e0ba": {
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        }
+      }
+    },
+    "dev.ryuya.galaxycamera": {
+      "metadata": {
+        "summary": {
+          "en-US": "Extend supported Samsung camera apps"
+        },
+        "description": {
+          "en-US": "<p>Optional camera preview, lens transition and camera capability adjustments for supported Samsung Camera, Camera Assistant and Expert RAW versions. Requires root and a libxposed API 102 compatible framework. Hardware and firmware limits still apply; unsupported modes are not guaranteed.</p>"
+        }
+      },
+      "versions": {
+        "91780b4936cd2f4332b0478007fed21a28b2e04316330675e8177a64978895b0": {
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        }
+      }
+    },
+    "dev.ryuya.galaxycapture": {
+      "metadata": {
+        "summary": {
+          "en-US": "Extend Galaxy recording and screenshots"
+        },
+        "description": {
+          "en-US": "<p>Adds optional recording rotation, app targeting, audio and capture controls to supported Samsung and Android recording components. Requires root and a libxposed API 102 compatible framework. Read the source README for supported firmware and initial activation steps.</p>"
+        }
+      },
+      "versions": {
+        "dd4a9c98dea6ac8bfbbbe009410215636d82eb529db1784e4025418766840eb4": {
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        }
+      }
+    },
+    "dev.ryuya.galaxyreload": {
+      "metadata": {
+        "summary": {
+          "en-US": "Reload SystemUI on supported Galaxy devices"
+        },
+        "description": {
+          "en-US": "<p>User-initiated SystemUI reload helper for supported Galaxy devices. Requires root. Its unlock-state handling is only available when the device is already authenticated; it does not disable screen-lock credentials.</p>"
+        }
+      },
+      "versions": {
+        "309dc665c0d77e44ef9640c47879d59a06ea811a73e1717fa0fbb15da41bd63b": {
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        }
+      }
+    },
+    "dev.ryuya.galaxyservicepanel": {
+      "metadata": {
+        "summary": {
+          "en-US": "Improve the Samsung Service Mode layout"
+        },
+        "description": {
+          "en-US": "<p>Reformats supported Samsung Service Mode screens for readability while retaining the original diagnostic data. Requires root and a libxposed API 102 compatible framework. This unofficial module does not bundle or replace the proprietary Samsung phone app.</p>"
+        }
+      },
+      "versions": {
+        "d76e4de1ee61df338ac80080cdf533877af10360b937a1fdcd520044c7a73044": {
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        }
+      }
+    },
+    "dev.ryuya.galaxyupdateguard": {
+      "metadata": {
+        "summary": {
+          "en-US": "Pause and restore Galaxy OS updates"
+        },
+        "description": {
+          "en-US": "<p>Disables supported Samsung OS update services and restores their previous state. Requires root. Google Play system and application updates are outside its scope. Restore the original state before uninstalling or clearing this app's data.</p>"
+        }
+      },
+      "versions": {
+        "892cc69a18eacfd4ee1fe36fb404345854b9e2b52383f61377db2e8fb79349ed": {
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        }
+      }
+    },
+    "dev.ryuya.oneuihometweaks": {
+      "metadata": {
+        "summary": {
+          "en-US": "Customize One UI Home and the quick panel"
+        },
+        "description": {
+          "en-US": "<p>Adjust supported One UI Home folder behavior, quick panel controls and developer animation settings. Requires root, a libxposed API 102 compatible framework and supported Samsung system components. Keep the source README at hand for supported firmware and reload instructions.</p>"
+        }
+      },
+      "versions": {
+        "91e1e616bb5586c9432042351a74931988df1c055a676829b6517d746667a8fc": {
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        }
+      }
+    },
+    "dev.ryuya.oneuimods": {
+      "metadata": {
+        "summary": {
+          "en-US": "Manage and update apps from OneUI Mods"
+        },
+        "description": {
+          "en-US": "<p>Browse OneUI Mods apps, compare installed versions with public GitHub releases, choose whether to include experimental releases, and download verified updates. Installation always uses the Android confirmation screen. GitHub downloads are user initiated and bypass the official F-Droid build review.</p>"
+        }
+      },
+      "versions": {
+        "93d25c3588466b58d2d1aefa46d1d8f939b285c597566ff5d851504e643119fd": {
+          "antiFeatures": {
+            "TetheredNet": {}
+          }
+        }
+      }
+    },
+    "dev.ryuya.sleepstore": {
+      "metadata": {
+        "summary": {
+          "en-US": "Show updates for deep-sleeping apps"
+        },
+        "description": {
+          "en-US": "<p>Helps supported app-store components include deep-sleeping apps in their update listings. Requires root, a compatible Xposed framework and supported store versions. It does not bundle the store apps.</p>"
+        }
+      },
+      "versions": {
+        "b27168e4212be0c9ee03105cd6496e3b5b032a3fbd4a55340232d1780bfee8f2": {
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        }
+      }
+    },
+    "dev.simpilot": {
+      "metadata": {
+        "summary": {
+          "en-US": "Manage dual-SIM data switching"
+        },
+        "description": {
+          "en-US": "<p>Manage supported dual-SIM data switching through Shizuku or Shizuku Plus. Requires compatible device telephony services and explicit Shizuku permission. No root is needed when Shizuku is available through wireless debugging.</p>"
+        }
+      }
+    },
+    "net.ryuya.dev.galaxyshutter.mute": {
+      "metadata": {
+        "summary": {
+          "en-US": "Control the supported Galaxy shutter sound setting"
+        },
+        "description": {
+          "en-US": "<p>Changes the supported Galaxy camera shutter sound setting after its required permission has been granted. Use Galaxy Shutter Mute Manager for installation on recent Android versions. Samsung firmware and regional restrictions may limit availability.</p>"
+        }
+      },
+      "versions": {
+        "8a0920fc4a586d1c0420a60dbeda2d8efadc7cc32957246eb43cfcc5c1d74946": {
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        }
+      }
+    },
+    "net.ryuya.dev.galaxyshutter.mute.manager": {
+      "metadata": {
+        "summary": {
+          "en-US": "Set up Galaxy Shutter Mute through Shizuku"
+        },
+        "description": {
+          "en-US": "<p>Installs and grants the settings permission needed by Galaxy Shutter Mute through Shizuku. The companion app is downloaded only after the user's explicit action. Galaxy Shutter Mute remains a separate app. Support depends on Samsung firmware, region and camera version.</p>"
+        }
+      },
+      "versions": {
+        "0a8d65f49db9b2600bf3f9c771d1d8421beb73f759eb77199b7a08740cef41c9": {
+          "antiFeatures": {
+            "NonFreeDep": {},
+            "TetheredNet": {}
+          }
+        }
+      }
+    },
+    "net.ryuya_dev.tailadb": {
+      "metadata": {
+        "summary": {
+          "en-US": "ADB access over your Tailscale network"
+        },
+        "description": {
+          "en-US": "<p>Provides an authorized ADB transport restricted to the device's Tailscale interface, with per-peer shell and root permissions and network recovery. Requires root and the separate Tailscale app. It uses the selected Tailscale account's network; no Tailscale code is bundled.</p>"
+        }
+      },
+      "versions": {
+        "7482d0878a58f870dcffff161142e954adb7652d58612a2d0aa42ebcd9521840": {
+          "antiFeatures": {
+            "TetheredNet": {}
+          }
+        },
+        "f4a4367f493a0bacad38e8649ff6bd445b96fc66827fd797c3c65566d2b0965a": {
+          "antiFeatures": {
+            "TetheredNet": {}
+          }
+        }
+      }
+    }
+  }
+}

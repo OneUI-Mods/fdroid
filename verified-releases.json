@@ -1,0 +1,393 @@
+[
+  {
+    "app": {
+      "repo": "OneUIModsManager",
+      "packageName": "dev.ryuya.oneuimods",
+      "title": "OneUI Mods Manager",
+      "description": "OneUI Modsのアプリをまとめて管理",
+      "category": "device",
+      "certificates": [
+        "f37313a1ddbe006257653b4772e9a2f43f0ddd5c0bcbf6dfe0f71c2fbd9aad73"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.oneuimods",
+        "versionCode": 4,
+        "versionName": "0.2.0-experimental",
+        "apk": "OneUIModsManager-0.2.0-experimental-release.apk",
+        "sha256": "93d25c3588466b58d2d1aefa46d1d8f939b285c597566ff5d851504e643119fd",
+        "filename": "dev.ryuya.oneuimods_4.apk",
+        "tag": "v0.2.0-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/OneUIModsManager/releases/tag/v0.2.0-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/OneUIModsManager/releases/download/v0.2.0-experimental/OneUIModsManager-0.2.0-experimental-release.apk",
+        "preview": true
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "DarkAppTools",
+      "packageName": "dev.ryuya.darkapps",
+      "title": "Dark App Tools",
+      "description": "セサミ・povoのダーク表示",
+      "category": "appearance",
+      "certificates": [
+        "c2020a1338f2504d893b368edfb77b0ab76cedeb8016df42876439a1cc92acd6"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.darkapps",
+        "versionCode": 10,
+        "versionName": "0.3.0-experimental",
+        "apk": "DarkAppTools-0.3.0-experimental-release.apk",
+        "sha256": "25fcba527d0198e5a687e954bbeae4cac9f7cb2dd4e78dc2c0796c887c99975d",
+        "filename": "dev.ryuya.darkapps_10.apk",
+        "tag": "v0.3.0-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/DarkAppTools/releases/tag/v0.3.0-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/DarkAppTools/releases/download/v0.3.0-experimental/DarkAppTools-0.3.0-experimental-release.apk",
+        "preview": true
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "OneUIHomeTweaks",
+      "packageName": "dev.ryuya.oneuihometweaks",
+      "title": "One UI Home Tweaks",
+      "description": "ホーム・クイックパネル・設定画面の調整",
+      "category": "appearance",
+      "certificates": [
+        "7938e1850451b95c45c8f138a768c9da7c5d9db7fb61a883ac8dc724077ddb03"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.oneuihometweaks",
+        "versionCode": 28,
+        "versionName": "0.18.0",
+        "apk": "OneUIHomeTweaks-0.18.0-release.apk",
+        "sha256": "91e1e616bb5586c9432042351a74931988df1c055a676829b6517d746667a8fc",
+        "filename": "dev.ryuya.oneuihometweaks_28.apk",
+        "tag": "v0.18.0",
+        "releaseUrl": "https://github.com/OneUI-Mods/OneUIHomeTweaks/releases/tag/v0.18.0",
+        "apkUrl": "https://github.com/OneUI-Mods/OneUIHomeTweaks/releases/download/v0.18.0/OneUIHomeTweaks-0.18.0-release.apk",
+        "preview": true
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "GalaxyCameraTools",
+      "packageName": "dev.ryuya.galaxycamera",
+      "title": "Galaxy Camera Tools",
+      "description": "カメラ・Expert RAWの機能拡張",
+      "category": "camera",
+      "certificates": [
+        "c46e5158643284a8eb345958b4bf72d09c30c2a5a3819c05b5f7b53c31d263ad"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxycamera",
+        "versionCode": 4,
+        "versionName": "0.1.3-experimental",
+        "apk": "GalaxyCameraTools-0.1.3-experimental-release.apk",
+        "sha256": "91780b4936cd2f4332b0478007fed21a28b2e04316330675e8177a64978895b0",
+        "filename": "dev.ryuya.galaxycamera_4.apk",
+        "tag": "v0.1.3-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/GalaxyCameraTools/releases/tag/v0.1.3-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/GalaxyCameraTools/releases/download/v0.1.3-experimental/GalaxyCameraTools-0.1.3-experimental-release.apk",
+        "preview": true
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "sim-pilot",
+      "packageName": "dev.simpilot",
+      "title": "SIM Pilot",
+      "description": "デュアルSIMの回線切り替え",
+      "category": "device",
+      "certificates": [
+        "18014a67e709e973c8723ec4a6cd5ed079cb1fd29436f2c0fbd657f46e3c010b"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.simpilot",
+        "versionCode": 19,
+        "versionName": "1.10.0",
+        "apk": "SIM-Pilot-v1.10.0-release.apk",
+        "sha256": "16b2059bbc0d8e501901b8cbc1d3ac535d7ba7ab5d55d05e9aabcda6f13c23bd",
+        "filename": "dev.simpilot_19.apk",
+        "tag": "v1.10.0",
+        "releaseUrl": "https://github.com/OneUI-Mods/sim-pilot/releases/tag/v1.10.0",
+        "apkUrl": "https://github.com/OneUI-Mods/sim-pilot/releases/download/v1.10.0/SIM-Pilot-v1.10.0-release.apk",
+        "preview": false
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "tail-adb",
+      "packageName": "net.ryuya_dev.tailadb",
+      "title": "Tail ADB",
+      "description": "Tailscale経由のADB接続",
+      "category": "device",
+      "certificates": [
+        "429de1280138eb96207ea61c6c19a36d2a83404e4654ce52d14e1aba43abf980"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "net.ryuya_dev.tailadb",
+        "versionCode": 6,
+        "versionName": "0.2.4",
+        "apk": "TailAdb-0.2.4-release.apk",
+        "sha256": "7482d0878a58f870dcffff161142e954adb7652d58612a2d0aa42ebcd9521840",
+        "filename": "net.ryuya_dev.tailadb_6.apk",
+        "tag": "v0.2.4",
+        "releaseUrl": "https://github.com/OneUI-Mods/tail-adb/releases/tag/v0.2.4",
+        "apkUrl": "https://github.com/OneUI-Mods/tail-adb/releases/download/v0.2.4/TailAdb-0.2.4-release.apk",
+        "preview": false
+      },
+      {
+        "schema": 1,
+        "packageName": "net.ryuya_dev.tailadb",
+        "versionCode": 1,
+        "versionName": "0.1.0",
+        "apk": "TailAdb-0.1.0.apk",
+        "sha256": "f4a4367f493a0bacad38e8649ff6bd445b96fc66827fd797c3c65566d2b0965a",
+        "filename": "net.ryuya_dev.tailadb_1.apk",
+        "tag": "v0.1.0",
+        "releaseUrl": "https://github.com/OneUI-Mods/tail-adb/releases/tag/v0.1.0",
+        "apkUrl": "https://github.com/OneUI-Mods/tail-adb/releases/download/v0.1.0/TailAdb-0.1.0.apk",
+        "preview": true
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "galaxy-update-guard",
+      "packageName": "dev.ryuya.galaxyupdateguard",
+      "title": "Galaxy Update Guard",
+      "description": "GalaxyのOSアップデートを管理",
+      "category": "device",
+      "certificates": [
+        "88f94ec7b259ffd2ee1b9eb72e291400fe740c14c7f2609220907e8f50b34262"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxyupdateguard",
+        "versionCode": 1,
+        "versionName": "0.1.0",
+        "apk": "GalaxyUpdateGuard-0.1.0-release.apk",
+        "sha256": "892cc69a18eacfd4ee1fe36fb404345854b9e2b52383f61377db2e8fb79349ed",
+        "filename": "dev.ryuya.galaxyupdateguard_1.apk",
+        "tag": "v0.1.0",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-update-guard/releases/tag/v0.1.0",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-update-guard/releases/download/v0.1.0/GalaxyUpdateGuard-0.1.0-release.apk",
+        "preview": false
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "galaxy-adaptive-statusbar",
+      "packageName": "dev.ryuya.galaxybar",
+      "title": "Galaxy Adaptive Bar",
+      "description": "背景に合わせたステータスバーの配色",
+      "category": "appearance",
+      "certificates": [
+        "aaecd6957a8e72d09462e04204b04b23c4f3bd3d9534fc62c4eb2ba29596265d"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxybar",
+        "versionCode": 40,
+        "versionName": "0.6.19-experimental",
+        "apk": "GalaxyAdaptiveBar-0.6.19-experimental-release.apk",
+        "sha256": "0968154871d3051925c7c52f42c72afc9cca760850f337ff6299b1c952c2e0ba",
+        "filename": "dev.ryuya.galaxybar_40.apk",
+        "tag": "v0.6.19-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-adaptive-statusbar/releases/tag/v0.6.19-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-adaptive-statusbar/releases/download/v0.6.19-experimental/GalaxyAdaptiveBar-0.6.19-experimental-release.apk",
+        "preview": true
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "galaxy-service-panel",
+      "packageName": "dev.ryuya.galaxyservicepanel",
+      "title": "Galaxy Service Panel",
+      "description": "Service Modeの表示を整理",
+      "category": "device",
+      "certificates": [
+        "4cda6775c402ba4cbc2591ffb3490b825d53a0aa7fafd98d67e85b337e8df0b0"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxyservicepanel",
+        "versionCode": 1,
+        "versionName": "0.1.0-experimental",
+        "apk": "GalaxyServicePanel-0.1.0-experimental-release.apk",
+        "sha256": "d76e4de1ee61df338ac80080cdf533877af10360b937a1fdcd520044c7a73044",
+        "filename": "dev.ryuya.galaxyservicepanel_1.apk",
+        "tag": "v0.1.0-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-service-panel/releases/tag/v0.1.0-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-service-panel/releases/download/v0.1.0-experimental/GalaxyServicePanel-0.1.0-experimental-release.apk",
+        "preview": true
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "galaxy-reload",
+      "packageName": "dev.ryuya.galaxyreload",
+      "title": "Galaxy Reload",
+      "description": "SystemUIの再読み込み",
+      "category": "device",
+      "certificates": [
+        "52a22de1aed8b3c3d34c02f8fe0f0206eaee25081def64d8182ca5930cbf85fb"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxyreload",
+        "versionCode": 2,
+        "versionName": "0.2.0-experimental",
+        "apk": "GalaxyReload-0.2.0-experimental-release.apk",
+        "sha256": "309dc665c0d77e44ef9640c47879d59a06ea811a73e1717fa0fbb15da41bd63b",
+        "filename": "dev.ryuya.galaxyreload_2.apk",
+        "tag": "v0.2.0-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-reload/releases/tag/v0.2.0-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-reload/releases/download/v0.2.0-experimental/GalaxyReload-0.2.0-experimental-release.apk",
+        "preview": true
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "GalaxyCaptureTools",
+      "packageName": "dev.ryuya.galaxycapture",
+      "title": "Galaxy Capture Tools",
+      "description": "画面録画・スクリーンショットの機能拡張",
+      "category": "camera",
+      "certificates": [
+        "3c18719ba633ed0e891d8dca62053c849986156fd10410bd5f0115113ffa6075"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxycapture",
+        "versionCode": 19,
+        "versionName": "0.3.5-experimental",
+        "apk": "GalaxyCaptureTools-0.3.5-experimental-release.apk",
+        "sha256": "dd4a9c98dea6ac8bfbbbe009410215636d82eb529db1784e4025418766840eb4",
+        "filename": "dev.ryuya.galaxycapture_19.apk",
+        "tag": "v0.3.5-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/GalaxyCaptureTools/releases/tag/v0.3.5-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/GalaxyCaptureTools/releases/download/v0.3.5-experimental/GalaxyCaptureTools-0.3.5-experimental-release.apk",
+        "preview": true
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "SleepStore",
+      "packageName": "dev.ryuya.sleepstore",
+      "title": "SleepStore",
+      "description": "ディープスリープ中のアプリの更新表示",
+      "category": "device",
+      "certificates": [
+        "9d1f5a2cea5340c434682221e355cbfc92f8a97cdf6994f782ff6d96660a90b6"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.sleepstore",
+        "versionCode": 2,
+        "versionName": "0.2.0",
+        "apk": "SleepStore-0.2.0.apk",
+        "sha256": "b27168e4212be0c9ee03105cd6496e3b5b032a3fbd4a55340232d1780bfee8f2",
+        "filename": "dev.ryuya.sleepstore_2.apk",
+        "tag": "v0.2.0",
+        "releaseUrl": "https://github.com/OneUI-Mods/SleepStore/releases/tag/v0.2.0",
+        "apkUrl": "https://github.com/OneUI-Mods/SleepStore/releases/download/v0.2.0/SleepStore-0.2.0.apk",
+        "preview": false
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "galaxy-shutter-mute-manager",
+      "packageName": "net.ryuya.dev.galaxyshutter.mute.manager",
+      "title": "Galaxy Shutter Mute Manager",
+      "description": "シャッター音の設定を管理",
+      "category": "camera",
+      "certificates": [
+        "5fcf43c524c48708405bd61f78300a91a4e10ca0ceebfe130c650c7d679f2da5"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "net.ryuya.dev.galaxyshutter.mute.manager",
+        "versionCode": 3,
+        "versionName": "1.2.0",
+        "apk": "app-release.apk",
+        "sha256": "0a8d65f49db9b2600bf3f9c771d1d8421beb73f759eb77199b7a08740cef41c9",
+        "filename": "net.ryuya.dev.galaxyshutter.mute.manager_3.apk",
+        "tag": "1.2.0",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-shutter-mute-manager/releases/tag/1.2.0",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-shutter-mute-manager/releases/download/1.2.0/app-release.apk",
+        "preview": false
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "galaxy-shutter-mute",
+      "packageName": "net.ryuya.dev.galaxyshutter.mute",
+      "title": "Galaxy Shutter Mute",
+      "description": "カメラのシャッター音を調整",
+      "category": "camera",
+      "certificates": [
+        "5fcf43c524c48708405bd61f78300a91a4e10ca0ceebfe130c650c7d679f2da5"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "net.ryuya.dev.galaxyshutter.mute",
+        "versionCode": 2,
+        "versionName": "1.1.0",
+        "apk": "app-release.apk",
+        "sha256": "8a0920fc4a586d1c0420a60dbeda2d8efadc7cc32957246eb43cfcc5c1d74946",
+        "filename": "net.ryuya.dev.galaxyshutter.mute_2.apk",
+        "tag": "1.1.0",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-shutter-mute/releases/tag/1.1.0",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-shutter-mute/releases/download/1.1.0/app-release.apk",
+        "preview": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="oneui-mods.png" name="OneUI Mods" pubkey="3082050a308202f2a003020102020900f054e6895478d8a7300d06092a864886f70d01010b050030323110300e060355040b1307462d44726f6964311e301c060355040313156f6e6575692d6d6f64732d7265706f7369746f72793020170d3236313032353035333735365a180f32303534303331323035333735365a30323110300e060355040b1307462d44726f6964311e301c060355040313156f6e6575692d6d6f64732d7265706f7369746f727930820222300d06092a864886f70d01010105000382020f003082020a0282020100de13c2a1a4d86c55f3dfa22b056a8420ae5d6a57002c6321e589124c3eded2117c9adc3386c34651c46538e9c336d5ef436182501862cc5a38af4ba50ae5d726db22f792db2f4fdf8ba8aabaf9a6b2e75e2a92cd9b5c7c5ad93d60362f4e5ac25e4e35ee5a798dacba023af006000aeb4165113c8c0b4fe10dd1b40f5b237bd82ce82cda9408655ea06dcb4d5cd17c9e845b0a1653593b1e267e1d9affd4af357bea4e53fa267557f499bc48ad9015e54ddda73681f9179aebe60afe4eaa4940b2b5ff88666d721010f6054d25c1914d7df53e43f707d7d5568c01aa6fd8ead5bbbfccfd46bac52932cc30e6793e667414c9a65b81ea32780d960b6803400e450692d29cee03602117bb08227878a44c615a176fcd628d781dd7790c1ccd71989e2b3d7de93fc43e21cd237abecc55e88f2fb139aec69f328c8f1d615b0119ded749c4cb18999a1310877b1ab7322a772e4bd233b144e079c8e60650c2a061ed732c18fe8411b8dde93c3a84c8d7e50f7312bad2574ff109e0ee0209bd8335a437fab9760a1a3c4d8fe521ccb8dcb6bd1716ae8fdcdf75d22019827ee10b4922860b75108b2de39834dac72fe225200ce9826e6d9e840ae0859284dc2cce05eab7fd5403ace98b92b57c9d8f59ac8922e9a4978c450e86ee89903ab144f6484623ef9d07175e24837ae7525d72799b0c24222800b8890a7e0d75fbb5667362890203010001a321301f301d0603551d0e0416041465a5108971ccfc34ed6c1cb055dca2a7dc1a1743300d06092a864886f70d01010b0500038202010021dd92e11dbe55dc281a054b7d7c326745292b5dfc579d6ba12bd1487e9f7bfc8f40c04d569daf9b3b35d740bf52963fa17a0dc76c8adb404919c3faf1a354a88b157df218f5abeb723bd20aebcc6cfba31f9059ac5b57d6e78c0af0ddedff4f1bcb24ea37022a5c02a37287ee566040894aa19cf227fa1bc94f6a8fec4b0d289c4a2174519e548338534cc04227639d064c1bd6fbc772dd805d0eef1231bc42c8dd032bd554e47ada2863a8245d059e6783b1ee2698dff1735ac4f899ad5df7fb26bac1f57325263251a913c4f6be1870521ed9de38b646f88f90a2dd964666d6cc203f4bd29c2be63a6c3aea4ff69459c805679b4aa6206238aacf413e102c933c1db8e75d7f0bda1b9d4a78405160de66c91f330fef02f4e1fdb47326e69de963cca8a5465c22c9c2141b2bbdbcb3b6665e44762e5f19f9b49a626c5f277113d01d9d85a886272f3e652b823b8494ac5975de8e0d662d8c81ad775714f33071d5ed49334b05c8fb04db24929fe6cc6693f6e238c61758e2f4b34347509c25419c70f19e2a5449439663d6026b21be389b7ef48a8b3d9c62c5dd0f9406acc03fd4614c0a577bec28203a527c8357644116bd66a2947a020a03aa37cbbab7750564ad34bbc2e88b2abe388cebb972ee31b461a02387b870f21b1b27c86fef02af409f8666d0c630f2b0cc57acc439c43ddb0e50aa66cd88b8891416c5c66ac6" timestamp="1792907083" url="https://oneui-mods.github.io/fdroid/repo" version="20002">
+		<description>Signed releases of OneUI Mods apps for Samsung Galaxy. Includes experimental versions. See each app repository for device support and setup.</description>
+	</repo>
+	<application id="dev.ryuya.darkapps">
+		<id>dev.ryuya.darkapps</id>
+		<added>2026-10-25</added>
+		<lastupdated>2026-10-25</lastupdated>
+		<name>Dark App Tools</name>
+		<summary>Dark themes for supported apps</summary>
+		<desc>&lt;p&gt;Adds system, light and dark appearance options to supported versions of SESAME and povo. Requires root and a libxposed API 102 compatible framework such as Vector. The supported host apps are proprietary; they are not bundled.&lt;/p&gt;</desc>
+		<license>MIT</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/OneUI-Mods/DarkAppTools</web>
+		<source>https://github.com/OneUI-Mods/DarkAppTools</source>
+		<tracker>https://github.com/OneUI-Mods/DarkAppTools/issues</tracker>
+		<author>OneUI Mods</author>
+		<marketversion>0.3.0-experimental</marketversion>
+		<marketvercode>10</marketvercode>
+		<requirements>root</requirements>
+		<antifeatures>NonFreeDep</antifeatures>
+		<package>
+			<version>0.3.0-experimental</version>
+			<versioncode>10</versioncode>
+			<apkname>dev.ryuya.darkapps_10.apk</apkname>
+			<hash type="sha256">25fcba527d0198e5a687e954bbeae4cac9f7cb2dd4e78dc2c0796c887c99975d</hash>
+			<size>11806625</size>
+			<sdkver>36</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>dba94ba131bf80030419e6fd5b310cf7</sig>
+			<permissions>RECEIVE_BOOT_COMPLETED,dev.ryuya.darkapps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="dev.ryuya.galaxybar">
+		<id>dev.ryuya.galaxybar</id>
+		<added>2026-10-25</added>
+		<lastupdated>2026-10-25</lastupdated>
+		<name>Galaxy Adaptive Bar</name>
+		<summary>Adapt status bar colors to the background</summary>
+		<desc>&lt;p&gt;Adjusts clock text and status icons to the background on supported Galaxy firmware, with configurable fades, app transition tracking and privacy indicator motion. Requires root and a libxposed API 102 compatible framework. Android 16 and 17 support is firmware specific.&lt;/p&gt;</desc>
+		<license>MIT</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/OneUI-Mods/galaxy-adaptive-statusbar</web>
+		<source>https://github.com/OneUI-Mods/galaxy-adaptive-statusbar</source>
+		<tracker>https://github.com/OneUI-Mods/galaxy-adaptive-statusbar/issues</tracker>
+		<author>OneUI Mods</author>
+		<marketversion>0.6.19-experimental</marketversion>
+		<marketvercode>40</marketvercode>
+		<requirements>root</requirements>
+		<antifeatures>NonFreeDep</antifeatures>
+		<package>
+			<version>0.6.19-experimental</version>
+			<versioncode>40</versioncode>
+			<apkname>dev.ryuya.galaxybar_40.apk</apkname>
+			<hash type="sha256">0968154871d3051925c7c52f42c72afc9cca760850f337ff6299b1c952c2e0ba</hash>
+			<size>10096354</size>
+			<sdkver>35</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>87567b32f1ca8e95dd480f0a96d45920</sig>
+			<permissions>RECEIVE_BOOT_COMPLETED,dev.ryuya.galaxybar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="dev.ryuya.galaxycamera">
+		<id>dev.ryuya.galaxycamera</id>
+		<added>2026-10-25</added>
+		<lastupdated>2026-10-25</lastupdated>
+		<name>Galaxy Camera Tools</name>
+		<summary>Extend supported Samsung camera apps</summary>
+		<desc>&lt;p&gt;Optional camera preview, lens transition and camera capability adjustments for supported Samsung Camera, Camera Assistant and Expert RAW versions. Requires root and a libxposed API 102 compatible framework. Hardware and firmware limits still apply; unsupported modes are not guaranteed.&lt;/p&gt;</desc>
+		<license>MIT</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/OneUI-Mods/GalaxyCameraTools</web>
+		<source>https://github.com/OneUI-Mods/GalaxyCameraTools</source>
+		<tracker>https://github.com/OneUI-Mods/GalaxyCameraTools/issues</tracker>
+		<author>OneUI Mods</author>
+		<marketversion>0.1.3-experimental</marketversion>
+		<marketvercode>4</marketvercode>
+		<requirements>root</requirements>
+		<antifeatures>NonFreeDep</antifeatures>
+		<package>
+			<version>0.1.3-experimental</version>
+			<versioncode>4</versioncode>
+			<apkname>dev.ryuya.galaxycamera_4.apk</apkname>
+			<hash type="sha256">91780b4936cd2f4332b0478007fed21a28b2e04316330675e8177a64978895b0</hash>
+			<size>11913144</size>
+			<sdkver>36</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>6425d55b19a320daf0b7faaaa5da2285</sig>
+			<permissions>dev.ryuya.galaxycamera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="dev.ryuya.galaxycapture">
+		<id>dev.ryuya.galaxycapture</id>
+		<added>2026-10-25</added>
+		<lastupdated>2026-10-25</lastupdated>
+		<name>Galaxy Capture Tools</name>
+		<summary>Extend Galaxy recording and screenshots</summary>
+		<desc>&lt;p&gt;Adds optional recording rotation, app targeting, audio and capture controls to supported Samsung and Android recording components. Requires root and a libxposed API 102 compatible framework. Read the source README for supported firmware and initial activation steps.&lt;/p&gt;</desc>
+		<license>MIT</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/OneUI-Mods/GalaxyCaptureTools</web>
+		<source>https://github.com/OneUI-Mods/GalaxyCaptureTools</source>
+		<tracker>https://github.com/OneUI-Mods/GalaxyCaptureTools/issues</tracker>
+		<author>OneUI Mods</author>
+		<marketversion>0.3.5-experimental</marketversion>
+		<marketvercode>19</marketvercode>
+		<requirements>root</requirements>
+		<antifeatures>NonFreeDep</antifeatures>
+		<package>
+			<version>0.3.5-experimental</version>
+			<versioncode>19</versioncode>
+			<apkname>dev.ryuya.galaxycapture_19.apk</apkname>
+			<hash type="sha256">dd4a9c98dea6ac8bfbbbe009410215636d82eb529db1784e4025418766840eb4</hash>
+			<size>10047034</size>
+			<sdkver>35</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>3070c867ef08d1e2081a7e2920735149</sig>
+			<permissions>RECEIVE_BOOT_COMPLETED,dev.ryuya.galaxycapture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,dev.ryuya.galaxycapture.permission.CONFIG</permissions>
+		</package>
+	</application>
+	<application id="dev.ryuya.galaxyreload">
+		<id>dev.ryuya.galaxyreload</id>
+		<added>2026-10-25</added>
+		<lastupdated>2026-10-25</lastupdated>
+		<name>Galaxy Reload</name>
+		<summary>Reload SystemUI on supported Galaxy devices</summary>
+		<desc>&lt;p&gt;User-initiated SystemUI reload helper for supported Galaxy devices. Requires root. Its unlock-state handling is only available when the device is already authenticated; it does not disable screen-lock credentials.&lt;/p&gt;</desc>
+		<license>MIT</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/OneUI-Mods/galaxy-reload</web>
+		<source>https://github.com/OneUI-Mods/galaxy-reload</source>
+		<tracker>https://github.com/OneUI-Mods/galaxy-reload/issues</tracker>
+		<author>OneUI Mods</author>
+		<marketversion>0.2.0-experimental</marketversion>
+		<marketvercode>2</marketvercode>
+		<requirements>root</requirements>
+		<antifeatures>NonFreeDep</antifeatures>
+		<package>
+			<version>0.2.0-experimental</version>
+			<versioncode>2</versioncode>
+			<apkname>dev.ryuya.galaxyreload_2.apk</apkname>
+			<hash type="sha256">309dc665c0d77e44ef9640c47879d59a06ea811a73e1717fa0fbb15da41bd63b</hash>
+			<size>11781772</size>
+			<sdkver>36</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>530e96c28659be7217509c7a587c0985</sig>
+			<permissions>dev.ryuya.galaxyreload.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="dev.ryuya.galaxyservicepanel">
+		<id>dev.ryuya.galaxyservicepanel</id>
+		<added>2026-10-25</added>
+		<lastupdated>2026-10-25</lastupdated>
+		<name>Galaxy Service Panel</name>
+		<summary>Improve the Samsung Service Mode layout</summary>
+		<desc>&lt;p&gt;Reformats supported Samsung Service Mode screens for readability while retaining the original diagnostic data. Requires root and a libxposed API 102 compatible framework. This unofficial module does not bundle or replace the proprietary Samsung phone app.&lt;/p&gt;</desc>
+		<license>MIT</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/OneUI-Mods/galaxy-service-panel</web>
+		<source>https://github.com/OneUI-Mods/galaxy-service-panel</source>
+		<tracker>https://github.com/OneUI-Mods/galaxy-service-panel/issues</tracker>
+		<author>OneUI Mods</author>
+		<marketversion>0.1.0-experimental</marketversion>
+		<marketvercode>1</marketvercode>
+		<requirements>root</requirements>
+		<antifeatures>NonFreeDep</antifeatures>
+		<package>
+			<version>0.1.0-experimental</version>
+			<versioncode>1</versioncode>
+			<apkname>dev.ryuya.galaxyservicepanel_1.apk</apkname>
+			<hash type="sha256">d76e4de1ee61df338ac80080cdf533877af10360b937a1fdcd520044c7a73044</hash>
+			<size>11810665</size>
+			<sdkver>36</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>9e9490b790eb5ba73a51a49651471e32</sig>
+			<permissions>dev.ryuya.galaxyservicepanel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="net.ryuya.dev.galaxyshutter.mute">
+		<id>net.ryuya.dev.galaxyshutter.mute</id>
+		<added>2026-10-25</added>
+		<lastupdated>2026-10-25</lastupdated>
+		<name>Galaxy Shutter Mute</name>
+		<summary>Control the supported Galaxy shutter sound setting</summary>
+		<desc>&lt;p&gt;Changes the supported Galaxy camera shutter sound setting after its required permission has been granted. Use Galaxy Shutter Mute Manager for installation on recent Android versions. Samsung firmware and regional restrictions may limit availability.&lt;/p&gt;</desc>
+		<license>MIT</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/OneUI-Mods/galaxy-shutter-mute</web>
+		<source>https://github.com/OneUI-Mods/galaxy-shutter-mute</source>
+		<tracker>https://github.com/OneUI-Mods/galaxy-shutter-mute/issues</tracker>
+		<author>OneUI Mods</author>
+		<marketversion>1.1.0</marketversion>
+		<marketvercode>2</marketvercode>
+		<antifeatures>NonFreeDep</antifeatures>
+		<package>
+			<version>1.1.0</version>
+			<versioncode>2</versioncode>
+			<apkname>net.ryuya.dev.galaxyshutter.mute_2.apk</apkname>
+			<hash type="sha256">8a0920fc4a586d1c0420a60dbeda2d8efadc7cc32957246eb43cfcc5c1d74946</hash>
+			<size>1340756</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>21</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>db15cffcbbfc85d241cc038e4398f925</sig>
+			<permissions>WRITE_SECURE_SETTINGS,net.ryuya.dev.galaxyshutter.mute.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="net.ryuya.dev.galaxyshutter.mute.manager">
+		<id>net.ryuya.dev.galaxyshutter.mute.manager</id>
+		<added>2026-10-25</added>
+		<lastupdated>2026-10-25</lastupdated>
+		<name>Galaxy Shutter Mute Manager</name>
+		<summary>Set up Galaxy Shutter Mute through Shizuku</summary>
+		<desc>&lt;p&gt;Installs and grants the settings permission needed by Galaxy Shutter Mute through Shizuku. The companion app is downloaded only after the user's explicit action. Galaxy Shutter Mute remains a separate app. Support depends on Samsung firmware, region and camera version.&lt;/p&gt;</desc>
+		<license>MIT</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/OneUI-Mods/galaxy-shutter-mute-manager</web>
+		<source>https://github.com/OneUI-Mods/galaxy-shutter-mute-manager</source>
+		<tracker>https://github.com/OneUI-Mods/galaxy-shutter-mute-manager/issues</tracker>
+		<author>OneUI Mods</author>
+		<marketversion>1.2.0</marketversion>
+		<marketvercode>3</marketvercode>
+		<antifeatures>NonFreeDep,TetheredNet</antifeatures>
+		<package>
+			<version>1.2.0</version>
+			<versioncode>3</versioncode>
+			<apkname>net.ryuya.dev.galaxyshutter.mute.manager_3.apk</apkname>
+			<hash type="sha256">0a8d65f49db9b2600bf3f9c771d1d8421beb73f759eb77199b7a08740cef41c9</hash>
+			<size>1889192</size>
+			<sdkver>26</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>db15cffcbbfc85d241cc038e4398f925</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,moe.shizuku.manager.permission.API_V23,net.ryuya.dev.galaxyshutter.mute.manager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="28" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="28" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="dev.ryuya.galaxyupdateguard">
+		<id>dev.ryuya.galaxyupdateguard</id>
+		<added>2026-10-25</added>
+		<lastupdated>2026-10-25</lastupdated>
+		<name>Galaxy Update Guard</name>
+		<summary>Pause and restore Galaxy OS updates</summary>
+		<desc>&lt;p&gt;Disables supported Samsung OS update services and restores their previous state. Requires root. Google Play system and application updates are outside its scope. Restore the original state before uninstalling or clearing this app's data.&lt;/p&gt;</desc>
+		<license>MIT</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/OneUI-Mods/galaxy-update-guard</web>
+		<source>https://github.com/OneUI-Mods/galaxy-update-guard</source>
+		<tracker>https://github.com/OneUI-Mods/galaxy-update-guard/issues</tracker>
+		<author>OneUI Mods</author>
+		<marketversion>0.1.0</marketversion>
+		<marketvercode>1</marketvercode>
+		<requirements>root</requirements>
+		<antifeatures>NonFreeDep</antifeatures>
+		<package>
+			<version>0.1.0</version>
+			<versioncode>1</versioncode>
+			<apkname>dev.ryuya.galaxyupdateguard_1.apk</apkname>
+			<hash type="sha256">892cc69a18eacfd4ee1fe36fb404345854b9e2b52383f61377db2e8fb79349ed</hash>
+			<size>11789964</size>
+			<sdkver>36</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>d539c54ee80ff0750020e2dc182c0a84</sig>
+			<permissions>dev.ryuya.galaxyupdateguard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="dev.ryuya.oneuihometweaks">
+		<id>dev.ryuya.oneuihometweaks</id>
+		<added>2026-10-25</added>
+		<lastupdated>2026-10-25</lastupdated>
+		<name>One UI Home Tweaks</name>
+		<summary>Customize One UI Home and the quick panel</summary>
+		<desc>&lt;p&gt;Adjust supported One UI Home folder behavior, quick panel controls and developer animation settings. Requires root, a libxposed API 102 compatible framework and supported Samsung system components. Keep the source README at hand for supported firmware and reload instructions.&lt;/p&gt;</desc>
+		<license>MIT</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/OneUI-Mods/OneUIHomeTweaks</web>
+		<source>https://github.com/OneUI-Mods/OneUIHomeTweaks</source>
+		<tracker>https://github.com/OneUI-Mods/OneUIHomeTweaks/issues</tracker>
+		<author>OneUI Mods</author>
+		<marketversion>0.18.0</marketversion>
+		<marketvercode>28</marketvercode>
+		<requirements>root</requirements>
+		<antifeatures>NonFreeDep</antifeatures>
+		<package>
+			<version>0.18.0</version>
+			<versioncode>28</versioncode>
+			<apkname>dev.ryuya.oneuihometweaks_28.apk</apkname>
+			<hash type="sha256">91e1e616bb5586c9432042351a74931988df1c055a676829b6517d746667a8fc</hash>
+			<size>14769384</size>
+			<sdkver>31</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>96cfc2ba6b7d3ed4674d03aec770e238</sig>
+			<permissions>dev.ryuya.oneuihometweaks.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="dev.ryuya.oneuimods">
+		<id>dev.ryuya.oneuimods</id>
+		<added>2026-10-25</added>
+		<lastupdated>2026-10-25</lastupdated>
+		<name>OneUI Mods Manager</name>
+		<summary>Manage and update apps from OneUI Mods</summary>
+		<desc>&lt;p&gt;Browse OneUI Mods apps, compare installed versions with public GitHub releases, choose whether to include experimental releases, and download verified updates. Installation always uses the Android confirmation screen. GitHub downloads are user initiated and bypass the official F-Droid build review.&lt;/p&gt;</desc>
+		<license>MIT</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/OneUI-Mods/OneUIModsManager</web>
+		<source>https://github.com/OneUI-Mods/OneUIModsManager</source>
+		<tracker>https://github.com/OneUI-Mods/OneUIModsManager/issues</tracker>
+		<author>OneUI Mods</author>
+		<marketversion>0.2.0-experimental</marketversion>
+		<marketvercode>4</marketvercode>
+		<antifeatures>TetheredNet</antifeatures>
+		<package>
+			<version>0.2.0-experimental</version>
+			<versioncode>4</versioncode>
+			<apkname>dev.ryuya.oneuimods_4.apk</apkname>
+			<hash type="sha256">93d25c3588466b58d2d1aefa46d1d8f939b285c597566ff5d851504e643119fd</hash>
+			<size>11835253</size>
+			<sdkver>36</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>676d9f8072e0f0c02467206827455389</sig>
+			<permissions>FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,POST_NOTIFICATIONS,REQUEST_INSTALL_PACKAGES,dev.ryuya.oneuimods.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="dev.simpilot">
+		<id>dev.simpilot</id>
+		<added>2026-10-25</added>
+		<lastupdated>2026-10-25</lastupdated>
+		<name>SIM Pilot</name>
+		<summary>Manage dual-SIM data switching</summary>
+		<desc>&lt;p&gt;Manage supported dual-SIM data switching through Shizuku or Shizuku Plus. Requires compatible device telephony services and explicit Shizuku permission. No root is needed when Shizuku is available through wireless debugging.&lt;/p&gt;</desc>
+		<license>MIT</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/OneUI-Mods/sim-pilot</web>
+		<source>https://github.com/OneUI-Mods/sim-pilot</source>
+		<tracker>https://github.com/OneUI-Mods/sim-pilot/issues</tracker>
+		<author>OneUI Mods</author>
+		<marketversion>1.10.0</marketversion>
+		<marketvercode>19</marketvercode>
+		<package>
+			<version>1.10.0</version>
+			<versioncode>19</versioncode>
+			<apkname>dev.simpilot_19.apk</apkname>
+			<hash type="sha256">16b2059bbc0d8e501901b8cbc1d3ac535d7ba7ab5d55d05e9aabcda6f13c23bd</hash>
+			<size>2780936</size>
+			<sdkver>31</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>15c71464364a7d96da854f1e1c7f4e4a</sig>
+			<permissions>ACCESS_COARSE_LOCATION,ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,CHANGE_NETWORK_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SPECIAL_USE,INTERNET,READ_PHONE_STATE,RECEIVE_BOOT_COMPLETED,dev.simpilot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,moe.shizuku.manager.permission.API_V23</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="dev.ryuya.sleepstore">
+		<id>dev.ryuya.sleepstore</id>
+		<added>2026-10-25</added>
+		<lastupdated>2026-10-25</lastupdated>
+		<name>SleepStore</name>
+		<summary>Show updates for deep-sleeping apps</summary>
+		<desc>&lt;p&gt;Helps supported app-store components include deep-sleeping apps in their update listings. Requires root, a compatible Xposed framework and supported store versions. It does not bundle the store apps.&lt;/p&gt;</desc>
+		<license>MIT</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/OneUI-Mods/SleepStore</web>
+		<source>https://github.com/OneUI-Mods/SleepStore</source>
+		<tracker>https://github.com/OneUI-Mods/SleepStore/issues</tracker>
+		<author>OneUI Mods</author>
+		<marketversion>0.2.0</marketversion>
+		<marketvercode>2</marketvercode>
+		<requirements>root</requirements>
+		<antifeatures>NonFreeDep</antifeatures>
+		<package>
+			<version>0.2.0</version>
+			<versioncode>2</versioncode>
+			<apkname>dev.ryuya.sleepstore_2.apk</apkname>
+			<hash type="sha256">b27168e4212be0c9ee03105cd6496e3b5b032a3fbd4a55340232d1780bfee8f2</hash>
+			<size>9731843</size>
+			<sdkver>35</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>f6a8e125be2e21824d7d425b8e1abff8</sig>
+			<permissions>dev.ryuya.sleepstore.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="net.ryuya_dev.tailadb">
+		<id>net.ryuya_dev.tailadb</id>
+		<added>2026-10-25</added>
+		<lastupdated>2026-10-25</lastupdated>
+		<name>Tail ADB</name>
+		<summary>ADB access over your Tailscale network</summary>
+		<desc>&lt;p&gt;Provides an authorized ADB transport restricted to the device's Tailscale interface, with per-peer shell and root permissions and network recovery. Requires root and the separate Tailscale app. It uses the selected Tailscale account's network; no Tailscale code is bundled.&lt;/p&gt;</desc>
+		<license>MIT</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web>https://github.com/OneUI-Mods/tail-adb</web>
+		<source>https://github.com/OneUI-Mods/tail-adb</source>
+		<tracker>https://github.com/OneUI-Mods/tail-adb/issues</tracker>
+		<author>OneUI Mods</author>
+		<marketversion>0.2.4</marketversion>
+		<marketvercode>6</marketvercode>
+		<requirements>root</requirements>
+		<antifeatures>TetheredNet</antifeatures>
+		<package>
+			<version>0.2.4</version>
+			<versioncode>6</versioncode>
+			<apkname>net.ryuya_dev.tailadb_6.apk</apkname>
+			<hash type="sha256">7482d0878a58f870dcffff161142e954adb7652d58612a2d0aa42ebcd9521840</hash>
+			<size>11790411</size>
+			<sdkver>36</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>2033a8b52df5039c113c02f4509cfca4</sig>
+			<permissions>INTERNET,RECEIVE_BOOT_COMPLETED,net.ryuya_dev.tailadb.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,x86_64</nativecode>
+		</package>
+		<package>
+			<version>0.1.0</version>
+			<versioncode>1</versioncode>
+			<apkname>net.ryuya_dev.tailadb_1.apk</apkname>
+			<hash type="sha256">f4a4367f493a0bacad38e8649ff6bd445b96fc66827fd797c3c65566d2b0965a</hash>
+			<size>11694954</size>
+			<sdkver>36</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-10-25</added>
+			<sig>2033a8b52df5039c113c02f4509cfca4</sig>
+			<permissions>FOREGROUND_SERVICE,FOREGROUND_SERVICE_SPECIAL_USE,INTERNET,POST_NOTIFICATIONS,net.ryuya_dev.tailadb.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,x86_64</nativecode>
+		</package>
+	</application>
+</fdroid>
