@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1792928646000
+    "timestamp": 1792931033000
   },
   "packages": {
     "dev.ryuya.galaxycapture": {
@@ -39,6 +39,109 @@
               },
               {
                 "name": "dev.ryuya.galaxycapture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        }
+      }
+    },
+    "dev.ryuya.homepodbridge": {
+      "metadata": {
+        "added": 1792931031000,
+        "categories": [
+          "System"
+        ],
+        "issueTracker": "https://github.com/OneUI-Mods/HomePodBridge/issues",
+        "lastUpdated": 1792931031000,
+        "license": "Apache-2.0",
+        "sourceCode": "https://github.com/OneUI-Mods/HomePodBridge",
+        "webSite": "https://github.com/OneUI-Mods/HomePodBridge",
+        "authorName": "ryuya0124",
+        "authorWebSite": "https://github.com/ryuya0124",
+        "name": {
+          "en-US": "HomePod Bridge"
+        },
+        "summary": {
+          "en-US": "Stream Android playback to HomePod"
+        },
+        "description": {
+          "en-US": "<p>Stream selected-app media or device playback and notification sounds to HomePod over AirPlay 2. Requires root and a compatible Xposed framework such as Vector enabled for System UI. Microphone and call audio are excluded. Includes adjustable latency and buffer controls. HomePod and its proprietary receiver firmware are not bundled. See the source README for supported devices and setup.</p>"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/dev.ryuya.homepodbridge/en-US/icon_EeHdVL9RdYaBwkuO3wwtPRVtR9uu5vF6pm6ax30zKX4=.png",
+            "sha256": "11e1dd54bf51758681c24b8edf0c2d3d156d47dbaee6f17aa66e9ac77d33297e",
+            "size": 14635
+          }
+        },
+        "preferredSigner": "90890d1b2de09cdfd17b2b20c7a6b069a9559f7bad345c17c6d969d336599b8c"
+      },
+      "versions": {
+        "a44b7aa27a2bcef92c1bd81d27ce0896b508ed37cf5654c3ea03b1f3cd01d3c5": {
+          "added": 1792931031000,
+          "file": {
+            "name": "/dev.ryuya.homepodbridge_23.apk",
+            "sha256": "a44b7aa27a2bcef92c1bd81d27ce0896b508ed37cf5654c3ea03b1f3cd01d3c5",
+            "size": 16504712
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "x86_64"
+            ],
+            "versionName": "0.1.0-experimental",
+            "versionCode": 23,
+            "usesSdk": {
+              "minSdkVersion": 36,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "90890d1b2de09cdfd17b2b20c7a6b069a9559f7bad345c17c6d969d336599b8c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_LOCAL_NETWORK"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "dev.ryuya.homepodbridge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           },

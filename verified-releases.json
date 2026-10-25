@@ -402,5 +402,32 @@
         "preview": false
       }
     ]
+  },
+  {
+    "app": {
+      "repo": "HomePodBridge",
+      "packageName": "dev.ryuya.homepodbridge",
+      "title": "HomePod Bridge",
+      "description": "HomePodへの音声転送・音声モードと遅延の調整",
+      "category": "device",
+      "certificates": [
+        "90890d1b2de09cdfd17b2b20c7a6b069a9559f7bad345c17c6d969d336599b8c"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.homepodbridge",
+        "versionCode": 23,
+        "versionName": "0.1.0-experimental",
+        "apk": "HomePodBridge-0.1.0-experimental-release.apk",
+        "sha256": "a44b7aa27a2bcef92c1bd81d27ce0896b508ed37cf5654c3ea03b1f3cd01d3c5",
+        "filename": "dev.ryuya.homepodbridge_23.apk",
+        "tag": "v0.1.0-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/HomePodBridge/releases/tag/v0.1.0-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/HomePodBridge/releases/download/v0.1.0-experimental/HomePodBridge-0.1.0-experimental-release.apk",
+        "preview": true
+      }
+    ]
   }
 ]

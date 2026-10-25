@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1792928646000,
+    "timestamp": 1792931033000,
     "version": 20002,
     "name": "OneUI Mods",
     "icon": "oneui-mods.png",
@@ -270,6 +270,36 @@
       "localized": {
         "en-US": {
           "icon": "icon_yXSl46TNduE_5uXUL2yC-9ySUlh8OVkmhBTWYUd7n9Q=.png"
+        }
+      }
+    },
+    {
+      "allowedAPKSigningKeys": [
+        "90890d1b2de09cdfd17b2b20c7a6b069a9559f7bad345c17c6d969d336599b8c"
+      ],
+      "antiFeatures": [
+        "NonFreeDep"
+      ],
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
+      "categories": [
+        "System"
+      ],
+      "suggestedVersionName": "0.1.0-experimental",
+      "suggestedVersionCode": "23",
+      "description": "<p>Stream selected-app media or device playback and notification sounds to HomePod over AirPlay 2. Requires root and a compatible Xposed framework such as Vector enabled for System UI. Microphone and call audio are excluded. Includes adjustable latency and buffer controls. HomePod and its proprietary receiver firmware are not bundled. See the source README for supported devices and setup.</p>",
+      "issueTracker": "https://github.com/OneUI-Mods/HomePodBridge/issues",
+      "license": "Apache-2.0",
+      "name": "HomePod Bridge",
+      "sourceCode": "https://github.com/OneUI-Mods/HomePodBridge",
+      "summary": "Stream Android playback to HomePod",
+      "webSite": "https://github.com/OneUI-Mods/HomePodBridge",
+      "added": 1792931031000,
+      "packageName": "dev.ryuya.homepodbridge",
+      "lastUpdated": 1792931031000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_EeHdVL9RdYaBwkuO3wwtPRVtR9uu5vF6pm6ax30zKX4=.png"
         }
       }
     },
@@ -618,6 +648,80 @@
         ],
         "versionCode": 1,
         "versionName": "0.1.0"
+      }
+    ],
+    "dev.ryuya.homepodbridge": [
+      {
+        "added": 1792931031000,
+        "apkName": "dev.ryuya.homepodbridge_23.apk",
+        "hash": "a44b7aa27a2bcef92c1bd81d27ce0896b508ed37cf5654c3ea03b1f3cd01d3c5",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "nativecode": [
+          "arm64-v8a",
+          "x86_64"
+        ],
+        "packageName": "dev.ryuya.homepodbridge",
+        "sig": "dfd4a37a994edeff1b005c6f15e813fa",
+        "signer": "90890d1b2de09cdfd17b2b20c7a6b069a9559f7bad345c17c6d969d336599b8c",
+        "size": 16504712,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_LOCAL_NETWORK",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "dev.ryuya.homepodbridge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 23,
+        "versionName": "0.1.0-experimental"
       }
     ],
     "dev.ryuya.oneuihometweaks": [
