@@ -1,8 +1,50 @@
 {
   "repo": {
-    "timestamp": 1792934166000
+    "timestamp": 1792934692000
   },
   "packages": {
+    "dev.ryuya.galaxycapture": {
+      "metadata": {
+        "lastUpdated": 1792934689000
+      },
+      "versions": {
+        "a56f2a5b88cb50ee4a7465cb3a7793e313aec5de0ac7d2c2370c06c96352f1ab": {
+          "added": 1792934689000,
+          "file": {
+            "name": "/dev.ryuya.galaxycapture_21.apk",
+            "sha256": "a56f2a5b88cb50ee4a7465cb3a7793e313aec5de0ac7d2c2370c06c96352f1ab",
+            "size": 10063418
+          },
+          "manifest": {
+            "versionName": "0.3.7-experimental",
+            "versionCode": 21,
+            "usesSdk": {
+              "minSdkVersion": 35,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "3c18719ba633ed0e891d8dca62053c849986156fd10410bd5f0115113ffa6075"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "dev.ryuya.galaxycapture.permission.CONFIG"
+              },
+              {
+                "name": "dev.ryuya.galaxycapture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        }
+      }
+    },
     "dev.ryuya.homepodbridge": {
       "metadata": {
         "added": 1792931031000,

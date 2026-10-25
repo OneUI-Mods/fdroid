@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1792934166000
+    "timestamp": 1792934692000
   },
   "packages": {
     "dev.ryuya.darkapps": {
@@ -83,7 +83,7 @@
     },
     "dev.ryuya.galaxycapture": {
       "metadata": {
-        "lastUpdated": 1792928646000,
+        "lastUpdated": 1792934689000,
         "authorName": "ryuya0124",
         "authorWebSite": "https://github.com/ryuya0124",
         "summary": {
@@ -101,6 +101,41 @@
         }
       },
       "versions": {
+        "a56f2a5b88cb50ee4a7465cb3a7793e313aec5de0ac7d2c2370c06c96352f1ab": {
+          "added": 1792934689000,
+          "file": {
+            "name": "/dev.ryuya.galaxycapture_21.apk",
+            "sha256": "a56f2a5b88cb50ee4a7465cb3a7793e313aec5de0ac7d2c2370c06c96352f1ab",
+            "size": 10063418
+          },
+          "manifest": {
+            "versionName": "0.3.7-experimental",
+            "versionCode": 21,
+            "usesSdk": {
+              "minSdkVersion": 35,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "3c18719ba633ed0e891d8dca62053c849986156fd10410bd5f0115113ffa6075"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "dev.ryuya.galaxycapture.permission.CONFIG"
+              },
+              {
+                "name": "dev.ryuya.galaxycapture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        },
         "50e65495ae0f3937f6b96af968d2e9fcc9618620f87fa84d016b4987a6568d33": {
           "added": 1792928646000,
           "file": {
