@@ -1,0 +1,52 @@
+{
+  "repo": {
+    "timestamp": 1792928646000
+  },
+  "packages": {
+    "dev.ryuya.galaxycapture": {
+      "metadata": {
+        "lastUpdated": 1792928646000,
+        "description": {
+          "en-US": "<p>Adds optional recording rotation, app targeting, audio and capture controls to supported Samsung and Android recording components. Call playback can be included explicitly while preserving the selected app audio scope. Requires root and a libxposed API 102 compatible framework. Call capture availability depends on the audio route and app. Read the source README for supported firmware and activation steps.</p>"
+        }
+      },
+      "versions": {
+        "50e65495ae0f3937f6b96af968d2e9fcc9618620f87fa84d016b4987a6568d33": {
+          "added": 1792928646000,
+          "file": {
+            "name": "/dev.ryuya.galaxycapture_20.apk",
+            "sha256": "50e65495ae0f3937f6b96af968d2e9fcc9618620f87fa84d016b4987a6568d33",
+            "size": 10059322
+          },
+          "manifest": {
+            "versionName": "0.3.6-experimental",
+            "versionCode": 20,
+            "usesSdk": {
+              "minSdkVersion": 35,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "3c18719ba633ed0e891d8dca62053c849986156fd10410bd5f0115113ffa6075"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "dev.ryuya.galaxycapture.permission.CONFIG"
+              },
+              {
+                "name": "dev.ryuya.galaxycapture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        }
+      }
+    }
+  }
+}

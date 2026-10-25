@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1792909527000,
+    "timestamp": 1792928646000,
     "version": 20002,
     "name": "OneUI Mods",
     "icon": "oneui-mods.png",
@@ -114,9 +114,9 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.3.5-experimental",
-      "suggestedVersionCode": "19",
-      "description": "<p>Adds optional recording rotation, app targeting, audio and capture controls to supported Samsung and Android recording components. Requires root and a libxposed API 102 compatible framework. Read the source README for supported firmware and initial activation steps.</p>",
+      "suggestedVersionName": "0.3.6-experimental",
+      "suggestedVersionCode": "20",
+      "description": "<p>Adds optional recording rotation, app targeting, audio and capture controls to supported Samsung and Android recording components. Call playback can be included explicitly while preserving the selected app audio scope. Requires root and a libxposed API 102 compatible framework. Call capture availability depends on the audio route and app. Read the source README for supported firmware and activation steps.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/GalaxyCaptureTools/issues",
       "license": "MIT",
       "name": "Galaxy Capture Tools",
@@ -125,7 +125,7 @@
       "webSite": "https://github.com/OneUI-Mods/GalaxyCaptureTools",
       "added": 1792906982000,
       "packageName": "dev.ryuya.galaxycapture",
-      "lastUpdated": 1792906982000,
+      "lastUpdated": 1792928646000,
       "localized": {
         "en-US": {
           "icon": "icon_Z8DNL2JI4HJdXffOmffbF69-hqRQxbUSSWXvRaC9_lE=.png"
@@ -497,6 +497,34 @@
       }
     ],
     "dev.ryuya.galaxycapture": [
+      {
+        "added": 1792928646000,
+        "apkName": "dev.ryuya.galaxycapture_20.apk",
+        "hash": "50e65495ae0f3937f6b96af968d2e9fcc9618620f87fa84d016b4987a6568d33",
+        "hashType": "sha256",
+        "minSdkVersion": 35,
+        "packageName": "dev.ryuya.galaxycapture",
+        "sig": "3070c867ef08d1e2081a7e2920735149",
+        "signer": "3c18719ba633ed0e891d8dca62053c849986156fd10410bd5f0115113ffa6075",
+        "size": 10059322,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "dev.ryuya.galaxycapture.permission.CONFIG",
+            null
+          ],
+          [
+            "dev.ryuya.galaxycapture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 20,
+        "versionName": "0.3.6-experimental"
+      },
       {
         "added": 1792906982000,
         "apkName": "dev.ryuya.galaxycapture_19.apk",

@@ -297,6 +297,19 @@
       {
         "schema": 1,
         "packageName": "dev.ryuya.galaxycapture",
+        "versionCode": 20,
+        "versionName": "0.3.6-experimental",
+        "apk": "GalaxyCaptureTools-0.3.6-experimental-release.apk",
+        "sha256": "50e65495ae0f3937f6b96af968d2e9fcc9618620f87fa84d016b4987a6568d33",
+        "filename": "dev.ryuya.galaxycapture_20.apk",
+        "tag": "v0.3.6-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/GalaxyCaptureTools/releases/tag/v0.3.6-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/GalaxyCaptureTools/releases/download/v0.3.6-experimental/GalaxyCaptureTools-0.3.6-experimental-release.apk",
+        "preview": true
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxycapture",
         "versionCode": 19,
         "versionName": "0.3.5-experimental",
         "apk": "GalaxyCaptureTools-0.3.5-experimental-release.apk",
