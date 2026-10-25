@@ -85,6 +85,45 @@ def sync_app(app, work, catalog, tools):
                 }
             )
     preferred = next((v for v in versions if not v["preview"]), versions[0])
+    previous_manifest = work / "verified-releases.json"
+    if previous_manifest.exists():
+        previous = next(
+            (
+                row
+                for row in json.loads(previous_manifest.read_text())
+                if row["app"]["packageName"] == app["packageName"]
+            ),
+            None,
+        )
+        current = {v["versionCode"]: v for v in versions}
+        for old in previous["versions"] if previous else []:
+            existing = current.get(old["versionCode"])
+            if existing is not None:
+                if existing["sha256"] != old["sha256"]:
+                    raise ValueError(f"{repo}: published version contents changed")
+                continue
+            expected_name = f'{app["packageName"]}_{old["versionCode"]}.apk'
+            if old["filename"] != expected_name:
+                raise ValueError("Unexpected cached APK filename")
+            # Keep already-published APKs available to clients holding an older signed index.
+            with tempfile.TemporaryDirectory(
+                prefix="oneui-fdroid-history-"
+            ) as directory:
+                verified = write_metadata(
+                    work / "repo" / expected_name,
+                    Path(directory) / "verified.json",
+                    tools,
+                    catalog,
+                )
+            if any(
+                verified[key] != old[key]
+                for key in ["packageName", "versionCode", "versionName", "sha256"]
+            ):
+                raise ValueError(
+                    f"{repo}: previous APK no longer matches its verified record"
+                )
+            versions.append(old)
+
     notes = json.loads(
         (Path(__file__).resolve().parent.parent / "catalog-notes.json").read_text()
     ).get(

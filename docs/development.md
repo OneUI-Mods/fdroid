@@ -34,3 +34,5 @@ The custom repository mirrors developer-signed release APKs. Official inclusion 
 The icon export renders original launcher vectors from each verified APK, using the selected Android SDK for framework colors. Apps without declared launcher artwork retain the client default. It never modifies the APK.
 
 Verification on 2026-10-25: all 14 official requests were confirmed on GitLab; the live repository was read with fdroidserver and its pinned index certificate. All 14 packages and the manager code-4 APK matched the verified release manifest. No device operation was performed. Existing release-tag SDK values are recorded individually in the submission records. Preparation refuses to overwrite already-submitted request history.
+
+When a new release is mirrored, previously published APKs are retained and their signatures, package/version and digest are rechecked against the recorded provenance. They remain available to clients holding an older signed index. Reusing a versionCode with different contents is rejected. The preferred version still comes from the latest current stable/preview candidates.
