@@ -137,7 +137,7 @@ def sync_app(app, work, catalog, tools):
     description = "<p>" + notes["details"] + "</p>"
     metadata = {
         "Categories": ["System"],
-        "License": "MIT",
+        "License": notes.get("license", "MIT"),
         "AuthorName": "ryuya0124",
         "AuthorWebSite": "https://github.com/ryuya0124",
         "WebSite": f"https://github.com/{repo}",

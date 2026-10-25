@@ -104,5 +104,14 @@
     "antiFeatures": [
       "NonFreeDep"
     ]
+  },
+  "HomePodBridge": {
+    "summary": "Stream Android playback to HomePod",
+    "details": "Stream selected-app media or device playback and notification sounds to HomePod over AirPlay 2. Requires root and a compatible Xposed framework such as Vector enabled for System UI. Microphone and call audio are excluded. Includes adjustable latency and buffer controls. HomePod and its proprietary receiver firmware are not bundled. See the source README for supported devices and setup.",
+    "license": "Apache-2.0",
+    "root": true,
+    "antiFeatures": [
+      "NonFreeDep"
+    ]
   }
 }
