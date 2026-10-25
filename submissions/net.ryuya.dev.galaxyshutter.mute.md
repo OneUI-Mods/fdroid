@@ -37,6 +37,6 @@ These are existing apps used on supported Galaxy devices, rather than placeholde
 - Existing developer signatures should be retained if reproducible builds can be established. We are not claiming that the current APK has passed F-Droid reproducibility verification.
 - Declared anti-features/dependencies for review: NonFreeDep.
 
-The published source uses Android SDK 37. The draft recipe has not been tested on the F-Droid build server, and cross-machine reproducibility has not yet been established. Its deliberately old Android compatibility settings are required for the Samsung setting it changes. Installation on recent Android releases is normally performed through its separate Shizuku manager.
+The requested release tag uses compileSdk 35; newer source branches must be reviewed separately. The draft recipe has not been tested on the F-Droid build server, and cross-machine reproducibility has not yet been established. Its deliberately old Android compatibility settings are required for the Samsung setting it changes. Installation on recent Android releases is normally performed through its separate Shizuku manager.
 
 Each source repository has user-facing setup/compatibility information and separate development/release instructions. No proprietary host application is bundled in these modules. Please flag any further packaging or policy changes needed before acceptance.

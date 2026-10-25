@@ -9,7 +9,8 @@
     "versionCode": 4,
     "sourceCommit": "d9391918d680daa375bfc464c36e9a8dd094e13c",
     "status": "submitted; awaiting F-Droid review",
-    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4649"
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4649",
+    "compileSdk": 37
   },
   {
     "repo": "DarkAppTools",
@@ -21,7 +22,8 @@
     "versionCode": 10,
     "sourceCommit": "dc4d04663546f3b437f138ba363456686d461086",
     "status": "submitted; awaiting F-Droid review",
-    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4650"
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4650",
+    "compileSdk": 37
   },
   {
     "repo": "OneUIHomeTweaks",
@@ -33,7 +35,8 @@
     "versionCode": 28,
     "sourceCommit": "d5b1c35c98938ee43ee837b6f53ac926e9bb5e8d",
     "status": "submitted; awaiting F-Droid review",
-    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4651"
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4651",
+    "compileSdk": 37
   },
   {
     "repo": "GalaxyCameraTools",
@@ -45,7 +48,8 @@
     "versionCode": 4,
     "sourceCommit": "ca7001045ec30bd609d9343e01f6c6f92e3a8f47",
     "status": "submitted; awaiting F-Droid review",
-    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4652"
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4652",
+    "compileSdk": 37
   },
   {
     "repo": "sim-pilot",
@@ -57,7 +61,8 @@
     "versionCode": 19,
     "sourceCommit": "e72de55c7c6a90f3b1538dc72aaab5edbe4dead6",
     "status": "submitted; awaiting F-Droid review",
-    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4653"
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4653",
+    "compileSdk": 37
   },
   {
     "repo": "tail-adb",
@@ -69,7 +74,8 @@
     "versionCode": 6,
     "sourceCommit": "5464653b05152b890af334ab7ddb71d6666ac9b4",
     "status": "submitted; awaiting F-Droid review",
-    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4654"
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4654",
+    "compileSdk": 37
   },
   {
     "repo": "galaxy-update-guard",
@@ -81,7 +87,8 @@
     "versionCode": 1,
     "sourceCommit": "ef195a70ec357bfd66d9a91a128117cbee58cded",
     "status": "submitted; awaiting F-Droid review",
-    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4655"
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4655",
+    "compileSdk": 37
   },
   {
     "repo": "galaxy-adaptive-statusbar",
@@ -93,7 +100,8 @@
     "versionCode": 40,
     "sourceCommit": "23b48261ffe2f0822258da94d09a30e79ae11b56",
     "status": "submitted; awaiting F-Droid review",
-    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4656"
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4656",
+    "compileSdk": 37
   },
   {
     "repo": "galaxy-service-panel",
@@ -105,7 +113,8 @@
     "versionCode": 1,
     "sourceCommit": "1442cc8ba72b2f9f0b00452d4647c8170ddc7764",
     "status": "submitted; awaiting F-Droid review",
-    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4657"
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4657",
+    "compileSdk": 37
   },
   {
     "repo": "galaxy-reload",
@@ -117,7 +126,8 @@
     "versionCode": 2,
     "sourceCommit": "82c87115ecc7b4e62192d1ea2cf82d93ab02fd6a",
     "status": "submitted; awaiting F-Droid review",
-    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4658"
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4658",
+    "compileSdk": 37
   },
   {
     "repo": "GalaxyCaptureTools",
@@ -129,19 +139,21 @@
     "versionCode": 19,
     "sourceCommit": "88262467a21a9478e0b81287f60a4c2ba0f3b9a6",
     "status": "submitted; awaiting F-Droid review",
-    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4659"
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4659",
+    "compileSdk": 37
   },
   {
     "repo": "SleepStore",
     "packageName": "dev.ryuya.sleepstore",
     "title": "SleepStore",
     "requestTitle": "SleepStore",
-    "body": "* [ ] The app complies with all inclusion criteria (source/build and policy review requested; open points below).\n* [x] The package is not in the official repository, and no open request for this package was found.\n* [x] The upstream maintainer has requested and consents to inclusion.\n* [ ] Donated (no donation claimed).\n\n### Link to the source code:\nhttps://github.com/OneUI-Mods/SleepStore\n\n### Link to app in another app store:\nhttps://github.com/OneUI-Mods/SleepStore/releases/tag/v0.2.0\n\nDeveloper-signed F-Droid repository: https://oneui-mods.github.io/fdroid/repo\n\n### Application ID:\n`dev.ryuya.sleepstore`\n\n### License used:\nMIT. Third-party runtime dependency license notices are included in the source and app.\n\n### Category:\nSystem\n\n### Summary:\nShow updates for deep-sleeping apps\n\n### Description:\nHelps supported app-store components include deep-sleeping apps in their update listings. Requires root, a compatible Xposed framework and supported store versions. It does not bundle the store apps.\n\nThese are existing apps used on supported Galaxy devices, rather than placeholder demos. The upstream maintainer requests official inclusion of this independently identified app. Related OneUI Mods requests concern separate application IDs and functions.\n\n### Packaging information and open review points:\n- Latest requested version: **0.2.0** (`2`); stable release.\n- Immutable source commit: `00f540270b9731f7f47bf88e5d69ab07b6188cf4`.\n- Source-build draft (explicitly unvalidated): https://github.com/OneUI-Mods/fdroid/blob/main/packaging/drafts/dev.ryuya.sleepstore.yml\n- Developer certificate SHA-256: `9d1f5a2cea5340c434682221e355cbfc92f8a97cdf6994f782ff6d96660a90b6`.\n- APK SHA-256: `b27168e4212be0c9ee03105cd6496e3b5b032a3fbd4a55340232d1780bfee8f2`.\n- Existing developer signatures should be retained if reproducible builds can be established. We are not claiming that the current APK has passed F-Droid reproducibility verification.\n- Declared anti-features/dependencies for review: NonFreeDep.\n\nThe published source uses Android SDK 37. The draft recipe has not been tested on the F-Droid build server, and cross-machine reproducibility has not yet been established.\n\nEach source repository has user-facing setup/compatibility information and separate development/release instructions. No proprietary host application is bundled in these modules. Please flag any further packaging or policy changes needed before acceptance.\n",
+    "body": "* [ ] The app complies with all inclusion criteria (source/build and policy review requested; open points below).\n* [x] The package is not in the official repository, and no open request for this package was found.\n* [x] The upstream maintainer has requested and consents to inclusion.\n* [ ] Donated (no donation claimed).\n\n### Link to the source code:\nhttps://github.com/OneUI-Mods/SleepStore\n\n### Link to app in another app store:\nhttps://github.com/OneUI-Mods/SleepStore/releases/tag/v0.2.0\n\nDeveloper-signed F-Droid repository: https://oneui-mods.github.io/fdroid/repo\n\n### Application ID:\n`dev.ryuya.sleepstore`\n\n### License used:\nMIT. Third-party runtime dependency license notices are included in the source and app.\n\n### Category:\nSystem\n\n### Summary:\nShow updates for deep-sleeping apps\n\n### Description:\nHelps supported app-store components include deep-sleeping apps in their update listings. Requires root, a compatible Xposed framework and supported store versions. It does not bundle the store apps.\n\nThese are existing apps used on supported Galaxy devices, rather than placeholder demos. The upstream maintainer requests official inclusion of this independently identified app. Related OneUI Mods requests concern separate application IDs and functions.\n\n### Packaging information and open review points:\n- Latest requested version: **0.2.0** (`2`); stable release.\n- Immutable source commit: `00f540270b9731f7f47bf88e5d69ab07b6188cf4`.\n- Source-build draft (explicitly unvalidated): https://github.com/OneUI-Mods/fdroid/blob/main/packaging/drafts/dev.ryuya.sleepstore.yml\n- Developer certificate SHA-256: `9d1f5a2cea5340c434682221e355cbfc92f8a97cdf6994f782ff6d96660a90b6`.\n- APK SHA-256: `b27168e4212be0c9ee03105cd6496e3b5b032a3fbd4a55340232d1780bfee8f2`.\n- Existing developer signatures should be retained if reproducible builds can be established. We are not claiming that the current APK has passed F-Droid reproducibility verification.\n- Declared anti-features/dependencies for review: NonFreeDep.\n\nThe requested release tag uses compileSdk 36; newer source branches must be reviewed separately. The draft recipe has not been tested on the F-Droid build server, and cross-machine reproducibility has not yet been established.\n\nEach source repository has user-facing setup/compatibility information and separate development/release instructions. No proprietary host application is bundled in these modules. Please flag any further packaging or policy changes needed before acceptance.\n",
     "versionName": "0.2.0",
     "versionCode": 2,
     "sourceCommit": "00f540270b9731f7f47bf88e5d69ab07b6188cf4",
     "status": "submitted; awaiting F-Droid review",
-    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4660"
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4660",
+    "compileSdk": 36
   },
   {
     "repo": "galaxy-shutter-mute-manager",
@@ -153,18 +165,20 @@
     "versionCode": 3,
     "sourceCommit": "842ec2a8cb6b60c5cab7de0a973ce794f23feb72",
     "status": "submitted; awaiting F-Droid review",
-    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4661"
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4661",
+    "compileSdk": 37
   },
   {
     "repo": "galaxy-shutter-mute",
     "packageName": "net.ryuya.dev.galaxyshutter.mute",
     "title": "Galaxy Shutter Mute",
     "requestTitle": "Galaxy Shutter Mute",
-    "body": "* [ ] The app complies with all inclusion criteria (source/build and policy review requested; open points below).\n* [x] The package is not in the official repository, and no open request for this package was found.\n* [x] The upstream maintainer has requested and consents to inclusion.\n* [ ] Donated (no donation claimed).\n\n### Link to the source code:\nhttps://github.com/OneUI-Mods/galaxy-shutter-mute\n\n### Link to app in another app store:\nhttps://github.com/OneUI-Mods/galaxy-shutter-mute/releases/tag/1.1.0\n\nDeveloper-signed F-Droid repository: https://oneui-mods.github.io/fdroid/repo\n\n### Application ID:\n`net.ryuya.dev.galaxyshutter.mute`\n\n### License used:\nMIT. Third-party runtime dependency license notices are included in the source and app.\n\n### Category:\nSystem\n\n### Summary:\nControl the supported Galaxy shutter sound setting\n\n### Description:\nChanges the supported Galaxy camera shutter sound setting after its required permission has been granted. Use Galaxy Shutter Mute Manager for installation on recent Android versions. Samsung firmware and regional restrictions may limit availability.\n\nThese are existing apps used on supported Galaxy devices, rather than placeholder demos. The upstream maintainer requests official inclusion of this independently identified app. Related OneUI Mods requests concern separate application IDs and functions.\n\n### Packaging information and open review points:\n- Latest requested version: **1.1.0** (`2`); stable release.\n- Immutable source commit: `2e2a2744d3afbcd15dc055f21ec7d7c6cb286f17`.\n- Source-build draft (explicitly unvalidated): https://github.com/OneUI-Mods/fdroid/blob/main/packaging/drafts/net.ryuya.dev.galaxyshutter.mute.yml\n- Developer certificate SHA-256: `5fcf43c524c48708405bd61f78300a91a4e10ca0ceebfe130c650c7d679f2da5`.\n- APK SHA-256: `8a0920fc4a586d1c0420a60dbeda2d8efadc7cc32957246eb43cfcc5c1d74946`.\n- Existing developer signatures should be retained if reproducible builds can be established. We are not claiming that the current APK has passed F-Droid reproducibility verification.\n- Declared anti-features/dependencies for review: NonFreeDep.\n\nThe published source uses Android SDK 37. The draft recipe has not been tested on the F-Droid build server, and cross-machine reproducibility has not yet been established. Its deliberately old Android compatibility settings are required for the Samsung setting it changes. Installation on recent Android releases is normally performed through its separate Shizuku manager.\n\nEach source repository has user-facing setup/compatibility information and separate development/release instructions. No proprietary host application is bundled in these modules. Please flag any further packaging or policy changes needed before acceptance.\n",
+    "body": "* [ ] The app complies with all inclusion criteria (source/build and policy review requested; open points below).\n* [x] The package is not in the official repository, and no open request for this package was found.\n* [x] The upstream maintainer has requested and consents to inclusion.\n* [ ] Donated (no donation claimed).\n\n### Link to the source code:\nhttps://github.com/OneUI-Mods/galaxy-shutter-mute\n\n### Link to app in another app store:\nhttps://github.com/OneUI-Mods/galaxy-shutter-mute/releases/tag/1.1.0\n\nDeveloper-signed F-Droid repository: https://oneui-mods.github.io/fdroid/repo\n\n### Application ID:\n`net.ryuya.dev.galaxyshutter.mute`\n\n### License used:\nMIT. Third-party runtime dependency license notices are included in the source and app.\n\n### Category:\nSystem\n\n### Summary:\nControl the supported Galaxy shutter sound setting\n\n### Description:\nChanges the supported Galaxy camera shutter sound setting after its required permission has been granted. Use Galaxy Shutter Mute Manager for installation on recent Android versions. Samsung firmware and regional restrictions may limit availability.\n\nThese are existing apps used on supported Galaxy devices, rather than placeholder demos. The upstream maintainer requests official inclusion of this independently identified app. Related OneUI Mods requests concern separate application IDs and functions.\n\n### Packaging information and open review points:\n- Latest requested version: **1.1.0** (`2`); stable release.\n- Immutable source commit: `2e2a2744d3afbcd15dc055f21ec7d7c6cb286f17`.\n- Source-build draft (explicitly unvalidated): https://github.com/OneUI-Mods/fdroid/blob/main/packaging/drafts/net.ryuya.dev.galaxyshutter.mute.yml\n- Developer certificate SHA-256: `5fcf43c524c48708405bd61f78300a91a4e10ca0ceebfe130c650c7d679f2da5`.\n- APK SHA-256: `8a0920fc4a586d1c0420a60dbeda2d8efadc7cc32957246eb43cfcc5c1d74946`.\n- Existing developer signatures should be retained if reproducible builds can be established. We are not claiming that the current APK has passed F-Droid reproducibility verification.\n- Declared anti-features/dependencies for review: NonFreeDep.\n\nThe requested release tag uses compileSdk 35; newer source branches must be reviewed separately. The draft recipe has not been tested on the F-Droid build server, and cross-machine reproducibility has not yet been established. Its deliberately old Android compatibility settings are required for the Samsung setting it changes. Installation on recent Android releases is normally performed through its separate Shizuku manager.\n\nEach source repository has user-facing setup/compatibility information and separate development/release instructions. No proprietary host application is bundled in these modules. Please flag any further packaging or policy changes needed before acceptance.\n",
     "versionName": "1.1.0",
     "versionCode": 2,
     "sourceCommit": "2e2a2744d3afbcd15dc055f21ec7d7c6cb286f17",
     "status": "submitted; awaiting F-Droid review",
-    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4662"
+    "url": "https://gitlab.com/fdroid/rfp/-/work_items/4662",
+    "compileSdk": 35
   }
 ]

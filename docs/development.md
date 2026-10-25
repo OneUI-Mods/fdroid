@@ -32,3 +32,5 @@ Publish `site/` to this repository's `gh-pages` branch. GitHub Pages serves that
 The custom repository mirrors developer-signed release APKs. Official inclusion requires separate source build review. Do not replace application certificates to simulate official compatibility. Developer signatures require reproducible builds accepted by F-Droid. Submission records and open packaging questions belong in `official-submissions.md`.
 
 The icon export renders original launcher vectors from each verified APK, using the selected Android SDK for framework colors. Apps without declared launcher artwork retain the client default. It never modifies the APK.
+
+Verification on 2026-10-25: all 14 official requests were confirmed on GitLab; the live repository was read with fdroidserver and its pinned index certificate. All 14 packages and the manager code-4 APK matched the verified release manifest. No device operation was performed. Existing release-tag SDK values are recorded individually in the submission records. Preparation refuses to overwrite already-submitted request history.

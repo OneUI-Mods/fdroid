@@ -2,6 +2,8 @@
 """Prepare honest source-build drafts and individual official F-Droid packaging requests."""
 
 import argparse
+import base64
+import re
 from concurrent.futures import ThreadPoolExecutor
 import json
 from pathlib import Path
@@ -22,7 +24,23 @@ def prepare(record, notes):
             ["gh", "api", f'repos/{repo}/commits/{version["tag"]}'], text=True
         )
     )["sha"]
-    row = notes[app["repo"]]
+    listing = json.loads(
+        subprocess.check_output(
+            ["gh", "api", f"repos/{repo}/contents/app?ref={commit}"], text=True
+        )
+    )
+    build_file = next(
+        f for f in listing if f["name"] in ["build.gradle", "build.gradle.kts"]
+    )
+    source = json.loads(
+        subprocess.check_output(["gh", "api", build_file["url"]], text=True)
+    )
+    build_text = base64.b64decode(source["content"]).decode()
+    sdk_match = re.search(r"compileSdk(?:Version)?\s*=?\s*([0-9]+)", build_text)
+    sdk = int(sdk_match[1]) if sdk_match else None
+    row = notes.get(
+        app["repo"], {"summary": app["description"], "details": app["description"]}
+    )
     metadata = yaml.safe_load(
         (ROOT / "metadata" / (app["packageName"] + ".yml")).read_text()
     )
@@ -50,7 +68,12 @@ def prepare(record, notes):
     (ROOT / "packaging/drafts" / filename).write_text(
         yaml.safe_dump(metadata, allow_unicode=True, sort_keys=False)
     )
-    concerns = "The published source uses Android SDK 37. The draft recipe has not been tested on the F-Droid build server, and cross-machine reproducibility has not yet been established."
+    concerns = (
+        f"The requested release tag uses compileSdk {sdk}; newer source branches must be reviewed separately. "
+        if sdk
+        else "The requested source tag's SDK configuration needs manual review. "
+    )
+    concerns += "The draft recipe has not been tested on the F-Droid build server, and cross-machine reproducibility has not yet been established."
     if app["repo"] == "tail-adb":
         concerns += " Native helper code is included as source and built with Android NDK 28.2.13676358. It uses the device's system adbd rather than bundling a proprietary daemon."
     if app["repo"] in ["OneUIModsManager", "galaxy-shutter-mute-manager"]:
@@ -118,6 +141,13 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--manifest", type=Path, required=True)
     args = parser.parse_args()
+    previous = ROOT / "submissions/requests.json"
+    if previous.exists() and any(
+        row.get("url") for row in json.loads(previous.read_text())
+    ):
+        raise ValueError(
+            "Submitted records already exist; update them in place instead of overwriting request history"
+        )
     records = json.loads(args.manifest.read_text())
     notes = json.loads((ROOT / "catalog-notes.json").read_text())
     with ThreadPoolExecutor(max_workers=4) as pool:
