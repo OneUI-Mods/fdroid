@@ -12,10 +12,10 @@ Description: <p>Adjust supported One UI Home folder behavior, quick panel contro
   and developer animation settings. Requires root, a libxposed API 102 compatible
   framework and supported Samsung system components. Keep the source README at hand
   for supported firmware and reload instructions.</p>
-CurrentVersion: 0.18.0
-CurrentVersionCode: 28
 AllowedAPKSigningKeys:
 - 7938e1850451b95c45c8f138a768c9da7c5d9db7fb61a883ac8dc724077ddb03
+CurrentVersion: 0.18.1
+CurrentVersionCode: 29
 RequiresRoot: true
 AntiFeatures:
 - NonFreeDep
