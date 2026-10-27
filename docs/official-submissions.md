@@ -26,3 +26,5 @@
 参考：[公式掲載条件](https://f-droid.org/docs/Inclusion_Policy/)、[掲載申請手順](https://f-droid.org/docs/Submitting_to_F-Droid_Quick_Start_Guide/)、[署名と再現可能ビルド](https://f-droid.org/docs/Reproducible_Builds/)。
 
 既存配布タグのSDKも個別に照合しました。12本はcompileSdk 37、SleepStore 0.2.0は36、Galaxy Shutter Mute 1.1.0は35です。後者2本は申請本文も補正済みです。専用リポジトリは既存の署名済みAPKをそのまま配布し、タグやAPKを書き換えません。
+
+2026年10月27日、[Legacy Game Tools（#4678）](https://gitlab.com/fdroid/rfp/-/work_items/4678)を追加で申請し、公開された申請画面を確認しました。審査待ちです。対応する体験版・ネイティブビルド・未検証の再現性を申請本文へ明記しています。
