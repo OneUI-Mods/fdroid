@@ -113,5 +113,14 @@
     "antiFeatures": [
       "NonFreeDep"
     ]
+  },
+  "legacy-game-tools": {
+    "summary": "Startup compatibility for supported older game trials",
+    "details": "Fixes a native Unity startup crash in the supported arm64 editions of the D4DJ D4U and Sekai trials. Requires root and an API 102 compatible Xposed framework. Does not bundle games or restore discontinued online services. See the source README for the exact supported versions.",
+    "license": "MIT",
+    "root": true,
+    "antiFeatures": [
+      "NonFreeDep"
+    ]
   }
 }

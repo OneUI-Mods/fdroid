@@ -1,0 +1,21 @@
+Categories:
+- System
+License: MIT
+AuthorName: ryuya0124
+AuthorWebSite: https://github.com/ryuya0124
+WebSite: https://github.com/OneUI-Mods/legacy-game-tools
+SourceCode: https://github.com/OneUI-Mods/legacy-game-tools
+IssueTracker: https://github.com/OneUI-Mods/legacy-game-tools/issues
+Name: Legacy Game Tools
+Summary: Startup compatibility for supported older game trials
+Description: <p>Fixes a native Unity startup crash in the supported arm64 editions
+  of the D4DJ D4U and Sekai trials. Requires root and an API 102 compatible Xposed
+  framework. Does not bundle games or restore discontinued online services. See the
+  source README for the exact supported versions.</p>
+AllowedAPKSigningKeys:
+- f3a3227d5836f3906b033b82e894b493f82b779fda1d3972b30ebfd7e2cff3f0
+CurrentVersion: 0.1.0
+CurrentVersionCode: 1
+RequiresRoot: true
+AntiFeatures:
+- NonFreeDep
