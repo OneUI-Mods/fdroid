@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1792954009000,
+    "timestamp": 1793111124000,
     "version": 20002,
     "name": "OneUI Mods",
     "icon": "oneui-mods.png",
@@ -285,8 +285,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.1.4-experimental",
-      "suggestedVersionCode": "38",
+      "suggestedVersionName": "0.1.5-experimental",
+      "suggestedVersionCode": "39",
       "description": "<p>Stream selected-app media or device playback and notification sounds to HomePod over AirPlay 2. Requires root and a compatible Xposed framework such as Vector enabled for System UI. Microphone and call audio are excluded. Includes adjustable latency and buffer controls. HomePod and its proprietary receiver firmware are not bundled. See the source README for supported devices and setup.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/HomePodBridge/issues",
       "license": "Apache-2.0",
@@ -296,7 +296,7 @@
       "webSite": "https://github.com/OneUI-Mods/HomePodBridge",
       "added": 1792931031000,
       "packageName": "dev.ryuya.homepodbridge",
-      "lastUpdated": 1792954007000,
+      "lastUpdated": 1793111122000,
       "localized": {
         "en-US": {
           "icon": "icon_EeHdVL9RdYaBwkuO3wwtPRVtR9uu5vF6pm6ax30zKX4=.png"
@@ -315,8 +315,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.18.0",
-      "suggestedVersionCode": "28",
+      "suggestedVersionName": "0.18.1",
+      "suggestedVersionCode": "29",
       "description": "<p>Adjust supported One UI Home folder behavior, quick panel controls and developer animation settings. Requires root, a libxposed API 102 compatible framework and supported Samsung system components. Keep the source README at hand for supported firmware and reload instructions.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/OneUIHomeTweaks/issues",
       "license": "MIT",
@@ -326,7 +326,7 @@
       "webSite": "https://github.com/OneUI-Mods/OneUIHomeTweaks",
       "added": 1792906983000,
       "packageName": "dev.ryuya.oneuihometweaks",
-      "lastUpdated": 1792906983000,
+      "lastUpdated": 1793111123000,
       "localized": {
         "en-US": {
           "icon": "icon_DckKW9rdUOxDn4ciTeWOXTBrT7wZEFS3O4AiyGKK180=.png"
@@ -679,6 +679,86 @@
       }
     ],
     "dev.ryuya.homepodbridge": [
+      {
+        "added": 1793111122000,
+        "apkName": "dev.ryuya.homepodbridge_39.apk",
+        "hash": "262cd178ea0fd993e296a1bf2fb6e6e858469f3b0d5a4b3954b3bf73d2e29503",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "nativecode": [
+          "arm64-v8a",
+          "x86_64"
+        ],
+        "packageName": "dev.ryuya.homepodbridge",
+        "sig": "dfd4a37a994edeff1b005c6f15e813fa",
+        "signer": "90890d1b2de09cdfd17b2b20c7a6b069a9559f7bad345c17c6d969d336599b8c",
+        "size": 17283678,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_LOCAL_NETWORK",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+            null
+          ],
+          [
+            "dev.ryuya.homepodbridge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 39,
+        "versionName": "0.1.5-experimental"
+      },
       {
         "added": 1792954007000,
         "apkName": "dev.ryuya.homepodbridge_38.apk",
@@ -1041,6 +1121,26 @@
       }
     ],
     "dev.ryuya.oneuihometweaks": [
+      {
+        "added": 1793111123000,
+        "apkName": "dev.ryuya.oneuihometweaks_29.apk",
+        "hash": "533e0a6fb084d39a1ca43eca962a59fd41ec1b411cbe12cdf9a40341c98437a8",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "packageName": "dev.ryuya.oneuihometweaks",
+        "sig": "96cfc2ba6b7d3ed4674d03aec770e238",
+        "signer": "7938e1850451b95c45c8f138a768c9da7c5d9db7fb61a883ac8dc724077ddb03",
+        "size": 14772504,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.oneuihometweaks.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 29,
+        "versionName": "0.18.1"
+      },
       {
         "added": 1792906983000,
         "apkName": "dev.ryuya.oneuihometweaks_28.apk",

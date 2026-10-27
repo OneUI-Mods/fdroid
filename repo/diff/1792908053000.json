@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1792954009000
+    "timestamp": 1793111124000
   },
   "packages": {
     "dev.ryuya.darkapps": {
@@ -128,7 +128,7 @@
           "System"
         ],
         "issueTracker": "https://github.com/OneUI-Mods/HomePodBridge/issues",
-        "lastUpdated": 1792954007000,
+        "lastUpdated": 1793111122000,
         "license": "Apache-2.0",
         "sourceCode": "https://github.com/OneUI-Mods/HomePodBridge",
         "webSite": "https://github.com/OneUI-Mods/HomePodBridge",
@@ -153,6 +153,81 @@
         "preferredSigner": "90890d1b2de09cdfd17b2b20c7a6b069a9559f7bad345c17c6d969d336599b8c"
       },
       "versions": {
+        "262cd178ea0fd993e296a1bf2fb6e6e858469f3b0d5a4b3954b3bf73d2e29503": {
+          "added": 1793111122000,
+          "file": {
+            "name": "/dev.ryuya.homepodbridge_39.apk",
+            "sha256": "262cd178ea0fd993e296a1bf2fb6e6e858469f3b0d5a4b3954b3bf73d2e29503",
+            "size": 17283678
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "x86_64"
+            ],
+            "versionName": "0.1.5-experimental",
+            "versionCode": 39,
+            "usesSdk": {
+              "minSdkVersion": 36,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "90890d1b2de09cdfd17b2b20c7a6b069a9559f7bad345c17c6d969d336599b8c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_LOCAL_NETWORK"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
+              },
+              {
+                "name": "dev.ryuya.homepodbridge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        },
         "720c6cb9bc4b0c806ce22b90e9a059ffe7757da4629ff237c88b3f15eed304a5": {
           "added": 1792954007000,
           "file": {
@@ -502,8 +577,40 @@
     },
     "dev.ryuya.oneuihometweaks": {
       "metadata": {
+        "lastUpdated": 1793111123000,
         "authorName": "ryuya0124",
         "authorWebSite": "https://github.com/ryuya0124"
+      },
+      "versions": {
+        "533e0a6fb084d39a1ca43eca962a59fd41ec1b411cbe12cdf9a40341c98437a8": {
+          "added": 1793111123000,
+          "file": {
+            "name": "/dev.ryuya.oneuihometweaks_29.apk",
+            "sha256": "533e0a6fb084d39a1ca43eca962a59fd41ec1b411cbe12cdf9a40341c98437a8",
+            "size": 14772504
+          },
+          "manifest": {
+            "versionName": "0.18.1",
+            "versionCode": 29,
+            "usesSdk": {
+              "minSdkVersion": 31,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "7938e1850451b95c45c8f138a768c9da7c5d9db7fb61a883ac8dc724077ddb03"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "dev.ryuya.oneuihometweaks.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        }
       }
     },
     "dev.ryuya.oneuimods": {
