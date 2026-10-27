@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1793111124000,
+    "timestamp": 1793112228000,
     "version": 20002,
     "name": "OneUI Mods",
     "icon": "oneui-mods.png",
@@ -300,6 +300,36 @@
       "localized": {
         "en-US": {
           "icon": "icon_EeHdVL9RdYaBwkuO3wwtPRVtR9uu5vF6pm6ax30zKX4=.png"
+        }
+      }
+    },
+    {
+      "allowedAPKSigningKeys": [
+        "f3a3227d5836f3906b033b82e894b493f82b779fda1d3972b30ebfd7e2cff3f0"
+      ],
+      "antiFeatures": [
+        "NonFreeDep"
+      ],
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
+      "categories": [
+        "System"
+      ],
+      "suggestedVersionName": "0.1.0",
+      "suggestedVersionCode": "1",
+      "description": "<p>Fixes a native Unity startup crash in the supported arm64 editions of the D4DJ D4U and Sekai trials. Requires root and an API 102 compatible Xposed framework. Does not bundle games or restore discontinued online services. See the source README for the exact supported versions.</p>",
+      "issueTracker": "https://github.com/OneUI-Mods/legacy-game-tools/issues",
+      "license": "MIT",
+      "name": "Legacy Game Tools",
+      "sourceCode": "https://github.com/OneUI-Mods/legacy-game-tools",
+      "summary": "Startup compatibility for supported older game trials",
+      "webSite": "https://github.com/OneUI-Mods/legacy-game-tools",
+      "added": 1793112226000,
+      "packageName": "dev.ryuya.legacygametools",
+      "lastUpdated": 1793112226000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_cJKJsYGJiCF7ny7vLPBK_K32jYScgvK7meU4xY9eRl4=.png"
         }
       }
     },
@@ -1118,6 +1148,31 @@
         ],
         "versionCode": 23,
         "versionName": "0.1.0-experimental"
+      }
+    ],
+    "dev.ryuya.legacygametools": [
+      {
+        "added": 1793112226000,
+        "apkName": "dev.ryuya.legacygametools_1.apk",
+        "hash": "da2b47366937ac72ca513c59babb0a424e52ca3d747c07537330504fb77415eb",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "dev.ryuya.legacygametools",
+        "sig": "91a9558400a273a615c8f33efbae95c6",
+        "signer": "f3a3227d5836f3906b033b82e894b493f82b779fda1d3972b30ebfd7e2cff3f0",
+        "size": 12001099,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.legacygametools.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "0.1.0"
       }
     ],
     "dev.ryuya.oneuihometweaks": [
