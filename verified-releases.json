@@ -68,6 +68,32 @@
       {
         "schema": 1,
         "packageName": "dev.ryuya.oneuihometweaks",
+        "versionCode": 30,
+        "versionName": "0.19.0",
+        "apk": "OneUIHomeTweaks-0.19.0-release.apk",
+        "sha256": "c020a887bb3341213e24443c1443fb8591bafeb31200c7ea85269f22c5464694",
+        "filename": "dev.ryuya.oneuihometweaks_30.apk",
+        "tag": "v0.19.0",
+        "releaseUrl": "https://github.com/OneUI-Mods/OneUIHomeTweaks/releases/tag/v0.19.0",
+        "apkUrl": "https://github.com/OneUI-Mods/OneUIHomeTweaks/releases/download/v0.19.0/OneUIHomeTweaks-0.19.0-release.apk",
+        "preview": true
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.oneuihometweaks",
+        "versionCode": 29,
+        "versionName": "0.18.1",
+        "apk": "OneUIHomeTweaks-0.18.1-release.apk",
+        "sha256": "533e0a6fb084d39a1ca43eca962a59fd41ec1b411cbe12cdf9a40341c98437a8",
+        "filename": "dev.ryuya.oneuihometweaks_29.apk",
+        "tag": "v0.18.1",
+        "releaseUrl": "https://github.com/OneUI-Mods/OneUIHomeTweaks/releases/tag/v0.18.1",
+        "apkUrl": "https://github.com/OneUI-Mods/OneUIHomeTweaks/releases/download/v0.18.1/OneUIHomeTweaks-0.18.1-release.apk",
+        "preview": true
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.oneuihometweaks",
         "versionCode": 28,
         "versionName": "0.18.0",
         "apk": "OneUIHomeTweaks-0.18.0-release.apk",
@@ -431,6 +457,19 @@
       {
         "schema": 1,
         "packageName": "dev.ryuya.homepodbridge",
+        "versionCode": 39,
+        "versionName": "0.1.5-experimental",
+        "apk": "HomePodBridge-0.1.5-experimental-release.apk",
+        "sha256": "262cd178ea0fd993e296a1bf2fb6e6e858469f3b0d5a4b3954b3bf73d2e29503",
+        "filename": "dev.ryuya.homepodbridge_39.apk",
+        "tag": "v0.1.5-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/HomePodBridge/releases/tag/v0.1.5-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/HomePodBridge/releases/download/v0.1.5-experimental/HomePodBridge-0.1.5-experimental-release.apk",
+        "preview": true
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.homepodbridge",
         "versionCode": 38,
         "versionName": "0.1.4-experimental",
         "apk": "HomePodBridge-0.1.4-experimental-release.apk",
@@ -491,6 +530,33 @@
         "tag": "v0.1.0-experimental",
         "releaseUrl": "https://github.com/OneUI-Mods/HomePodBridge/releases/tag/v0.1.0-experimental",
         "apkUrl": "https://github.com/OneUI-Mods/HomePodBridge/releases/download/v0.1.0-experimental/HomePodBridge-0.1.0-experimental-release.apk",
+        "preview": true
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "legacy-game-tools",
+      "packageName": "dev.ryuya.legacygametools",
+      "title": "Legacy Game Tools",
+      "description": "古い体験版ゲームの起動互換性を改善",
+      "category": "device",
+      "certificates": [
+        "f3a3227d5836f3906b033b82e894b493f82b779fda1d3972b30ebfd7e2cff3f0"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.legacygametools",
+        "versionCode": 1,
+        "versionName": "0.1.0",
+        "apk": "LegacyGameTools-0.1.0-release.apk",
+        "sha256": "da2b47366937ac72ca513c59babb0a424e52ca3d747c07537330504fb77415eb",
+        "filename": "dev.ryuya.legacygametools_1.apk",
+        "tag": "v0.1.0",
+        "releaseUrl": "https://github.com/OneUI-Mods/legacy-game-tools/releases/tag/v0.1.0",
+        "apkUrl": "https://github.com/OneUI-Mods/legacy-game-tools/releases/download/v0.1.0/LegacyGameTools-0.1.0-release.apk",
         "preview": true
       }
     ]

@@ -1,54 +1,11 @@
 {
-  "timestamp": 1793112228000,
+  "timestamp": 1793160758000,
   "version": 20002,
   "index": {
     "name": "/index-v2.json",
-    "sha256": "68ddcdb6d7de8d436c2309b2a374f4ac474bd831af79a7dd3620b76016ca50ff",
-    "size": 59017,
+    "sha256": "b5f321d2ea230f7a553862405e78725ac7b884dea8b789becb6601ceea12a74b",
+    "size": 59970,
     "numPackages": 16
   },
-  "diffs": {
-    "1792906985000": {
-      "name": "/diff/1792906985000.json",
-      "sha256": "c34de96b15a10deb36fd8de27838ab22807616f8259e4b57a6e9d2dd821cc8a3",
-      "size": 35226,
-      "numPackages": 16
-    },
-    "1792907083000": {
-      "name": "/diff/1792907083000.json",
-      "sha256": "098c6c47500e1707431fa3ef965937d67a49b84812d6aebde52612092d18646f",
-      "size": 27258,
-      "numPackages": 16
-    },
-    "1792908053000": {
-      "name": "/diff/1792908053000.json",
-      "sha256": "ad6134172393c7934f7eb9a84f8f4bbfdadbf0b5a42064788c3399baef8e7d9d",
-      "size": 23855,
-      "numPackages": 16
-    },
-    "1792909527000": {
-      "name": "/diff/1792909527000.json",
-      "sha256": "1b0936b253adc6b1c3d49190fd73557c5a08e194a3d5a79c7b830878f4cb2aaa",
-      "size": 21759,
-      "numPackages": 4
-    },
-    "1792928646000": {
-      "name": "/diff/1792928646000.json",
-      "sha256": "234ffe1a83d9865300b186e4d121e5d8b861751bd9e30eee2a839f57055a27ad",
-      "size": 20123,
-      "numPackages": 4
-    },
-    "1792934692000": {
-      "name": "/diff/1792934692000.json",
-      "sha256": "5c3443f64b5f406b89be467b323d00b377bbbd85018fe562c9a45eb367f081d3",
-      "size": 13193,
-      "numPackages": 4
-    },
-    "1793111124000": {
-      "name": "/diff/1793111124000.json",
-      "sha256": "9c4fe32dd5d63bf53019922ee43026f3008b31b08961533d27f234d7adda3e88",
-      "size": 2553,
-      "numPackages": 1
-    }
-  }
+  "diffs": {}
 }

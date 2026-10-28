@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1793112228000,
+    "timestamp": 1793160758000,
     "version": 20002,
     "name": "OneUI Mods",
     "icon": "oneui-mods.png",
@@ -345,8 +345,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.18.1",
-      "suggestedVersionCode": "29",
+      "suggestedVersionName": "0.19.0",
+      "suggestedVersionCode": "30",
       "description": "<p>Adjust supported One UI Home folder behavior, quick panel controls and developer animation settings. Requires root, a libxposed API 102 compatible framework and supported Samsung system components. Keep the source README at hand for supported firmware and reload instructions.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/OneUIHomeTweaks/issues",
       "license": "MIT",
@@ -356,7 +356,7 @@
       "webSite": "https://github.com/OneUI-Mods/OneUIHomeTweaks",
       "added": 1792906983000,
       "packageName": "dev.ryuya.oneuihometweaks",
-      "lastUpdated": 1793111123000,
+      "lastUpdated": 1793160756000,
       "localized": {
         "en-US": {
           "icon": "icon_DckKW9rdUOxDn4ciTeWOXTBrT7wZEFS3O4AiyGKK180=.png"
@@ -1176,6 +1176,26 @@
       }
     ],
     "dev.ryuya.oneuihometweaks": [
+      {
+        "added": 1793160756000,
+        "apkName": "dev.ryuya.oneuihometweaks_30.apk",
+        "hash": "c020a887bb3341213e24443c1443fb8591bafeb31200c7ea85269f22c5464694",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "packageName": "dev.ryuya.oneuihometweaks",
+        "sig": "96cfc2ba6b7d3ed4674d03aec770e238",
+        "signer": "7938e1850451b95c45c8f138a768c9da7c5d9db7fb61a883ac8dc724077ddb03",
+        "size": 14813656,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.oneuihometweaks.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 30,
+        "versionName": "0.19.0"
+      },
       {
         "added": 1793111123000,
         "apkName": "dev.ryuya.oneuihometweaks_29.apk",
