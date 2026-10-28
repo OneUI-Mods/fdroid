@@ -14,7 +14,7 @@
       }
     },
     "address": "https://oneui-mods.github.io/fdroid/repo",
-    "timestamp": 1793160758000,
+    "timestamp": 1793182649000,
     "categories": {
       "System": {
         "name": {
@@ -1074,7 +1074,7 @@
           "System"
         ],
         "issueTracker": "https://github.com/OneUI-Mods/OneUIHomeTweaks/issues",
-        "lastUpdated": 1793160756000,
+        "lastUpdated": 1793182648000,
         "license": "MIT",
         "sourceCode": "https://github.com/OneUI-Mods/OneUIHomeTweaks",
         "webSite": "https://github.com/OneUI-Mods/OneUIHomeTweaks",
@@ -1099,6 +1099,35 @@
         "preferredSigner": "7938e1850451b95c45c8f138a768c9da7c5d9db7fb61a883ac8dc724077ddb03"
       },
       "versions": {
+        "47feb3aaa492edbf3f4679a086f3691e34880f3ba0800ebbcae7111b07cdd383": {
+          "added": 1793182648000,
+          "file": {
+            "name": "/dev.ryuya.oneuihometweaks_31.apk",
+            "sha256": "47feb3aaa492edbf3f4679a086f3691e34880f3ba0800ebbcae7111b07cdd383",
+            "size": 14813752
+          },
+          "manifest": {
+            "versionName": "0.19.1",
+            "versionCode": 31,
+            "usesSdk": {
+              "minSdkVersion": 31,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "7938e1850451b95c45c8f138a768c9da7c5d9db7fb61a883ac8dc724077ddb03"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "dev.ryuya.oneuihometweaks.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {}
+          }
+        },
         "c020a887bb3341213e24443c1443fb8591bafeb31200c7ea85269f22c5464694": {
           "added": 1793160756000,
           "file": {
