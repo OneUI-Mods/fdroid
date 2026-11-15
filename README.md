@@ -1,5 +1,7 @@
 # OneUI Mods · F-Droid
 
+[日本語](README.md) · [English](README.en.md)
+
 Samsung Galaxy向けOneUI Modsアプリを、F-Droidクライアントから導入・更新するための専用リポジトリです。各アプリのGitHub Releaseと同じ署名済みAPKを配布します。
 
 ## リポジトリを追加
