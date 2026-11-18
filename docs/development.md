@@ -4,7 +4,7 @@ The manager's public `catalog/apps.json` is the app registry. Release versions, 
 
 ## Dependencies
 
-Use Python 3, fdroidserver 2.4.5, CairoSVG 2.9.1, JDK 21, Android Build Tools 37.0.0 and authenticated `gh`. Keep Python dependencies in a private virtual environment. `tools/verify_apk.py` is shared MIT-licensed code from OneUIModsManager.
+Use Python 3, fdroidserver 2.4.5, CairoSVG 2.9.1, JDK 27, Android Build Tools 37.0.0 and authenticated `gh`. Keep Python dependencies in a private virtual environment. `tools/verify_apk.py` is shared MIT-licensed code from OneUIModsManager.
 
 ## Private state and signing
 
@@ -38,3 +38,7 @@ Verification on 2026-10-25: all 14 official requests were confirmed on GitLab; t
 A subsequent signed catalog refresh on the same day contains 15 apps and 19 APKs. It adds Galaxy Capture Tools 0.3.7 (code 21), keeps its codes 20 and 19, and preserves HomePod Bridge codes 28 and 23. Every indexed APK was rechecked against its recorded release and signing certificate, and every current author field is `ryuya0124`. This custom-repository refresh does not change the historical official-submission records or claim an additional official acceptance.
 
 When a new release is mirrored, previously published APKs are retained and their signatures, package/version and digest are rechecked against the recorded provenance. They remain available to clients holding an older signed index. Reusing a versionCode with different contents is rejected. The preferred version still comes from the latest current stable/preview candidates.
+
+## Verified distribution refresh: 2026-11-18
+
+The signed public repository contains 22 applications and 60 release APKs. All 27 previously published APKs remain unchanged. Simeji Clean is now maintained at `OneUI-Mods/simeji-clean` and appears in the shared app registry. App Isolation Tools and its private engine remain outside the public catalog. The repository signing certificate is unchanged. The live signed entry/index and availability of all 22 current APKs were verified after deployment. This refresh does not claim official F-Droid inclusion.
