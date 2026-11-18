@@ -14,6 +14,32 @@
       {
         "schema": 1,
         "packageName": "dev.ryuya.oneuimods",
+        "versionCode": 7,
+        "versionName": "0.2.3",
+        "apk": "OneUIModsManager-0.2.3-release.apk",
+        "sha256": "926fbcbf167e66ddffef2ca34f949ea64c6bb5c1a6de3a87fb45bf9f66aacdaf",
+        "filename": "dev.ryuya.oneuimods_7.apk",
+        "tag": "v0.2.3",
+        "releaseUrl": "https://github.com/OneUI-Mods/OneUIModsManager/releases/tag/v0.2.3",
+        "apkUrl": "https://github.com/OneUI-Mods/OneUIModsManager/releases/download/v0.2.3/OneUIModsManager-0.2.3-release.apk",
+        "preview": false
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.oneuimods",
+        "versionCode": 5,
+        "versionName": "0.2.1-experimental",
+        "apk": "OneUIModsManager-0.2.1-experimental-release.apk",
+        "sha256": "0607635b552f83c4e0d47f83fc6d5fa313f14da6b41366a20b18787c4fe71f2e",
+        "filename": "dev.ryuya.oneuimods_5.apk",
+        "tag": "v0.2.1-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/OneUIModsManager/releases/tag/v0.2.1-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/OneUIModsManager/releases/download/v0.2.1-experimental/OneUIModsManager-0.2.1-experimental-release.apk",
+        "preview": true
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.oneuimods",
         "versionCode": 4,
         "versionName": "0.2.0-experimental",
         "apk": "OneUIModsManager-0.2.0-experimental-release.apk",
@@ -41,6 +67,32 @@
       {
         "schema": 1,
         "packageName": "dev.ryuya.darkapps",
+        "versionCode": 17,
+        "versionName": "0.4.4",
+        "apk": "DarkAppTools-0.4.4-release.apk",
+        "sha256": "12d8e04189b31bd10e1963a98e0ae3a7d076b71c0ad045f6eb33c54c5b2573e7",
+        "filename": "dev.ryuya.darkapps_17.apk",
+        "tag": "v0.4.4",
+        "releaseUrl": "https://github.com/OneUI-Mods/DarkAppTools/releases/tag/v0.4.4",
+        "apkUrl": "https://github.com/OneUI-Mods/DarkAppTools/releases/download/v0.4.4/DarkAppTools-0.4.4-release.apk",
+        "preview": false
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.darkapps",
+        "versionCode": 12,
+        "versionName": "0.3.2-experimental",
+        "apk": "DarkAppTools-0.3.2-experimental-release.apk",
+        "sha256": "f3e680e332a2048e4fdc8d6112ee0cfd662e78c6b9ca048134b5bf9bc0f6028c",
+        "filename": "dev.ryuya.darkapps_12.apk",
+        "tag": "v0.3.2-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/DarkAppTools/releases/tag/v0.3.2-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/DarkAppTools/releases/download/v0.3.2-experimental/DarkAppTools-0.3.2-experimental-release.apk",
+        "preview": true
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.darkapps",
         "versionCode": 10,
         "versionName": "0.3.0-experimental",
         "apk": "DarkAppTools-0.3.0-experimental-release.apk",
@@ -65,6 +117,32 @@
       ]
     },
     "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.oneuihometweaks",
+        "versionCode": 51,
+        "versionName": "0.20.10",
+        "apk": "OneUIHomeTweaks-0.20.10-release.apk",
+        "sha256": "f35bb349a4ea7ad894b25b144cc53e3397ceff0f76f23619673ba460d21f55c1",
+        "filename": "dev.ryuya.oneuihometweaks_51.apk",
+        "tag": "v0.20.10",
+        "releaseUrl": "https://github.com/OneUI-Mods/OneUIHomeTweaks/releases/tag/v0.20.10",
+        "apkUrl": "https://github.com/OneUI-Mods/OneUIHomeTweaks/releases/download/v0.20.10/OneUIHomeTweaks-0.20.10-release.apk",
+        "preview": false
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.oneuihometweaks",
+        "versionCode": 37,
+        "versionName": "0.19.7",
+        "apk": "OneUIHomeTweaks-0.19.7-release.apk",
+        "sha256": "4f5911ef307fffb8b863480fbb9eb6991776b8f186b7dd1c7fd3668d45c7c7e8",
+        "filename": "dev.ryuya.oneuihometweaks_37.apk",
+        "tag": "v0.19.7",
+        "releaseUrl": "https://github.com/OneUI-Mods/OneUIHomeTweaks/releases/tag/v0.19.7",
+        "apkUrl": "https://github.com/OneUI-Mods/OneUIHomeTweaks/releases/download/v0.19.7/OneUIHomeTweaks-0.19.7-release.apk",
+        "preview": true
+      },
       {
         "schema": 1,
         "packageName": "dev.ryuya.oneuihometweaks",
@@ -134,6 +212,32 @@
       {
         "schema": 1,
         "packageName": "dev.ryuya.galaxycamera",
+        "versionCode": 12,
+        "versionName": "0.2.3",
+        "apk": "GalaxyCameraTools-0.2.3-release.apk",
+        "sha256": "74fd9981f4ca58c7b3aca4426ce5712fa97829476c38cae93e6b986c35b8d117",
+        "filename": "dev.ryuya.galaxycamera_12.apk",
+        "tag": "v0.2.3",
+        "releaseUrl": "https://github.com/OneUI-Mods/GalaxyCameraTools/releases/tag/v0.2.3",
+        "apkUrl": "https://github.com/OneUI-Mods/GalaxyCameraTools/releases/download/v0.2.3/GalaxyCameraTools-0.2.3-release.apk",
+        "preview": false
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxycamera",
+        "versionCode": 8,
+        "versionName": "0.1.7-experimental",
+        "apk": "GalaxyCameraTools-0.1.7-experimental-release.apk",
+        "sha256": "9517a042eea4d382258551538228f2935f7bc237ec372e369d5850fca981ded0",
+        "filename": "dev.ryuya.galaxycamera_8.apk",
+        "tag": "v0.1.7-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/GalaxyCameraTools/releases/tag/v0.1.7-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/GalaxyCameraTools/releases/download/v0.1.7-experimental/GalaxyCameraTools-0.1.7-experimental-release.apk",
+        "preview": true
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxycamera",
         "versionCode": 4,
         "versionName": "0.1.3-experimental",
         "apk": "GalaxyCameraTools-0.1.3-experimental-release.apk",
@@ -158,6 +262,19 @@
       ]
     },
     "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.simpilot",
+        "versionCode": 23,
+        "versionName": "1.10.4",
+        "apk": "SIM-Pilot-1.10.4-release.apk",
+        "sha256": "1e0444ad5a65022244f2c75b3d31e243d43aac9198a3ba2fcfca5c1f8fc109b3",
+        "filename": "dev.simpilot_23.apk",
+        "tag": "v1.10.4",
+        "releaseUrl": "https://github.com/OneUI-Mods/sim-pilot/releases/tag/v1.10.4",
+        "apkUrl": "https://github.com/OneUI-Mods/sim-pilot/releases/download/v1.10.4/SIM-Pilot-1.10.4-release.apk",
+        "preview": false
+      },
       {
         "schema": 1,
         "packageName": "dev.simpilot",
@@ -188,14 +305,14 @@
       {
         "schema": 1,
         "packageName": "net.ryuya_dev.tailadb",
-        "versionCode": 6,
-        "versionName": "0.2.4",
-        "apk": "TailAdb-0.2.4-release.apk",
-        "sha256": "7482d0878a58f870dcffff161142e954adb7652d58612a2d0aa42ebcd9521840",
-        "filename": "net.ryuya_dev.tailadb_6.apk",
-        "tag": "v0.2.4",
-        "releaseUrl": "https://github.com/OneUI-Mods/tail-adb/releases/tag/v0.2.4",
-        "apkUrl": "https://github.com/OneUI-Mods/tail-adb/releases/download/v0.2.4/TailAdb-0.2.4-release.apk",
+        "versionCode": 14,
+        "versionName": "0.2.12",
+        "apk": "TailAdb-0.2.12-release.apk",
+        "sha256": "f9603ee4f9429d693bce8d9419668062b5c87030aa75b6f7db04ddbb827980bd",
+        "filename": "net.ryuya_dev.tailadb_14.apk",
+        "tag": "v0.2.12",
+        "releaseUrl": "https://github.com/OneUI-Mods/tail-adb/releases/tag/v0.2.12",
+        "apkUrl": "https://github.com/OneUI-Mods/tail-adb/releases/download/v0.2.12/TailAdb-0.2.12-release.apk",
         "preview": false
       },
       {
@@ -210,6 +327,46 @@
         "releaseUrl": "https://github.com/OneUI-Mods/tail-adb/releases/tag/v0.1.0",
         "apkUrl": "https://github.com/OneUI-Mods/tail-adb/releases/download/v0.1.0/TailAdb-0.1.0.apk",
         "preview": true
+      },
+      {
+        "schema": 1,
+        "packageName": "net.ryuya_dev.tailadb",
+        "versionCode": 6,
+        "versionName": "0.2.4",
+        "apk": "TailAdb-0.2.4-release.apk",
+        "sha256": "7482d0878a58f870dcffff161142e954adb7652d58612a2d0aa42ebcd9521840",
+        "filename": "net.ryuya_dev.tailadb_6.apk",
+        "tag": "v0.2.4",
+        "releaseUrl": "https://github.com/OneUI-Mods/tail-adb/releases/tag/v0.2.4",
+        "apkUrl": "https://github.com/OneUI-Mods/tail-adb/releases/download/v0.2.4/TailAdb-0.2.4-release.apk",
+        "preview": false
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "secure-folder-bridge",
+      "packageName": "dev.ryuya.securefolderbridge",
+      "title": "Secure Folder Bridge",
+      "description": "Secure Folderを通常のフォルダとして読み書き",
+      "category": "device",
+      "certificates": [
+        "ff3177d13d36bdcee6abf4d8cab0804fd886a8a15a7fe56ad9712b6c286822cc"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.securefolderbridge",
+        "versionCode": 4,
+        "versionName": "0.2.2",
+        "apk": "SecureFolderBridge-0.2.2-release.apk",
+        "sha256": "d5fe53027fcb0de40487ce6235e0dddac042a8d5b35f54fbef31a9d6f5b7ee65",
+        "filename": "dev.ryuya.securefolderbridge_4.apk",
+        "tag": "v0.2.2",
+        "releaseUrl": "https://github.com/OneUI-Mods/secure-folder-bridge/releases/tag/v0.2.2",
+        "apkUrl": "https://github.com/OneUI-Mods/secure-folder-bridge/releases/download/v0.2.2/SecureFolderBridge-0.2.2-release.apk",
+        "preview": false
       }
     ]
   },
@@ -225,6 +382,19 @@
       ]
     },
     "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxyupdateguard",
+        "versionCode": 4,
+        "versionName": "0.1.3",
+        "apk": "GalaxyUpdateGuard-0.1.3-release.apk",
+        "sha256": "11438ef705db832f7bd91c24c6d3593445ac06a4b88efc32b75978abdcfc64cb",
+        "filename": "dev.ryuya.galaxyupdateguard_4.apk",
+        "tag": "v0.1.3",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-update-guard/releases/tag/v0.1.3",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-update-guard/releases/download/v0.1.3/GalaxyUpdateGuard-0.1.3-release.apk",
+        "preview": false
+      },
       {
         "schema": 1,
         "packageName": "dev.ryuya.galaxyupdateguard",
@@ -255,6 +425,32 @@
       {
         "schema": 1,
         "packageName": "dev.ryuya.galaxybar",
+        "versionCode": 57,
+        "versionName": "0.7.10",
+        "apk": "GalaxyAdaptiveBar-0.7.10-release.apk",
+        "sha256": "f5d7ea84495fbd54867672014f32ae5ebb14008cb1910bd572889cec5bce80da",
+        "filename": "dev.ryuya.galaxybar_57.apk",
+        "tag": "v0.7.10",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-adaptive-statusbar/releases/tag/v0.7.10",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-adaptive-statusbar/releases/download/v0.7.10/GalaxyAdaptiveBar-0.7.10-release.apk",
+        "preview": false
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxybar",
+        "versionCode": 46,
+        "versionName": "0.6.25-experimental",
+        "apk": "GalaxyAdaptiveBar-0.6.25-experimental-release.apk",
+        "sha256": "37f80fab7e0f52b76af7e3c70ec0ed0f9c504ec5c9bef39d90855672999cb107",
+        "filename": "dev.ryuya.galaxybar_46.apk",
+        "tag": "v0.6.25-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-adaptive-statusbar/releases/tag/v0.6.25-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-adaptive-statusbar/releases/download/v0.6.25-experimental/GalaxyAdaptiveBar-0.6.25-experimental-release.apk",
+        "preview": true
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxybar",
         "versionCode": 40,
         "versionName": "0.6.19-experimental",
         "apk": "GalaxyAdaptiveBar-0.6.19-experimental-release.apk",
@@ -279,6 +475,32 @@
       ]
     },
     "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxyservicepanel",
+        "versionCode": 7,
+        "versionName": "0.2.3",
+        "apk": "GalaxyServicePanel-0.2.3-release.apk",
+        "sha256": "fbdbbdf454082b393f26653271377c0382a0ee8529fcee350dc66cb34efb6c98",
+        "filename": "dev.ryuya.galaxyservicepanel_7.apk",
+        "tag": "v0.2.3",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-service-panel/releases/tag/v0.2.3",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-service-panel/releases/download/v0.2.3/GalaxyServicePanel-0.2.3-release.apk",
+        "preview": false
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxyservicepanel",
+        "versionCode": 3,
+        "versionName": "0.1.2-experimental",
+        "apk": "GalaxyServicePanel-0.1.2-experimental-release.apk",
+        "sha256": "78be90c14f235ffbee2b79bfa5996f7472593dca8a78499d6d91d9a3a20a6273",
+        "filename": "dev.ryuya.galaxyservicepanel_3.apk",
+        "tag": "v0.1.2-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-service-panel/releases/tag/v0.1.2-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-service-panel/releases/download/v0.1.2-experimental/GalaxyServicePanel-0.1.2-experimental-release.apk",
+        "preview": true
+      },
       {
         "schema": 1,
         "packageName": "dev.ryuya.galaxyservicepanel",
@@ -309,6 +531,32 @@
       {
         "schema": 1,
         "packageName": "dev.ryuya.galaxyreload",
+        "versionCode": 5,
+        "versionName": "0.2.3",
+        "apk": "GalaxyReload-0.2.3-release.apk",
+        "sha256": "e22a4af525ad9e3b7365706fbe69c8aede7a6e3d6cb3a9fee131f2d77b94a98e",
+        "filename": "dev.ryuya.galaxyreload_5.apk",
+        "tag": "v0.2.3",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-reload/releases/tag/v0.2.3",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-reload/releases/download/v0.2.3/GalaxyReload-0.2.3-release.apk",
+        "preview": false
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxyreload",
+        "versionCode": 3,
+        "versionName": "0.2.1-experimental",
+        "apk": "GalaxyReload-0.2.1-experimental-release.apk",
+        "sha256": "cf64b4d147bb989569f119d4855d3eb41058f2d5f94514c684861ea33d3c24f7",
+        "filename": "dev.ryuya.galaxyreload_3.apk",
+        "tag": "v0.2.1-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-reload/releases/tag/v0.2.1-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-reload/releases/download/v0.2.1-experimental/GalaxyReload-0.2.1-experimental-release.apk",
+        "preview": true
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxyreload",
         "versionCode": 2,
         "versionName": "0.2.0-experimental",
         "apk": "GalaxyReload-0.2.0-experimental-release.apk",
@@ -333,6 +581,32 @@
       ]
     },
     "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxycapture",
+        "versionCode": 28,
+        "versionName": "0.4.4",
+        "apk": "GalaxyCaptureTools-0.4.4-release.apk",
+        "sha256": "b19c21379e8b251e5ff7abd2e4588b878223afccde342e9d4c985d4e47d0737d",
+        "filename": "dev.ryuya.galaxycapture_28.apk",
+        "tag": "v0.4.4",
+        "releaseUrl": "https://github.com/OneUI-Mods/GalaxyCaptureTools/releases/tag/v0.4.4",
+        "apkUrl": "https://github.com/OneUI-Mods/GalaxyCaptureTools/releases/download/v0.4.4/GalaxyCaptureTools-0.4.4-release.apk",
+        "preview": false
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxycapture",
+        "versionCode": 23,
+        "versionName": "0.3.9-experimental",
+        "apk": "GalaxyCaptureTools-0.3.9-experimental-release.apk",
+        "sha256": "871fd8f8b6fde8f94786b2df917fa4baff2940fe15ba9767caa5537d2df2a929",
+        "filename": "dev.ryuya.galaxycapture_23.apk",
+        "tag": "v0.3.9-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/GalaxyCaptureTools/releases/tag/v0.3.9-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/GalaxyCaptureTools/releases/download/v0.3.9-experimental/GalaxyCaptureTools-0.3.9-experimental-release.apk",
+        "preview": true
+      },
       {
         "schema": 1,
         "packageName": "dev.ryuya.galaxycapture",
@@ -389,6 +663,19 @@
       {
         "schema": 1,
         "packageName": "dev.ryuya.sleepstore",
+        "versionCode": 5,
+        "versionName": "0.2.3",
+        "apk": "SleepStore-0.2.3-release.apk",
+        "sha256": "beb3f381a7702f74a5134c7283a8a98671a78309222024a38f4e79a62ae36e4f",
+        "filename": "dev.ryuya.sleepstore_5.apk",
+        "tag": "v0.2.3",
+        "releaseUrl": "https://github.com/OneUI-Mods/SleepStore/releases/tag/v0.2.3",
+        "apkUrl": "https://github.com/OneUI-Mods/SleepStore/releases/download/v0.2.3/SleepStore-0.2.3-release.apk",
+        "preview": false
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.sleepstore",
         "versionCode": 2,
         "versionName": "0.2.0",
         "apk": "SleepStore-0.2.0.apk",
@@ -413,6 +700,19 @@
       ]
     },
     "versions": [
+      {
+        "schema": 1,
+        "packageName": "net.ryuya.dev.galaxyshutter.mute.manager",
+        "versionCode": 5,
+        "versionName": "1.2.2",
+        "apk": "GalaxyShutterMuteManager-1.2.2-release.apk",
+        "sha256": "04a0540c9e8ed99ca5bbaac2ebee14ee802f6d943a9a7f3cec66f3b89565ba34",
+        "filename": "net.ryuya.dev.galaxyshutter.mute.manager_5.apk",
+        "tag": "v1.2.2",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-shutter-mute-manager/releases/tag/v1.2.2",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-shutter-mute-manager/releases/download/v1.2.2/GalaxyShutterMuteManager-1.2.2-release.apk",
+        "preview": false
+      },
       {
         "schema": 1,
         "packageName": "net.ryuya.dev.galaxyshutter.mute.manager",
@@ -443,6 +743,19 @@
       {
         "schema": 1,
         "packageName": "net.ryuya.dev.galaxyshutter.mute",
+        "versionCode": 4,
+        "versionName": "1.1.2",
+        "apk": "GalaxyShutterMute-1.1.2-release.apk",
+        "sha256": "17c834a5e3e246f74179842a4f986da119601bf5a7a6350b3f5f05f617f7ae0b",
+        "filename": "net.ryuya.dev.galaxyshutter.mute_4.apk",
+        "tag": "v1.1.2",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-shutter-mute/releases/tag/v1.1.2",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-shutter-mute/releases/download/v1.1.2/GalaxyShutterMute-1.1.2-release.apk",
+        "preview": false
+      },
+      {
+        "schema": 1,
+        "packageName": "net.ryuya.dev.galaxyshutter.mute",
         "versionCode": 2,
         "versionName": "1.1.0",
         "apk": "app-release.apk",
@@ -467,6 +780,32 @@
       ]
     },
     "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.homepodbridge",
+        "versionCode": 43,
+        "versionName": "0.2.1",
+        "apk": "HomePodBridge-0.2.1-release.apk",
+        "sha256": "8a6a0b94b8b86d69a296da310b8d8e8cc38707a0b5d96da3ffc9dcd5e0a6281e",
+        "filename": "dev.ryuya.homepodbridge_43.apk",
+        "tag": "v0.2.1",
+        "releaseUrl": "https://github.com/OneUI-Mods/HomePodBridge/releases/tag/v0.2.1",
+        "apkUrl": "https://github.com/OneUI-Mods/HomePodBridge/releases/download/v0.2.1/HomePodBridge-0.2.1-release.apk",
+        "preview": false
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.homepodbridge",
+        "versionCode": 46,
+        "versionName": "0.2.4-experimental",
+        "apk": "HomePodBridge-0.2.4-experimental-release.apk",
+        "sha256": "dd7a4d60ee3147db032d543b25c4fb1361a1241b6694e29c680380317ff847c2",
+        "filename": "dev.ryuya.homepodbridge_46.apk",
+        "tag": "v0.2.4-experimental",
+        "releaseUrl": "https://github.com/OneUI-Mods/HomePodBridge/releases/tag/v0.2.4-experimental",
+        "apkUrl": "https://github.com/OneUI-Mods/HomePodBridge/releases/download/v0.2.4-experimental/HomePodBridge-0.2.4-experimental-release.apk",
+        "preview": true
+      },
       {
         "schema": 1,
         "packageName": "dev.ryuya.homepodbridge",
@@ -562,6 +901,32 @@
       {
         "schema": 1,
         "packageName": "dev.ryuya.legacygametools",
+        "versionCode": 14,
+        "versionName": "0.2.3",
+        "apk": "LegacyGameTools-0.2.3-release.apk",
+        "sha256": "c28798c45b73af88b425931c059bae857cb5f0b8247a0c65c1528650523f56fd",
+        "filename": "dev.ryuya.legacygametools_14.apk",
+        "tag": "v0.2.3",
+        "releaseUrl": "https://github.com/OneUI-Mods/legacy-game-tools/releases/tag/v0.2.3",
+        "apkUrl": "https://github.com/OneUI-Mods/legacy-game-tools/releases/download/v0.2.3/LegacyGameTools-0.2.3-release.apk",
+        "preview": false
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.legacygametools",
+        "versionCode": 11,
+        "versionName": "0.2.0-rc9",
+        "apk": "LegacyGameTools-0.2.0-rc9-release.apk",
+        "sha256": "68bd1e895097882383ce1f37f8baf6ad43f7dc990c63f31df5190cab52c80f4d",
+        "filename": "dev.ryuya.legacygametools_11.apk",
+        "tag": "v0.2.0-rc9",
+        "releaseUrl": "https://github.com/OneUI-Mods/legacy-game-tools/releases/tag/v0.2.0-rc9",
+        "apkUrl": "https://github.com/OneUI-Mods/legacy-game-tools/releases/download/v0.2.0-rc9/LegacyGameTools-0.2.0-rc9-release.apk",
+        "preview": true
+      },
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.legacygametools",
         "versionCode": 1,
         "versionName": "0.1.0",
         "apk": "LegacyGameTools-0.1.0-release.apk",
@@ -570,6 +935,154 @@
         "tag": "v0.1.0",
         "releaseUrl": "https://github.com/OneUI-Mods/legacy-game-tools/releases/tag/v0.1.0",
         "apkUrl": "https://github.com/OneUI-Mods/legacy-game-tools/releases/download/v0.1.0/LegacyGameTools-0.1.0-release.apk",
+        "preview": true
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "GalaxyChargeMonitor",
+      "packageName": "dev.ryuya.galaxycharge",
+      "title": "Galaxy Charge Monitor",
+      "description": "充電状態・温度制限・充電設定を読み取り専用で監視",
+      "category": "device",
+      "certificates": [
+        "23c06734e5e8872c9404032fcd6288e90743a711121ac7cb6847aeef72704ca3"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxycharge",
+        "versionCode": 4,
+        "versionName": "0.1.3",
+        "apk": "GalaxyChargeMonitor-0.1.3-release.apk",
+        "sha256": "e0525a881cd64dd8be6bfd127342edb4d2a20bf1df0f70844b9175c360b32229",
+        "filename": "dev.ryuya.galaxycharge_4.apk",
+        "tag": "v0.1.3",
+        "releaseUrl": "https://github.com/OneUI-Mods/GalaxyChargeMonitor/releases/tag/v0.1.3",
+        "apkUrl": "https://github.com/OneUI-Mods/GalaxyChargeMonitor/releases/download/v0.1.3/GalaxyChargeMonitor-0.1.3-release.apk",
+        "preview": false
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "galaxy-diag",
+      "packageName": "dev.ryuya.galaxydiag",
+      "title": "Galaxy DIAG",
+      "description": "Galaxyのモデム測定接続を自動準備",
+      "category": "device",
+      "certificates": [
+        "76328777ec6aec98ac9fb70378b2715c72b057c58ae6edb08b6197a1e1d158c2"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.galaxydiag",
+        "versionCode": 5,
+        "versionName": "0.2.3",
+        "apk": "GalaxyDiag-0.2.3-release.apk",
+        "sha256": "02455cf883f48342d8f6b244a725a60d4436cbc7905570722c5ae959761b0277",
+        "filename": "dev.ryuya.galaxydiag_5.apk",
+        "tag": "v0.2.3",
+        "releaseUrl": "https://github.com/OneUI-Mods/galaxy-diag/releases/tag/v0.2.3",
+        "apkUrl": "https://github.com/OneUI-Mods/galaxy-diag/releases/download/v0.2.3/GalaxyDiag-0.2.3-release.apk",
+        "preview": false
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "app-battery-tools",
+      "packageName": "dev.ryuya.appbatterytools",
+      "title": "App Battery Tools",
+      "description": "アプリごとの不要な電池消費を抑制",
+      "category": "device",
+      "certificates": [
+        "075d75e7a93f2e185e1000566e8bb14947c0d1c96b1a8b0418b0b709a92d18e3"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.appbatterytools",
+        "versionCode": 14,
+        "versionName": "0.5.3",
+        "apk": "AppBatteryTools-0.5.3-release.apk",
+        "sha256": "66a3ea1fbbd48160d8f30b4bccb50bf8882b84bf28e3bce3cb4085364f7abcd5",
+        "filename": "dev.ryuya.appbatterytools_14.apk",
+        "tag": "v0.5.3",
+        "releaseUrl": "https://github.com/OneUI-Mods/app-battery-tools/releases/tag/v0.5.3",
+        "apkUrl": "https://github.com/OneUI-Mods/app-battery-tools/releases/download/v0.5.3/AppBatteryTools-0.5.3-release.apk",
+        "preview": false
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "rain-compatibility-tools",
+      "packageName": "dev.ryuya.raincompat",
+      "title": "Rain Compatibility Tools",
+      "description": "Rainの起動失敗を診断し、リソース生成の失敗を限定的に補修",
+      "category": "device",
+      "certificates": [
+        "7fff3c5765ee1fb0a351c286ec190de50905feac997c9a991befe6fd6fb4c281"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "dev.ryuya.raincompat",
+        "versionCode": 2,
+        "versionName": "0.1.1",
+        "apk": "RainCompatibilityTools-0.1.1-release.apk",
+        "sha256": "a7dbc37a587390b72a23420b5ab10a57f036323ebcb45d68f706b829466df081",
+        "filename": "dev.ryuya.raincompat_2.apk",
+        "tag": "v0.1.1",
+        "releaseUrl": "https://github.com/OneUI-Mods/rain-compatibility-tools/releases/tag/v0.1.1",
+        "apkUrl": "https://github.com/OneUI-Mods/rain-compatibility-tools/releases/download/v0.1.1/RainCompatibilityTools-0.1.1-release.apk",
+        "preview": false
+      }
+    ]
+  },
+  {
+    "app": {
+      "repo": "simeji-clean",
+      "packageName": "net.ryuya_dev.simejiclean",
+      "title": "Simeji Clean",
+      "description": "Simejiの特定の広告・おすすめパネルを非表示にする",
+      "category": "appearance",
+      "certificates": [
+        "67db8e3df1bc1e0be42e3f78958688a32c8444d23c817974dbb84016f0700329"
+      ]
+    },
+    "versions": [
+      {
+        "schema": 1,
+        "packageName": "net.ryuya_dev.simejiclean",
+        "versionCode": 2,
+        "versionName": "0.1.1",
+        "apk": "SimejiClean-0.1.1-release.apk",
+        "sha256": "915964f2fde2247b311342049b98758af22050016c489992ab3bf4b2aa44799d",
+        "filename": "net.ryuya_dev.simejiclean_2.apk",
+        "tag": "v0.1.1",
+        "releaseUrl": "https://github.com/OneUI-Mods/simeji-clean/releases/tag/v0.1.1",
+        "apkUrl": "https://github.com/OneUI-Mods/simeji-clean/releases/download/v0.1.1/SimejiClean-0.1.1-release.apk",
+        "preview": false
+      },
+      {
+        "schema": 1,
+        "packageName": "net.ryuya_dev.simejiclean",
+        "versionCode": 1,
+        "versionName": "0.1.0",
+        "apk": "SimejiClean-0.1.0.apk",
+        "sha256": "7b68394cf8463daf2477ae7e52761e34432b83ca553f37aabeb9963af1c844d2",
+        "filename": "net.ryuya_dev.simejiclean_1.apk",
+        "tag": "v0.1.0",
+        "releaseUrl": "https://github.com/OneUI-Mods/simeji-clean/releases/tag/v0.1.0",
+        "apkUrl": "https://github.com/OneUI-Mods/simeji-clean/releases/download/v0.1.0/SimejiClean-0.1.0.apk",
         "preview": true
       }
     ]

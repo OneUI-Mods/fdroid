@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1793182649000,
+    "timestamp": 1795001555000,
     "version": 20002,
     "name": "OneUI Mods",
     "icon": "oneui-mods.png",
@@ -14,6 +14,36 @@
   "apps": [
     {
       "allowedAPKSigningKeys": [
+        "075d75e7a93f2e185e1000566e8bb14947c0d1c96b1a8b0418b0b709a92d18e3"
+      ],
+      "antiFeatures": [
+        "NonFreeDep"
+      ],
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
+      "categories": [
+        "System"
+      ],
+      "suggestedVersionName": "0.5.3",
+      "suggestedVersionCode": "14",
+      "description": "<p>Per-app compatibility adjustments for supported applications. Requires root and a libxposed API 102 framework. Does not add its own resident monitoring service. Individual adjustments can be enabled or disabled.</p>",
+      "issueTracker": "https://github.com/OneUI-Mods/app-battery-tools/issues",
+      "license": "MIT",
+      "name": "App Battery Tools",
+      "sourceCode": "https://github.com/OneUI-Mods/app-battery-tools",
+      "summary": "Optional battery optimizations for supported apps",
+      "webSite": "https://github.com/OneUI-Mods/app-battery-tools",
+      "added": 1795001542000,
+      "packageName": "dev.ryuya.appbatterytools",
+      "lastUpdated": 1795001542000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_jlML6OjefxWuz_3B-NmTU4P_J-k2Ge_pxVMcW3z03PQ=.png"
+        }
+      }
+    },
+    {
+      "allowedAPKSigningKeys": [
         "c2020a1338f2504d893b368edfb77b0ab76cedeb8016df42876439a1cc92acd6"
       ],
       "antiFeatures": [
@@ -24,8 +54,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.3.0-experimental",
-      "suggestedVersionCode": "10",
+      "suggestedVersionName": "0.4.4",
+      "suggestedVersionCode": "17",
       "description": "<p>Adds system, light and dark appearance options to supported versions of SESAME and povo. Requires root and a libxposed API 102 compatible framework such as Vector. The supported host apps are proprietary; they are not bundled.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/DarkAppTools/issues",
       "license": "MIT",
@@ -35,7 +65,7 @@
       "webSite": "https://github.com/OneUI-Mods/DarkAppTools",
       "added": 1792906981000,
       "packageName": "dev.ryuya.darkapps",
-      "lastUpdated": 1792906981000,
+      "lastUpdated": 1795001543000,
       "localized": {
         "en-US": {
           "icon": "icon_HgS7uOmmNDIdBFTLhdK1vdpNtCvEf2kFGKJICK4XV-M=.png"
@@ -54,8 +84,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.6.19-experimental",
-      "suggestedVersionCode": "40",
+      "suggestedVersionName": "0.7.10",
+      "suggestedVersionCode": "57",
       "description": "<p>Adjusts clock text and status icons to the background on supported Galaxy firmware, with configurable fades, app transition tracking and privacy indicator motion. Requires root and a libxposed API 102 compatible framework. Android 16 and 17 support is firmware specific.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/galaxy-adaptive-statusbar/issues",
       "license": "MIT",
@@ -65,7 +95,7 @@
       "webSite": "https://github.com/OneUI-Mods/galaxy-adaptive-statusbar",
       "added": 1792906981000,
       "packageName": "dev.ryuya.galaxybar",
-      "lastUpdated": 1792906981000,
+      "lastUpdated": 1795001543000,
       "localized": {
         "en-US": {
           "icon": "icon_zGc2b6jJjb6kTb-A9MVDEJ3bAH-gtl1dd2eUWBoeUr4=.png"
@@ -84,8 +114,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.1.3-experimental",
-      "suggestedVersionCode": "4",
+      "suggestedVersionName": "0.2.3",
+      "suggestedVersionCode": "12",
       "description": "<p>Optional camera preview, lens transition and camera capability adjustments for supported Samsung Camera, Camera Assistant and Expert RAW versions. Requires root and a libxposed API 102 compatible framework. Hardware and firmware limits still apply; unsupported modes are not guaranteed.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/GalaxyCameraTools/issues",
       "license": "MIT",
@@ -95,7 +125,7 @@
       "webSite": "https://github.com/OneUI-Mods/GalaxyCameraTools",
       "added": 1792906982000,
       "packageName": "dev.ryuya.galaxycamera",
-      "lastUpdated": 1792906982000,
+      "lastUpdated": 1795001544000,
       "localized": {
         "en-US": {
           "icon": "icon_QkqZlzpAwgugV3lRPhRPgFDWi0NmTrJH2kjWdzasinc=.png"
@@ -114,8 +144,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.3.7-experimental",
-      "suggestedVersionCode": "21",
+      "suggestedVersionName": "0.4.4",
+      "suggestedVersionCode": "28",
       "description": "<p>Adds optional recording rotation, app targeting, audio and capture controls to supported Samsung and Android recording components. Call playback can be included explicitly while preserving the selected app audio scope. Requires root and a libxposed API 102 compatible framework. Call capture availability depends on the audio route and app. Read the source README for supported firmware and activation steps.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/GalaxyCaptureTools/issues",
       "license": "MIT",
@@ -125,10 +155,64 @@
       "webSite": "https://github.com/OneUI-Mods/GalaxyCaptureTools",
       "added": 1792906982000,
       "packageName": "dev.ryuya.galaxycapture",
-      "lastUpdated": 1792941886000,
+      "lastUpdated": 1795001545000,
       "localized": {
         "en-US": {
           "icon": "icon_Z8DNL2JI4HJdXffOmffbF69-hqRQxbUSSWXvRaC9_lE=.png"
+        }
+      }
+    },
+    {
+      "allowedAPKSigningKeys": [
+        "23c06734e5e8872c9404032fcd6288e90743a711121ac7cb6847aeef72704ca3"
+      ],
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
+      "categories": [
+        "System"
+      ],
+      "suggestedVersionName": "0.1.3",
+      "suggestedVersionCode": "4",
+      "description": "<p>Monitor supported Samsung charging state, power, temperature and current limits. Uses root to read device diagnostics and does not change charging settings.</p>",
+      "issueTracker": "https://github.com/OneUI-Mods/GalaxyChargeMonitor/issues",
+      "license": "MIT",
+      "name": "Galaxy Charge Monitor",
+      "sourceCode": "https://github.com/OneUI-Mods/GalaxyChargeMonitor",
+      "summary": "Read-only Samsung charging diagnostics",
+      "webSite": "https://github.com/OneUI-Mods/GalaxyChargeMonitor",
+      "added": 1795001545000,
+      "packageName": "dev.ryuya.galaxycharge",
+      "lastUpdated": 1795001545000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_tMClnIatzhvzwIH9NSWLqmaRsniDaAZaDgcM_Is1yVg=.png"
+        }
+      }
+    },
+    {
+      "allowedAPKSigningKeys": [
+        "76328777ec6aec98ac9fb70378b2715c72b057c58ae6edb08b6197a1e1d158c2"
+      ],
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
+      "categories": [
+        "System"
+      ],
+      "suggestedVersionName": "0.2.3",
+      "suggestedVersionCode": "5",
+      "description": "<p>Read supported modem and mobile network diagnostics on compatible Galaxy devices. Requires root and compatible device firmware. Available measurements vary by device and modem.</p>",
+      "issueTracker": "https://github.com/OneUI-Mods/galaxy-diag/issues",
+      "license": "MIT",
+      "name": "Galaxy DIAG",
+      "sourceCode": "https://github.com/OneUI-Mods/galaxy-diag",
+      "summary": "Inspect supported Galaxy mobile network diagnostics",
+      "webSite": "https://github.com/OneUI-Mods/galaxy-diag",
+      "added": 1795001545000,
+      "packageName": "dev.ryuya.galaxydiag",
+      "lastUpdated": 1795001545000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_2yFNR51aO66Ns7t0doogLwce_jfTgU4Pm6EoSKYPyQ8=.png"
         }
       }
     },
@@ -144,8 +228,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.2.0-experimental",
-      "suggestedVersionCode": "2",
+      "suggestedVersionName": "0.2.3",
+      "suggestedVersionCode": "5",
       "description": "<p>User-initiated SystemUI reload helper for supported Galaxy devices. Requires root. Its unlock-state handling is only available when the device is already authenticated; it does not disable screen-lock credentials.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/galaxy-reload/issues",
       "license": "MIT",
@@ -155,7 +239,7 @@
       "webSite": "https://github.com/OneUI-Mods/galaxy-reload",
       "added": 1792906982000,
       "packageName": "dev.ryuya.galaxyreload",
-      "lastUpdated": 1792906982000,
+      "lastUpdated": 1795001546000,
       "localized": {
         "en-US": {
           "icon": "icon_6U1bq3uHoCD6PEKmcIr1BNiaFX18qAyAfProsYqTGrg=.png"
@@ -174,8 +258,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.1.0-experimental",
-      "suggestedVersionCode": "1",
+      "suggestedVersionName": "0.2.3",
+      "suggestedVersionCode": "7",
       "description": "<p>Reformats supported Samsung Service Mode screens for readability while retaining the original diagnostic data. Requires root and a libxposed API 102 compatible framework. This unofficial module does not bundle or replace the proprietary Samsung phone app.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/galaxy-service-panel/issues",
       "license": "MIT",
@@ -185,7 +269,7 @@
       "webSite": "https://github.com/OneUI-Mods/galaxy-service-panel",
       "added": 1792906983000,
       "packageName": "dev.ryuya.galaxyservicepanel",
-      "lastUpdated": 1792906983000,
+      "lastUpdated": 1795001547000,
       "localized": {
         "en-US": {
           "icon": "icon_T5I1iIlSMknK86TXVsnAZvgXY7ZnG2BivFzPT28O2co=.png"
@@ -204,8 +288,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "1.1.0",
-      "suggestedVersionCode": "2",
+      "suggestedVersionName": "1.1.2",
+      "suggestedVersionCode": "4",
       "description": "<p>Changes the supported Galaxy camera shutter sound setting after its required permission has been granted. Use Galaxy Shutter Mute Manager for installation on recent Android versions. Samsung firmware and regional restrictions may limit availability.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/galaxy-shutter-mute/issues",
       "license": "MIT",
@@ -215,7 +299,12 @@
       "webSite": "https://github.com/OneUI-Mods/galaxy-shutter-mute",
       "added": 1792906985000,
       "packageName": "net.ryuya.dev.galaxyshutter.mute",
-      "lastUpdated": 1792906985000
+      "lastUpdated": 1795001554000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_mal9efeht2Jx8eMQHQWnV04db7UHvY3TH7E_UBME28w=.png"
+        }
+      }
     },
     {
       "allowedAPKSigningKeys": [
@@ -230,8 +319,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "1.2.0",
-      "suggestedVersionCode": "3",
+      "suggestedVersionName": "1.2.2",
+      "suggestedVersionCode": "5",
       "description": "<p>Installs and grants the settings permission needed by Galaxy Shutter Mute through Shizuku. The companion app is downloaded only after the user's explicit action. Galaxy Shutter Mute remains a separate app. Support depends on Samsung firmware, region and camera version.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/galaxy-shutter-mute-manager/issues",
       "license": "MIT",
@@ -241,7 +330,12 @@
       "webSite": "https://github.com/OneUI-Mods/galaxy-shutter-mute-manager",
       "added": 1792906984000,
       "packageName": "net.ryuya.dev.galaxyshutter.mute.manager",
-      "lastUpdated": 1792906984000
+      "lastUpdated": 1795001553000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_nvRnEH8TTHy_cxodgmkWDlmbkwoigsiPM58o1L_Fm4Q=.png"
+        }
+      }
     },
     {
       "allowedAPKSigningKeys": [
@@ -255,8 +349,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.1.0",
-      "suggestedVersionCode": "1",
+      "suggestedVersionName": "0.1.3",
+      "suggestedVersionCode": "4",
       "description": "<p>Disables supported Samsung OS update services and restores their previous state. Requires root. Google Play system and application updates are outside its scope. Restore the original state before uninstalling or clearing this app's data.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/galaxy-update-guard/issues",
       "license": "MIT",
@@ -266,7 +360,7 @@
       "webSite": "https://github.com/OneUI-Mods/galaxy-update-guard",
       "added": 1792906983000,
       "packageName": "dev.ryuya.galaxyupdateguard",
-      "lastUpdated": 1792906983000,
+      "lastUpdated": 1795001547000,
       "localized": {
         "en-US": {
           "icon": "icon_yXSl46TNduE_5uXUL2yC-9ySUlh8OVkmhBTWYUd7n9Q=.png"
@@ -285,8 +379,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.1.5-experimental",
-      "suggestedVersionCode": "39",
+      "suggestedVersionName": "0.2.1",
+      "suggestedVersionCode": "43",
       "description": "<p>Stream selected-app media or device playback and notification sounds to HomePod over AirPlay 2. Requires root and a compatible Xposed framework such as Vector enabled for System UI. Microphone and call audio are excluded. Includes adjustable latency and buffer controls. HomePod and its proprietary receiver firmware are not bundled. See the source README for supported devices and setup.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/HomePodBridge/issues",
       "license": "Apache-2.0",
@@ -296,7 +390,7 @@
       "webSite": "https://github.com/OneUI-Mods/HomePodBridge",
       "added": 1792931031000,
       "packageName": "dev.ryuya.homepodbridge",
-      "lastUpdated": 1793111122000,
+      "lastUpdated": 1795001549000,
       "localized": {
         "en-US": {
           "icon": "icon_EeHdVL9RdYaBwkuO3wwtPRVtR9uu5vF6pm6ax30zKX4=.png"
@@ -315,8 +409,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.1.0",
-      "suggestedVersionCode": "1",
+      "suggestedVersionName": "0.2.3",
+      "suggestedVersionCode": "14",
       "description": "<p>Fixes a native Unity startup crash in the supported arm64 editions of the D4DJ D4U and Sekai trials. Requires root and an API 102 compatible Xposed framework. Does not bundle games or restore discontinued online services. See the source README for the exact supported versions.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/legacy-game-tools/issues",
       "license": "MIT",
@@ -326,7 +420,7 @@
       "webSite": "https://github.com/OneUI-Mods/legacy-game-tools",
       "added": 1793112226000,
       "packageName": "dev.ryuya.legacygametools",
-      "lastUpdated": 1793112226000,
+      "lastUpdated": 1795001550000,
       "localized": {
         "en-US": {
           "icon": "icon_cJKJsYGJiCF7ny7vLPBK_K32jYScgvK7meU4xY9eRl4=.png"
@@ -345,8 +439,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.19.1",
-      "suggestedVersionCode": "31",
+      "suggestedVersionName": "0.20.10",
+      "suggestedVersionCode": "51",
       "description": "<p>Adjust supported One UI Home folder behavior, quick panel controls and developer animation settings. Requires root, a libxposed API 102 compatible framework and supported Samsung system components. Keep the source README at hand for supported firmware and reload instructions.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/OneUIHomeTweaks/issues",
       "license": "MIT",
@@ -356,7 +450,7 @@
       "webSite": "https://github.com/OneUI-Mods/OneUIHomeTweaks",
       "added": 1792906983000,
       "packageName": "dev.ryuya.oneuihometweaks",
-      "lastUpdated": 1793182648000,
+      "lastUpdated": 1795001551000,
       "localized": {
         "en-US": {
           "icon": "icon_DckKW9rdUOxDn4ciTeWOXTBrT7wZEFS3O4AiyGKK180=.png"
@@ -375,8 +469,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.2.0-experimental",
-      "suggestedVersionCode": "4",
+      "suggestedVersionName": "0.2.3",
+      "suggestedVersionCode": "7",
       "description": "<p>Browse OneUI Mods apps, compare installed versions with public GitHub releases, choose whether to include experimental releases, and download verified updates. Installation always uses the Android confirmation screen. GitHub downloads are user initiated and bypass the official F-Droid build review.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/OneUIModsManager/issues",
       "license": "MIT",
@@ -386,10 +480,70 @@
       "webSite": "https://github.com/OneUI-Mods/OneUIModsManager",
       "added": 1792906983000,
       "packageName": "dev.ryuya.oneuimods",
-      "lastUpdated": 1792906983000,
+      "lastUpdated": 1795001552000,
       "localized": {
         "en-US": {
           "icon": "icon_2P84kkyL99iie950SpnJM2fBQTwQA_2Y0rpHOw_n5ew=.png"
+        }
+      }
+    },
+    {
+      "allowedAPKSigningKeys": [
+        "7fff3c5765ee1fb0a351c286ec190de50905feac997c9a991befe6fd6fb4c281"
+      ],
+      "antiFeatures": [
+        "NonFreeDep"
+      ],
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
+      "categories": [
+        "System"
+      ],
+      "suggestedVersionName": "0.1.1",
+      "suggestedVersionCode": "2",
+      "description": "<p>Apply a version-specific compatibility payload to supported Rain installations. Requires root and the supported host app. Does not bundle the third-party application.</p>",
+      "issueTracker": "https://github.com/OneUI-Mods/rain-compatibility-tools/issues",
+      "license": "MIT",
+      "name": "Rain Compatibility Tools",
+      "sourceCode": "https://github.com/OneUI-Mods/rain-compatibility-tools",
+      "summary": "Compatibility helper for supported Rain versions",
+      "webSite": "https://github.com/OneUI-Mods/rain-compatibility-tools",
+      "added": 1795001552000,
+      "packageName": "dev.ryuya.raincompat",
+      "lastUpdated": 1795001552000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_LRrjd3pygsydPFjYz2UlMRqoKHNllbKlDaRRhaLUmY0=.png"
+        }
+      }
+    },
+    {
+      "allowedAPKSigningKeys": [
+        "ff3177d13d36bdcee6abf4d8cab0804fd886a8a15a7fe56ad9712b6c286822cc"
+      ],
+      "antiFeatures": [
+        "NonFreeDep"
+      ],
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
+      "categories": [
+        "System"
+      ],
+      "suggestedVersionName": "0.2.2",
+      "suggestedVersionCode": "4",
+      "description": "<p>Root-based access to files in an already unlocked Samsung Secure Folder, with optional work-profile access. Secure Folder authentication remains required. Does not unlock encrypted data or bypass its authentication.</p>",
+      "issueTracker": "https://github.com/OneUI-Mods/secure-folder-bridge/issues",
+      "license": "MIT",
+      "name": "Secure Folder Bridge",
+      "sourceCode": "https://github.com/OneUI-Mods/secure-folder-bridge",
+      "summary": "Access unlocked Secure Folder files through shared folders",
+      "webSite": "https://github.com/OneUI-Mods/secure-folder-bridge",
+      "added": 1795001552000,
+      "packageName": "dev.ryuya.securefolderbridge",
+      "lastUpdated": 1795001552000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_yiRNZvYkWaxdyDI63rXwmjSYNsrFhn67dIlNJPO98i0=.png"
         }
       }
     },
@@ -402,8 +556,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "1.10.0",
-      "suggestedVersionCode": "19",
+      "suggestedVersionName": "1.10.4",
+      "suggestedVersionCode": "23",
       "description": "<p>Manage supported dual-SIM data switching through Shizuku or Shizuku Plus. Requires compatible device telephony services and explicit Shizuku permission. No root is needed when Shizuku is available through wireless debugging.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/sim-pilot/issues",
       "license": "MIT",
@@ -413,10 +567,40 @@
       "webSite": "https://github.com/OneUI-Mods/sim-pilot",
       "added": 1792906984000,
       "packageName": "dev.simpilot",
-      "lastUpdated": 1792906984000,
+      "lastUpdated": 1795001553000,
       "localized": {
         "en-US": {
           "icon": "icon_0pemBuLpytcqz6g3m9xdJeYti9T4U013sHMgt_eQ_2A=.png"
+        }
+      }
+    },
+    {
+      "allowedAPKSigningKeys": [
+        "67db8e3df1bc1e0be42e3f78958688a32c8444d23c817974dbb84016f0700329"
+      ],
+      "antiFeatures": [
+        "NonFreeDep"
+      ],
+      "authorName": "ryuya0124",
+      "authorWebSite": "https://github.com/ryuya0124",
+      "categories": [
+        "System"
+      ],
+      "suggestedVersionName": "0.1.1",
+      "suggestedVersionCode": "2",
+      "description": "<p>Hide the supported Simeji promotional panel shown above the keyboard when entering Google Play search. Normal keys and conversion suggestions are preserved. Requires root, the supported Simeji app and a libxposed API 102 framework.</p>",
+      "issueTracker": "https://github.com/OneUI-Mods/simeji-clean/issues",
+      "license": "MIT",
+      "name": "Simeji Clean",
+      "sourceCode": "https://github.com/OneUI-Mods/simeji-clean",
+      "summary": "Hide selected Simeji promotional panels",
+      "webSite": "https://github.com/OneUI-Mods/simeji-clean",
+      "added": 1795001554000,
+      "packageName": "net.ryuya_dev.simejiclean",
+      "lastUpdated": 1795001554000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_N1PWEjnXZbn_JbubXcNQvj4rFsEnFd-PxhI_Chp2Z2s=.png"
         }
       }
     },
@@ -432,8 +616,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.2.0",
-      "suggestedVersionCode": "2",
+      "suggestedVersionName": "0.2.3",
+      "suggestedVersionCode": "5",
       "description": "<p>Helps supported app-store components include deep-sleeping apps in their update listings. Requires root, a compatible Xposed framework and supported store versions. It does not bundle the store apps.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/SleepStore/issues",
       "license": "MIT",
@@ -443,7 +627,7 @@
       "webSite": "https://github.com/OneUI-Mods/SleepStore",
       "added": 1792906984000,
       "packageName": "dev.ryuya.sleepstore",
-      "lastUpdated": 1792906984000,
+      "lastUpdated": 1795001553000,
       "localized": {
         "en-US": {
           "icon": "icon_Uz-MvsFLYdk3UDUDM8cvc4RuOjIL_tYWCVXIBczLz9Q=.png"
@@ -462,8 +646,8 @@
       "categories": [
         "System"
       ],
-      "suggestedVersionName": "0.2.4",
-      "suggestedVersionCode": "6",
+      "suggestedVersionName": "0.2.12",
+      "suggestedVersionCode": "14",
       "description": "<p>Provides an authorized ADB transport restricted to the device's Tailscale interface, with per-peer shell and root permissions and network recovery. Requires root and the separate Tailscale app. It uses the selected Tailscale account's network; no Tailscale code is bundled.</p>",
       "issueTracker": "https://github.com/OneUI-Mods/tail-adb/issues",
       "license": "MIT",
@@ -473,7 +657,7 @@
       "webSite": "https://github.com/OneUI-Mods/tail-adb",
       "added": 1792906985000,
       "packageName": "net.ryuya_dev.tailadb",
-      "lastUpdated": 1792906985000,
+      "lastUpdated": 1795001555000,
       "localized": {
         "en-US": {
           "icon": "icon__3nL9ubgDQIP03GwcOTU9Z_eceUcT2bEq41SxS4n25c=.png"
@@ -482,7 +666,93 @@
     }
   ],
   "packages": {
+    "dev.ryuya.appbatterytools": [
+      {
+        "added": 1795001542000,
+        "apkName": "dev.ryuya.appbatterytools_14.apk",
+        "hash": "66a3ea1fbbd48160d8f30b4bccb50bf8882b84bf28e3bce3cb4085364f7abcd5",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "dev.ryuya.appbatterytools",
+        "sig": "4e10428dd690cd14200cce8692a0fa12",
+        "signer": "075d75e7a93f2e185e1000566e8bb14947c0d1c96b1a8b0418b0b709a92d18e3",
+        "size": 14522688,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "dev.ryuya.appbatterytools.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 14,
+        "versionName": "0.5.3"
+      }
+    ],
     "dev.ryuya.darkapps": [
+      {
+        "added": 1795001543000,
+        "apkName": "dev.ryuya.darkapps_17.apk",
+        "hash": "12d8e04189b31bd10e1963a98e0ae3a7d076b71c0ad045f6eb33c54c5b2573e7",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "dev.ryuya.darkapps",
+        "sig": "dba94ba131bf80030419e6fd5b310cf7",
+        "signer": "c2020a1338f2504d893b368edfb77b0ab76cedeb8016df42876439a1cc92acd6",
+        "size": 14481968,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "dev.ryuya.darkapps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 17,
+        "versionName": "0.4.4"
+      },
+      {
+        "added": 1795001543000,
+        "apkName": "dev.ryuya.darkapps_12.apk",
+        "hash": "f3e680e332a2048e4fdc8d6112ee0cfd662e78c6b9ca048134b5bf9bc0f6028c",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "packageName": "dev.ryuya.darkapps",
+        "sig": "dba94ba131bf80030419e6fd5b310cf7",
+        "signer": "c2020a1338f2504d893b368edfb77b0ab76cedeb8016df42876439a1cc92acd6",
+        "size": 11859873,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "dev.ryuya.darkapps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 12,
+        "versionName": "0.3.2-experimental"
+      },
       {
         "added": 1792906981000,
         "apkName": "dev.ryuya.darkapps_10.apk",
@@ -510,6 +780,60 @@
     ],
     "dev.ryuya.galaxybar": [
       {
+        "added": 1795001543000,
+        "apkName": "dev.ryuya.galaxybar_57.apk",
+        "hash": "f5d7ea84495fbd54867672014f32ae5ebb14008cb1910bd572889cec5bce80da",
+        "hashType": "sha256",
+        "minSdkVersion": 35,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "dev.ryuya.galaxybar",
+        "sig": "87567b32f1ca8e95dd480f0a96d45920",
+        "signer": "aaecd6957a8e72d09462e04204b04b23c4f3bd3d9534fc62c4eb2ba29596265d",
+        "size": 14912066,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "dev.ryuya.galaxybar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 57,
+        "versionName": "0.7.10"
+      },
+      {
+        "added": 1795001543000,
+        "apkName": "dev.ryuya.galaxybar_46.apk",
+        "hash": "37f80fab7e0f52b76af7e3c70ec0ed0f9c504ec5c9bef39d90855672999cb107",
+        "hashType": "sha256",
+        "minSdkVersion": 35,
+        "packageName": "dev.ryuya.galaxybar",
+        "sig": "87567b32f1ca8e95dd480f0a96d45920",
+        "signer": "aaecd6957a8e72d09462e04204b04b23c4f3bd3d9534fc62c4eb2ba29596265d",
+        "size": 10247906,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "dev.ryuya.galaxybar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 46,
+        "versionName": "0.6.25-experimental"
+      },
+      {
         "added": 1792906981000,
         "apkName": "dev.ryuya.galaxybar_40.apk",
         "hash": "0968154871d3051925c7c52f42c72afc9cca760850f337ff6299b1c952c2e0ba",
@@ -536,6 +860,52 @@
     ],
     "dev.ryuya.galaxycamera": [
       {
+        "added": 1795001544000,
+        "apkName": "dev.ryuya.galaxycamera_12.apk",
+        "hash": "74fd9981f4ca58c7b3aca4426ce5712fa97829476c38cae93e6b986c35b8d117",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "dev.ryuya.galaxycamera",
+        "sig": "6425d55b19a320daf0b7faaaa5da2285",
+        "signer": "c46e5158643284a8eb345958b4bf72d09c30c2a5a3819c05b5f7b53c31d263ad",
+        "size": 15022663,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.galaxycamera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 12,
+        "versionName": "0.2.3"
+      },
+      {
+        "added": 1795001544000,
+        "apkName": "dev.ryuya.galaxycamera_8.apk",
+        "hash": "9517a042eea4d382258551538228f2935f7bc237ec372e369d5850fca981ded0",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "packageName": "dev.ryuya.galaxycamera",
+        "sig": "6425d55b19a320daf0b7faaaa5da2285",
+        "signer": "c46e5158643284a8eb345958b4bf72d09c30c2a5a3819c05b5f7b53c31d263ad",
+        "size": 11995064,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.galaxycamera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 8,
+        "versionName": "0.1.7-experimental"
+      },
+      {
         "added": 1792906982000,
         "apkName": "dev.ryuya.galaxycamera_4.apk",
         "hash": "91780b4936cd2f4332b0478007fed21a28b2e04316330675e8177a64978895b0",
@@ -557,6 +927,68 @@
       }
     ],
     "dev.ryuya.galaxycapture": [
+      {
+        "added": 1795001545000,
+        "apkName": "dev.ryuya.galaxycapture_28.apk",
+        "hash": "b19c21379e8b251e5ff7abd2e4588b878223afccde342e9d4c985d4e47d0737d",
+        "hashType": "sha256",
+        "minSdkVersion": 35,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "dev.ryuya.galaxycapture",
+        "sig": "3070c867ef08d1e2081a7e2920735149",
+        "signer": "3c18719ba633ed0e891d8dca62053c849986156fd10410bd5f0115113ffa6075",
+        "size": 14707098,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "dev.ryuya.galaxycapture.permission.CONFIG",
+            null
+          ],
+          [
+            "dev.ryuya.galaxycapture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 28,
+        "versionName": "0.4.4"
+      },
+      {
+        "added": 1795001545000,
+        "apkName": "dev.ryuya.galaxycapture_23.apk",
+        "hash": "871fd8f8b6fde8f94786b2df917fa4baff2940fe15ba9767caa5537d2df2a929",
+        "hashType": "sha256",
+        "minSdkVersion": 35,
+        "packageName": "dev.ryuya.galaxycapture",
+        "sig": "3070c867ef08d1e2081a7e2920735149",
+        "signer": "3c18719ba633ed0e891d8dca62053c849986156fd10410bd5f0115113ffa6075",
+        "size": 10169914,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "dev.ryuya.galaxycapture.permission.CONFIG",
+            null
+          ],
+          [
+            "dev.ryuya.galaxycapture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 23,
+        "versionName": "0.3.9-experimental"
+      },
       {
         "added": 1792941886000,
         "apkName": "dev.ryuya.galaxycapture_21.apk",
@@ -642,7 +1074,95 @@
         "versionName": "0.3.5-experimental"
       }
     ],
+    "dev.ryuya.galaxycharge": [
+      {
+        "added": 1795001545000,
+        "apkName": "dev.ryuya.galaxycharge_4.apk",
+        "hash": "e0525a881cd64dd8be6bfd127342edb4d2a20bf1df0f70844b9175c360b32229",
+        "hashType": "sha256",
+        "minSdkVersion": 35,
+        "packageName": "dev.ryuya.galaxycharge",
+        "sig": "e05d8c39276b71ca597adac9cb0fee45",
+        "signer": "23c06734e5e8872c9404032fcd6288e90743a711121ac7cb6847aeef72704ca3",
+        "size": 12081216,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.galaxycharge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 4,
+        "versionName": "0.1.3"
+      }
+    ],
+    "dev.ryuya.galaxydiag": [
+      {
+        "added": 1795001545000,
+        "apkName": "dev.ryuya.galaxydiag_5.apk",
+        "hash": "02455cf883f48342d8f6b244a725a60d4436cbc7905570722c5ae959761b0277",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "packageName": "dev.ryuya.galaxydiag",
+        "sig": "c9c53f8779bdc543f0b5e8a13d80b427",
+        "signer": "76328777ec6aec98ac9fb70378b2715c72b057c58ae6edb08b6197a1e1d158c2",
+        "size": 11966654,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "dev.ryuya.galaxydiag.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 5,
+        "versionName": "0.2.3"
+      }
+    ],
     "dev.ryuya.galaxyreload": [
+      {
+        "added": 1795001546000,
+        "apkName": "dev.ryuya.galaxyreload_5.apk",
+        "hash": "e22a4af525ad9e3b7365706fbe69c8aede7a6e3d6cb3a9fee131f2d77b94a98e",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "packageName": "dev.ryuya.galaxyreload",
+        "sig": "530e96c28659be7217509c7a587c0985",
+        "signer": "52a22de1aed8b3c3d34c02f8fe0f0206eaee25081def64d8182ca5930cbf85fb",
+        "size": 11990668,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.galaxyreload.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 5,
+        "versionName": "0.2.3"
+      },
+      {
+        "added": 1795001546000,
+        "apkName": "dev.ryuya.galaxyreload_3.apk",
+        "hash": "cf64b4d147bb989569f119d4855d3eb41058f2d5f94514c684861ea33d3c24f7",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "packageName": "dev.ryuya.galaxyreload",
+        "sig": "530e96c28659be7217509c7a587c0985",
+        "signer": "52a22de1aed8b3c3d34c02f8fe0f0206eaee25081def64d8182ca5930cbf85fb",
+        "size": 11798156,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.galaxyreload.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 3,
+        "versionName": "0.2.1-experimental"
+      },
       {
         "added": 1792906982000,
         "apkName": "dev.ryuya.galaxyreload_2.apk",
@@ -666,6 +1186,52 @@
     ],
     "dev.ryuya.galaxyservicepanel": [
       {
+        "added": 1795001547000,
+        "apkName": "dev.ryuya.galaxyservicepanel_7.apk",
+        "hash": "fbdbbdf454082b393f26653271377c0382a0ee8529fcee350dc66cb34efb6c98",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "dev.ryuya.galaxyservicepanel",
+        "sig": "9e9490b790eb5ba73a51a49651471e32",
+        "signer": "4cda6775c402ba4cbc2591ffb3490b825d53a0aa7fafd98d67e85b337e8df0b0",
+        "size": 14481912,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.galaxyservicepanel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 7,
+        "versionName": "0.2.3"
+      },
+      {
+        "added": 1795001547000,
+        "apkName": "dev.ryuya.galaxyservicepanel_3.apk",
+        "hash": "78be90c14f235ffbee2b79bfa5996f7472593dca8a78499d6d91d9a3a20a6273",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "packageName": "dev.ryuya.galaxyservicepanel",
+        "sig": "9e9490b790eb5ba73a51a49651471e32",
+        "signer": "4cda6775c402ba4cbc2591ffb3490b825d53a0aa7fafd98d67e85b337e8df0b0",
+        "size": 11868009,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.galaxyservicepanel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 3,
+        "versionName": "0.1.2-experimental"
+      },
+      {
         "added": 1792906983000,
         "apkName": "dev.ryuya.galaxyservicepanel_1.apk",
         "hash": "d76e4de1ee61df338ac80080cdf533877af10360b937a1fdcd520044c7a73044",
@@ -688,6 +1254,26 @@
     ],
     "dev.ryuya.galaxyupdateguard": [
       {
+        "added": 1795001547000,
+        "apkName": "dev.ryuya.galaxyupdateguard_4.apk",
+        "hash": "11438ef705db832f7bd91c24c6d3593445ac06a4b88efc32b75978abdcfc64cb",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "packageName": "dev.ryuya.galaxyupdateguard",
+        "sig": "d539c54ee80ff0750020e2dc182c0a84",
+        "signer": "88f94ec7b259ffd2ee1b9eb72e291400fe740c14c7f2609220907e8f50b34262",
+        "size": 11994764,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.galaxyupdateguard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 4,
+        "versionName": "0.1.3"
+      },
+      {
         "added": 1792906983000,
         "apkName": "dev.ryuya.galaxyupdateguard_1.apk",
         "hash": "892cc69a18eacfd4ee1fe36fb404345854b9e2b52383f61377db2e8fb79349ed",
@@ -709,6 +1295,166 @@
       }
     ],
     "dev.ryuya.homepodbridge": [
+      {
+        "added": 1795001549000,
+        "apkName": "dev.ryuya.homepodbridge_46.apk",
+        "hash": "dd7a4d60ee3147db032d543b25c4fb1361a1241b6694e29c680380317ff847c2",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "nativecode": [
+          "arm64-v8a",
+          "x86_64"
+        ],
+        "packageName": "dev.ryuya.homepodbridge",
+        "sig": "dfd4a37a994edeff1b005c6f15e813fa",
+        "signer": "90890d1b2de09cdfd17b2b20c7a6b069a9559f7bad345c17c6d969d336599b8c",
+        "size": 19352371,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_LOCAL_NETWORK",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+            null
+          ],
+          [
+            "dev.ryuya.homepodbridge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 46,
+        "versionName": "0.2.4-experimental"
+      },
+      {
+        "added": 1795001549000,
+        "apkName": "dev.ryuya.homepodbridge_43.apk",
+        "hash": "8a6a0b94b8b86d69a296da310b8d8e8cc38707a0b5d96da3ffc9dcd5e0a6281e",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "nativecode": [
+          "arm64-v8a",
+          "x86_64"
+        ],
+        "packageName": "dev.ryuya.homepodbridge",
+        "sig": "dfd4a37a994edeff1b005c6f15e813fa",
+        "signer": "90890d1b2de09cdfd17b2b20c7a6b069a9559f7bad345c17c6d969d336599b8c",
+        "size": 19135283,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_LOCAL_NETWORK",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+            null
+          ],
+          [
+            "dev.ryuya.homepodbridge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 43,
+        "versionName": "0.2.1"
+      },
       {
         "added": 1793111122000,
         "apkName": "dev.ryuya.homepodbridge_39.apk",
@@ -1152,6 +1898,52 @@
     ],
     "dev.ryuya.legacygametools": [
       {
+        "added": 1795001550000,
+        "apkName": "dev.ryuya.legacygametools_14.apk",
+        "hash": "c28798c45b73af88b425931c059bae857cb5f0b8247a0c65c1528650523f56fd",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "dev.ryuya.legacygametools",
+        "sig": "91a9558400a273a615c8f33efbae95c6",
+        "signer": "f3a3227d5836f3906b033b82e894b493f82b779fda1d3972b30ebfd7e2cff3f0",
+        "size": 12830745,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.legacygametools.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 14,
+        "versionName": "0.2.3"
+      },
+      {
+        "added": 1795001549000,
+        "apkName": "dev.ryuya.legacygametools_11.apk",
+        "hash": "68bd1e895097882383ce1f37f8baf6ad43f7dc990c63f31df5190cab52c80f4d",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "dev.ryuya.legacygametools",
+        "sig": "91a9558400a273a615c8f33efbae95c6",
+        "signer": "f3a3227d5836f3906b033b82e894b493f82b779fda1d3972b30ebfd7e2cff3f0",
+        "size": 12633749,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.legacygametools.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 11,
+        "versionName": "0.2.0-rc9"
+      },
+      {
         "added": 1793112226000,
         "apkName": "dev.ryuya.legacygametools_1.apk",
         "hash": "da2b47366937ac72ca513c59babb0a424e52ca3d747c07537330504fb77415eb",
@@ -1176,6 +1968,52 @@
       }
     ],
     "dev.ryuya.oneuihometweaks": [
+      {
+        "added": 1795001551000,
+        "apkName": "dev.ryuya.oneuihometweaks_51.apk",
+        "hash": "f35bb349a4ea7ad894b25b144cc53e3397ceff0f76f23619673ba460d21f55c1",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "dev.ryuya.oneuihometweaks",
+        "sig": "96cfc2ba6b7d3ed4674d03aec770e238",
+        "signer": "7938e1850451b95c45c8f138a768c9da7c5d9db7fb61a883ac8dc724077ddb03",
+        "size": 18309149,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.oneuihometweaks.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 51,
+        "versionName": "0.20.10"
+      },
+      {
+        "added": 1795001551000,
+        "apkName": "dev.ryuya.oneuihometweaks_37.apk",
+        "hash": "4f5911ef307fffb8b863480fbb9eb6991776b8f186b7dd1c7fd3668d45c7c7e8",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "packageName": "dev.ryuya.oneuihometweaks",
+        "sig": "96cfc2ba6b7d3ed4674d03aec770e238",
+        "signer": "7938e1850451b95c45c8f138a768c9da7c5d9db7fb61a883ac8dc724077ddb03",
+        "size": 15006484,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.oneuihometweaks.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 37,
+        "versionName": "0.19.7"
+      },
       {
         "added": 1793182648000,
         "apkName": "dev.ryuya.oneuihometweaks_31.apk",
@@ -1259,6 +2097,86 @@
     ],
     "dev.ryuya.oneuimods": [
       {
+        "added": 1795001552000,
+        "apkName": "dev.ryuya.oneuimods_7.apk",
+        "hash": "926fbcbf167e66ddffef2ca34f949ea64c6bb5c1a6de3a87fb45bf9f66aacdaf",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "packageName": "dev.ryuya.oneuimods",
+        "sig": "676d9f8072e0f0c02467206827455389",
+        "signer": "f37313a1ddbe006257653b4772e9a2f43f0ddd5c0bcbf6dfe0f71c2fbd9aad73",
+        "size": 12056437,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "dev.ryuya.oneuimods.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 7,
+        "versionName": "0.2.3"
+      },
+      {
+        "added": 1795001551000,
+        "apkName": "dev.ryuya.oneuimods_5.apk",
+        "hash": "0607635b552f83c4e0d47f83fc6d5fa313f14da6b41366a20b18787c4fe71f2e",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "packageName": "dev.ryuya.oneuimods",
+        "sig": "676d9f8072e0f0c02467206827455389",
+        "signer": "f37313a1ddbe006257653b4772e9a2f43f0ddd5c0bcbf6dfe0f71c2fbd9aad73",
+        "size": 11863925,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "dev.ryuya.oneuimods.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 5,
+        "versionName": "0.2.1-experimental"
+      },
+      {
         "added": 1792906983000,
         "apkName": "dev.ryuya.oneuimods_4.apk",
         "hash": "93d25c3588466b58d2d1aefa46d1d8f939b285c597566ff5d851504e643119fd",
@@ -1299,7 +2217,90 @@
         "versionName": "0.2.0-experimental"
       }
     ],
+    "dev.ryuya.raincompat": [
+      {
+        "added": 1795001552000,
+        "apkName": "dev.ryuya.raincompat_2.apk",
+        "hash": "a7dbc37a587390b72a23420b5ab10a57f036323ebcb45d68f706b829466df081",
+        "hashType": "sha256",
+        "minSdkVersion": 37,
+        "packageName": "dev.ryuya.raincompat",
+        "sig": "7588d397c932d0eb9a6cd7aba8356929",
+        "signer": "7fff3c5765ee1fb0a351c286ec190de50905feac997c9a991befe6fd6fb4c281",
+        "size": 11910404,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "dev.ryuya.raincompat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2,
+        "versionName": "0.1.1"
+      }
+    ],
+    "dev.ryuya.securefolderbridge": [
+      {
+        "added": 1795001552000,
+        "apkName": "dev.ryuya.securefolderbridge_4.apk",
+        "hash": "d5fe53027fcb0de40487ce6235e0dddac042a8d5b35f54fbef31a9d6f5b7ee65",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "dev.ryuya.securefolderbridge",
+        "sig": "0df677818ea4351f64e036c6748ad3c4",
+        "signer": "ff3177d13d36bdcee6abf4d8cab0804fd886a8a15a7fe56ad9712b6c286822cc",
+        "size": 11937667,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "dev.ryuya.securefolderbridge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 4,
+        "versionName": "0.2.2"
+      }
+    ],
     "dev.ryuya.sleepstore": [
+      {
+        "added": 1795001553000,
+        "apkName": "dev.ryuya.sleepstore_5.apk",
+        "hash": "beb3f381a7702f74a5134c7283a8a98671a78309222024a38f4e79a62ae36e4f",
+        "hashType": "sha256",
+        "minSdkVersion": 35,
+        "packageName": "dev.ryuya.sleepstore",
+        "sig": "f6a8e125be2e21824d7d425b8e1abff8",
+        "signer": "9d1f5a2cea5340c434682221e355cbfc92f8a97cdf6994f782ff6d96660a90b6",
+        "size": 11913659,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "dev.ryuya.sleepstore.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 5,
+        "versionName": "0.2.3"
+      },
       {
         "added": 1792906984000,
         "apkName": "dev.ryuya.sleepstore_2.apk",
@@ -1322,6 +2323,76 @@
       }
     ],
     "dev.simpilot": [
+      {
+        "added": 1795001553000,
+        "apkName": "dev.simpilot_23.apk",
+        "hash": "1e0444ad5a65022244f2c75b3d31e243d43aac9198a3ba2fcfca5c1f8fc109b3",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "dev.simpilot",
+        "sig": "15c71464364a7d96da854f1e1c7f4e4a",
+        "signer": "18014a67e709e973c8723ec4a6cd5ed079cb1fd29436f2c0fbd657f46e3c010b",
+        "size": 2785628,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "dev.simpilot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "moe.shizuku.manager.permission.API_V23",
+            null
+          ]
+        ],
+        "versionCode": 23,
+        "versionName": "1.10.4"
+      },
       {
         "added": 1792906984000,
         "apkName": "dev.simpilot_19.apk",
@@ -1395,6 +2466,36 @@
     ],
     "net.ryuya.dev.galaxyshutter.mute": [
       {
+        "added": 1795001554000,
+        "apkName": "net.ryuya.dev.galaxyshutter.mute_4.apk",
+        "hash": "17c834a5e3e246f74179842a4f986da119601bf5a7a6350b3f5f05f617f7ae0b",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "net.ryuya.dev.galaxyshutter.mute",
+        "sig": "db15cffcbbfc85d241cc038e4398f925",
+        "signer": "5fcf43c524c48708405bd61f78300a91a4e10ca0ceebfe130c650c7d679f2da5",
+        "size": 1472977,
+        "targetSdkVersion": 21,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_SECURE_SETTINGS",
+            null
+          ],
+          [
+            "net.ryuya.dev.galaxyshutter.mute.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 4,
+        "versionName": "1.1.2"
+      },
+      {
         "added": 1792906985000,
         "apkName": "net.ryuya.dev.galaxyshutter.mute_2.apk",
         "hash": "8a0920fc4a586d1c0420a60dbeda2d8efadc7cc32957246eb43cfcc5c1d74946",
@@ -1426,6 +2527,48 @@
       }
     ],
     "net.ryuya.dev.galaxyshutter.mute.manager": [
+      {
+        "added": 1795001553000,
+        "apkName": "net.ryuya.dev.galaxyshutter.mute.manager_5.apk",
+        "hash": "04a0540c9e8ed99ca5bbaac2ebee14ee802f6d943a9a7f3cec66f3b89565ba34",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "net.ryuya.dev.galaxyshutter.mute.manager",
+        "sig": "db15cffcbbfc85d241cc038e4398f925",
+        "signer": "5fcf43c524c48708405bd61f78300a91a4e10ca0ceebfe130c650c7d679f2da5",
+        "size": 2129907,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "net.ryuya.dev.galaxyshutter.mute.manager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "moe.shizuku.manager.permission.API_V23",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            28
+          ]
+        ],
+        "versionCode": 5,
+        "versionName": "1.2.2"
+      },
       {
         "added": 1792906984000,
         "apkName": "net.ryuya.dev.galaxyshutter.mute.manager_3.apk",
@@ -1469,7 +2612,81 @@
         "versionName": "1.2.0"
       }
     ],
+    "net.ryuya_dev.simejiclean": [
+      {
+        "added": 1795001554000,
+        "apkName": "net.ryuya_dev.simejiclean_2.apk",
+        "hash": "915964f2fde2247b311342049b98758af22050016c489992ab3bf4b2aa44799d",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "packageName": "net.ryuya_dev.simejiclean",
+        "sig": "6f9913b8b042d240df7f67d209df8ad0",
+        "signer": "67db8e3df1bc1e0be42e3f78958688a32c8444d23c817974dbb84016f0700329",
+        "size": 14474044,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "net.ryuya_dev.simejiclean.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2,
+        "versionName": "0.1.1"
+      },
+      {
+        "added": 1795001554000,
+        "apkName": "net.ryuya_dev.simejiclean_1.apk",
+        "hash": "7b68394cf8463daf2477ae7e52761e34432b83ca553f37aabeb9963af1c844d2",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "packageName": "net.ryuya_dev.simejiclean",
+        "sig": "6f9913b8b042d240df7f67d209df8ad0",
+        "signer": "67db8e3df1bc1e0be42e3f78958688a32c8444d23c817974dbb84016f0700329",
+        "size": 14284776,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "net.ryuya_dev.simejiclean.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "0.1.0"
+      }
+    ],
     "net.ryuya_dev.tailadb": [
+      {
+        "added": 1795001555000,
+        "apkName": "net.ryuya_dev.tailadb_14.apk",
+        "hash": "f9603ee4f9429d693bce8d9419668062b5c87030aa75b6f7db04ddbb827980bd",
+        "hashType": "sha256",
+        "minSdkVersion": 36,
+        "nativecode": [
+          "arm64-v8a",
+          "x86_64"
+        ],
+        "packageName": "net.ryuya_dev.tailadb",
+        "sig": "2033a8b52df5039c113c02f4509cfca4",
+        "signer": "429de1280138eb96207ea61c6c19a36d2a83404e4654ce52d14e1aba43abf980",
+        "size": 12007607,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "net.ryuya_dev.tailadb.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 14,
+        "versionName": "0.2.12"
+      },
       {
         "added": 1792906985000,
         "apkName": "net.ryuya_dev.tailadb_6.apk",
