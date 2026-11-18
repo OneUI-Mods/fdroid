@@ -122,5 +122,47 @@
     "antiFeatures": [
       "NonFreeDep"
     ]
+  },
+  "secure-folder-bridge": {
+    "summary": "Access unlocked Secure Folder files through shared folders",
+    "details": "Root-based access to files in an already unlocked Samsung Secure Folder, with optional work-profile access. Secure Folder authentication remains required. Does not unlock encrypted data or bypass its authentication.",
+    "root": true,
+    "antiFeatures": [
+      "NonFreeDep"
+    ]
+  },
+  "GalaxyChargeMonitor": {
+    "summary": "Read-only Samsung charging diagnostics",
+    "details": "Monitor supported Samsung charging state, power, temperature and current limits. Uses root to read device diagnostics and does not change charging settings.",
+    "root": true
+  },
+  "galaxy-diag": {
+    "summary": "Inspect supported Galaxy mobile network diagnostics",
+    "details": "Read supported modem and mobile network diagnostics on compatible Galaxy devices. Requires root and compatible device firmware. Available measurements vary by device and modem.",
+    "root": true
+  },
+  "app-battery-tools": {
+    "summary": "Optional battery optimizations for supported apps",
+    "details": "Per-app compatibility adjustments for supported applications. Requires root and a libxposed API 102 framework. Does not add its own resident monitoring service. Individual adjustments can be enabled or disabled.",
+    "root": true,
+    "antiFeatures": [
+      "NonFreeDep"
+    ]
+  },
+  "rain-compatibility-tools": {
+    "summary": "Compatibility helper for supported Rain versions",
+    "details": "Apply a version-specific compatibility payload to supported Rain installations. Requires root and the supported host app. Does not bundle the third-party application.",
+    "root": true,
+    "antiFeatures": [
+      "NonFreeDep"
+    ]
+  },
+  "simeji-clean": {
+    "summary": "Hide selected Simeji promotional panels",
+    "details": "Hide the supported Simeji promotional panel shown above the keyboard when entering Google Play search. Normal keys and conversion suggestions are preserved. Requires root, the supported Simeji app and a libxposed API 102 framework.",
+    "root": true,
+    "antiFeatures": [
+      "NonFreeDep"
+    ]
   }
 }
